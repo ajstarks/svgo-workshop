@@ -1,0 +1,2 @@
+#!/bin/sh
+decksh svgo.dsh | pdfdeck -pagesize 1920,1080 -sans FiraSans-Regular -serif Charter-Regular -mono FiraMono-Regular -stdout $* - > svgo.pdf

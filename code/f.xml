@@ -1,0 +1,645 @@
+<deck>
+<slide>
+<text align="c" xp="50" yp="20" sp="5" >A Go library for generating SVG</text>
+<image name="svgopher.png" xp="50" yp="60" width="1336" height="729" scale="100"/>
+</slide>
+<slide>
+<text xp="7" yp="50" sp="3.5" >$ go get github.com/ajstarks/svgo\n$ go install github.com/ajstarks/svgo/...</text>
+<image name="svgdef.png" xp="50" yp="50" width="1597" height="1198" scale="100"/>
+</slide>
+<slide bg="rgb(127,127,127)" fg="white">
+<text xp="10" yp="50" sp="5" >SVGo API Design</text>
+</slide>
+<slide bg="white" fg="black">
+<text align="c" xp="15" yp="90" sp="2.5" >Element</text>
+<text align="c" xp="40" yp="90" sp="2.5" >Arguments</text>
+<text align="c" xp="15" yp="80" sp="3.5" >Rect</text>
+<text align="c" xp="40" yp="80" sp="3.5" >(100,200,250,125)</text>
+<text type="block" xp="10" yp="60" wp="70" sp="3" >&amp;lt;rect x=\"100\" \n\t\ty=\"200\" width=\"250\" height=\"125\"/&amp;gt;</text>
+<text align="e" xp="35" yp="35" sp="2" >(100, 200)</text>
+<text align="c" xp="50" yp="7" sp="2" >250</text>
+<text align="c" xp="70" yp="25" sp="2" >125</text>
+<line xp1="15" yp1="89" xp2="15" yp2="85"/>
+<line xp1="40" yp1="89" xp2="40" yp2="85"/>
+</slide>
+<slide bg="white" fg="black">
+<text align="c" xp="15" yp="90" sp="2.5" >Element</text>
+<text align="c" xp="40" yp="90" sp="2.5" >Arguments</text>
+<text align="c" xp="75" yp="90" sp="2.5" >CSS Style</text>
+<text align="c" xp="15" yp="80" sp="3.5" >Rect</text>
+<text align="c" xp="40" yp="80" sp="3.5" >(100,200,250,125,</text>
+<text align="c" xp="75" yp="80" sp="3.5" >\"fill:gray;stroke:blue\")</text>
+<text type="block" xp="10" yp="60" wp="70" sp="3" >&amp;lt;rect x=\"100\" \n\t\ty=\"200\" width=\"250\" height=\"125\" style=\"fill:gray;stroke:blue\"/&amp;gt;</text>
+<text align="e" xp="35" yp="35" sp="2" >(100, 200)</text>
+<text align="c" xp="50" yp="7" sp="2" >250</text>
+<text align="c" xp="70" yp="25" sp="2" >125</text>
+<line xp1="15" yp1="89" xp2="15" yp2="85"/>
+<line xp1="40" yp1="89" xp2="40" yp2="85"/>
+<line xp1="75" yp1="89" xp2="75" yp2="85"/>
+</slide>
+<slide bg="white" fg="black">
+<text align="c" xp="15" yp="90" sp="2.5" >Element</text>
+<text align="c" xp="40" yp="90" sp="2.5" >Arguments</text>
+<text align="c" xp="75" yp="90" sp="2.5" >Attributes</text>
+<text align="c" xp="15" yp="80" sp="3.5" >Rect</text>
+<text align="c" xp="40" yp="80" sp="3.5" >(100,200,250,125,</text>
+<text align="c" xp="60" yp="72" sp="3.5" >`id=\"box\"`, `fill=\"gray\"`, `stroke=\"blue\"`)</text>
+<text type="block" xp="10" yp="60" wp="70" sp="3" >&amp;lt;rect x=\"100\" \n\t\ty=\"200\" width=\"250\" height=\"125\" id=\"box\" fill=\"gray\" stroke=\"blue\"/&amp;gt;</text>
+<text align="e" xp="35" yp="35" sp="2" >(100, 200)</text>
+<text align="c" xp="50" yp="7" sp="2" >250</text>
+<text align="c" xp="70" yp="25" sp="2" >125</text>
+<line xp1="15" yp1="89" xp2="15" yp2="85"/>
+<line xp1="40" yp1="89" xp2="40" yp2="85"/>
+<line xp1="75" yp1="89" xp2="75" yp2="80"/>
+</slide>
+<slide bg="white" fg="black">
+<text xp="4" yp="90" sp="2" ></text>
+<image name="hw.png" xp="70" yp="75" width="960" height="540" scale="100"/>
+</slide>
+<slide bg="white" fg="black">
+<image name="android.png" xp="50" yp="50" width="877" height="877" scale="100"/>
+</slide>
+<slide bg="white" fg="black">
+<text align="e" xp="28" yp="70" sp="4" >Scale</text>
+<text align="e" xp="42.5" yp="50" sp="4" >Roundrect</text>
+<text align="c" xp="57.5" yp="48" sp="4" >Circle</text>
+<text xp="40" yp="20" sp="4" >Line</text>
+<text align="c" xp="63" yp="20" sp="4" >Rect</text>
+<text align="c" xp="75" yp="55" sp="4" >Line</text>
+<text align="c" xp="63" yp="37" sp="4" >Arc</text>
+<text xp="50" yp="65" sp="4" >fill:rgb(164,198,57)</text>
+<image name="android.png" xp="50" yp="50" width="877" height="877" scale="100"/>
+</slide>
+<slide bg="white" fg="black">
+<text xp="5" yp="90" sp="2" ></text>
+<image name="websvg-red.png" xp="85" yp="75" width="1006" height="958" scale="50"/>
+<image name="websvg-green.png" xp="85" yp="25" width="998" height="956" scale="50"/>
+</slide>
+<slide bg="white" fg="black">
+<text align="c" xp="50" yp="95" sp="2.5" >http://ajstarks.org:1958/{thing}/</text>
+<image name="clock.png" caption=20 xp="80" yp="256" width="256" height="100" scale="\"clock\""/>
+<image name="funnel.png" caption=40 xp="80" yp="256" width="256" height="100" scale="\"funnel\""/>
+<image name="rotext.png" caption=60 xp="80" yp="256" width="256" height="100" scale="\"rotext\""/>
+<image name="flower.png" caption=80 xp="80" yp="256" width="256" height="100" scale="\"flower\""/>
+<image name="rshape.png" caption=20 xp="50" yp="256" width="256" height="100" scale="\"rshape\""/>
+<image name="cube.png" caption=40 xp="50" yp="256" width="256" height="100" scale="\"cube\""/>
+<image name="mondrian.png" caption=60 xp="50" yp="256" width="256" height="100" scale="\"mondrian\""/>
+<image name="lewitt.png" caption=80 xp="50" yp="256" width="256" height="100" scale="\"lewitt\""/>
+<image name="face.png" caption=20 xp="20" yp="256" width="256" height="100" scale="\"face\""/>
+<image name="pacman.png" caption=40 xp="20" yp="256" width="256" height="100" scale="\"pacman\""/>
+<image name="tux.png" caption=60 xp="20" yp="256" width="256" height="100" scale="\"tux\""/>
+<image name="concentric.png" caption=80 xp="20" yp="256" width="256" height="100" scale="\"concentric\""/>
+</slide>
+<slide bg="white" fg="black">
+<text xp="5" yp="85" sp="5" >/pacman/?angle=20</text>
+<text xp="5" yp="50" sp="5" >/pacman/?angle=40</text>
+<text xp="5" yp="15" sp="5" >/pacman/?angle=70</text>
+<image name="pacman20.png" xp="70" yp="85" width="256" height="256" scale="100"/>
+<image name="pacman40.png" xp="70" yp="50" width="256" height="256" scale="100"/>
+<image name="pacman70.png" xp="70" yp="15" width="256" height="256" scale="100"/>
+</slide>
+<slide>
+<text align="c" xp="50" yp="90" sp="4" >Shapes</text>
+<image name="rect.png" caption=16 xp="80" yp="460" width="260" height="80" scale="\"Rect(x, y, w, h int, s string...)\""/>
+<image name="roundrect.png" caption=50 xp="80" yp="484" width="284" height="80" scale="\"Roundrect(x, y, w, h, rx, ry int, s string...)\""/>
+<image name="square.png" caption=85 xp="80" yp="279" width="266" height="80" scale="\"Square(x, y, l int, s string...)\""/>
+<image name="centerect.png" caption=16 xp="47" yp="436" width="258" height="80" scale="\"CenterRect(x, y, w, h int, s string...)\""/>
+<image name="ellipse.png" caption=50 xp="45" yp="411" width="208" height="80" scale="\"Ellipse(x, y, w, h int, s string...)\""/>
+<image name="circle.png" caption=85 xp="45" yp="273" width="213" height="80" scale="\"Circle(x, y, r int, s string...)\""/>
+<image name="polygon.png" caption=16 xp="15" yp="452" width="263" height="80" scale="\"Polygon(x, y []int, s string...)\""/>
+<image name="line.png" caption=50 xp="10" yp="503" width="97" height="80" scale="\"Line(x1, y2, x2, y2 int, s string...)\""/>
+<image name="polyline.png" caption=85 xp="15" yp="461" width="268" height="80" scale="\"Polyline(x, y []int, s string...)\""/>
+</slide>
+<slide>
+<text align="c" xp="50" yp="90" sp="4" >Curves and Paths</text>
+<image name="bezier.png" caption=25 xp="80" yp="489" width="224" height="80" scale="\"Bezier(sx, sy, cx, cy, ex, ey int, s string...)\""/>
+<image name="arc.png" caption=50 xp="50" yp="489" width="212" height="80" scale="\"Arc(sx, ax, ay, r int, dir, large bool, ex, ey int, s string...)\""/>
+<image name="qbezier.png" caption=75 xp="80" yp="491" width="272" height="80" scale="\"QBez(sx, sy, cx, cy, px, py, ex, ey int, s string...)\""/>
+<image name="path.png" caption=50 xp="20" yp="289" width="222" height="80" scale="\"Path(d string, s string...)\""/>
+</slide>
+<slide>
+<text align="c" xp="50" yp="90" sp="4" >Gradients and Colors</text>
+<image name="lineargradient.png" caption=30 xp="75" yp="547" width="271" height="100" scale="\"LinearGradient(id string, x1, y1, x2, y2 uint8, sc []Offcolor)\""/>
+<image name="radialgradient.png" caption=30 xp="35" yp="464" width="267" height="100" scale="\"RadialGradient(id string, cx, cy, r, fx, fy uint8, sc []Offcolor)\""/>
+<image name="rgb.png" caption=80 xp="72" yp="378" width="196" height="100" scale="\"RGB(r, g, b int)\""/>
+<image name="rgba.png" caption=80 xp="32" yp="403" width="196" height="100" scale="\"RGBA(r, g, b int, a float64)\""/>
+</slide>
+<slide>
+<text align="c" xp="50" yp="90" sp="4" >Transforms</text>
+<image name="scale.png" caption=20 xp="80" yp="418" width="260" height="100" scale="\"Scale(n float64)\""/>
+<image name="scalexy.png" caption=50 xp="80" yp="420" width="268" height="100" scale="\"ScaleXY(dx, dy float64)\""/>
+<image name="skewx.png" caption=80 xp="80" yp="527" width="263" height="100" scale="\"SkewX(a float64)\""/>
+<image name="skewy.png" caption=20 xp="50" yp="636" width="496" height="60" scale="\"SkewY(a float64)\""/>
+<image name="skewxy.png" caption=50 xp="50" yp="695" width="503" height="60" scale="\"SkewXY(ax, ay float64)\""/>
+<image name="translate.png" caption=80 xp="50" yp="419" width="265" height="80" scale="\"Translate(x, y int)\""/>
+<image name="rotate.png" caption=50 xp="20" yp="796" width="654" height="60" scale="\"Rotate(a float64)\""/>
+</slide>
+<slide>
+<text align="c" xp="50" yp="90" sp="4" >Text and Images</text>
+<image name="text.png" caption=20 xp="76" yp="583" width="118" height="100" scale="\"Text(x, y int, s string, s ...string)\""/>
+<image name="textpath.png" caption=70 xp="80" yp="437" width="232" height="100" scale="\"Textpath(t string, pathid string, s ...string)\""/>
+<image name="textlines.png" caption=50 xp="50" yp="608" width="213" height="100" scale="\"Textlines(x, y int, s []string, size, spacing int, fill, align string)\""/>
+<image name="image.png" caption=50 xp="20" yp="255" width="259" height="100" scale="\"Image(x, y,  w, h int, link string, s ...string)\""/>
+</slide>
+<slide>
+<text align="c" xp="50" yp="90" sp="4" >Filter Effects</text>
+<image name="fet.png" xp="50" yp="50" width="1580" height="482" scale="100"/>
+</slide>
+<slide>
+<text xp="10" yp="90" sp="4" >SVGo Method Categories</text>
+<list type="bullet" xp="10" yp="80" sp="3" >
+<li>Starting and Ending</li>
+<li>Metadata</li>
+<li>Utility</li>
+<li>Groups and Definitions</li>
+<li>Markers and Patterns</li>
+<li>Links</li>
+<li>Masking and Clipping</li>
+</list>
+<list type="bullet" xp="60" yp="80" sp="3" >
+<li>Transforms</li>
+<li>Skewing</li>
+<li>Shapes</li>
+<li>Paths, Lines and Curves</li>
+<li>Images and Text</li>
+<li>Colors and Gradients</li>
+<li>Filter Effects</li>
+</list>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Starting and Ending</text>
+<text xp="2.5" yp="87.6" sp="2.1" >New(w io.Writer) *SVG</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >Constructor, specify the output destination.</text>
+<text xp="2.5" yp="76.5" sp="2.1" >Start(w int, h int, ns ...string)</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >Begin document with the specified width and height.</text>
+<text xp="2.5" yp="65.4" sp="2.1" >Startunit(w int, h int, unit string, ns ...string)</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >Begin with width and height in the specified units.</text>
+<text xp="2.5" yp="54.3" sp="2.1" >Startpercent(w int, h int, ns ...string)</text>
+<text type="block" xp="2.5" yp="50.6" wp="80" sp="2" >Begin with width and height as percentages.</text>
+<text xp="2.5" yp="43.2" sp="2.1" >Startview(w, h, minx, miny, vw, vh int)</text>
+<text type="block" xp="2.5" yp="39.5" wp="80" sp="2" >Begin with the specified width, height, and viewbox.</text>
+<text xp="2.5" yp="32.1" sp="2.1" >StartviewUnit(w, h int, unit string, minx, miny, vw, vh int)</text>
+<text type="block" xp="2.5" yp="28.4" wp="80" sp="2" >Like StartView, using units.</text>
+<text xp="2.5" yp="21" sp="2.1" >Startraw(ns ...string)</text>
+<text type="block" xp="2.5" yp="17.3" wp="80" sp="2" >Begin with arbitrary attributes.</text>
+<text xp="2.5" yp="9.9" sp="2.1" >End()</text>
+<text type="block" xp="2.5" yp="6.2" wp="80" sp="2" >End the SVG document.</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Metadata</text>
+<text xp="2.5" yp="87.6" sp="2.1" >Desc(s string)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >Define the document's description.</text>
+<text xp="2.5" yp="76.5" sp="2.1" >Title(s string)</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >Define the document's title.</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Utility</text>
+<text xp="2.5" yp="87.6" sp="2.1" >Script(scriptype string, data ...string)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >Defines a script with a specified type. (e.g. text/javascript).</text>
+<text xp="2.5" yp="76.5" sp="2.1" >Grid(x int, y int, w int, h int, n int, s ...string)</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >Draw a grid at (x,y), sized at (w,h), increment n..</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Groups and Definitions</text>
+<text xp="2.5" yp="87.6" sp="2.1" >Gstyle(s string)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >begins a group, with the specified style.</text>
+<text xp="2.5" yp="76.5" sp="2.1" >Group(s ...string)</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >begins a group with arbitrary attributes.</text>
+<text xp="2.5" yp="65.4" sp="2.1" >Gid(s string)</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >begins a group, with the specified id.</text>
+<text xp="2.5" yp="54.3" sp="2.1" >Gend()</text>
+<text type="block" xp="2.5" yp="50.6" wp="80" sp="2" >ends a group.</text>
+<text xp="2.5" yp="43.2" sp="2.1" >Def()</text>
+<text type="block" xp="2.5" yp="39.5" wp="80" sp="2" >begins a defintion block.</text>
+<text xp="2.5" yp="32.1" sp="2.1" >DefEnd()</text>
+<text type="block" xp="2.5" yp="28.4" wp="80" sp="2" >ends a defintion block.</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Markers and Patterns</text>
+<text xp="2.5" yp="87.6" sp="2.1" >Marker(id string, x, y, width, height int, s ...string)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >Define a marker.</text>
+<text xp="2.5" yp="76.5" sp="2.1" >MarkerEnd()</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >End the marker.</text>
+<text xp="2.5" yp="65.4" sp="2.1" >Pattern(id string, x, y, width, height int, putype string, s ...string)</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >Define a pattern.</text>
+<text xp="2.5" yp="54.3" sp="2.1" >PatternEnd()</text>
+<text type="block" xp="2.5" yp="50.6" wp="80" sp="2" >End a pattern.</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Links</text>
+<text xp="2.5" yp="87.6" sp="2.1" >Link(href string, title string)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >Define a link.</text>
+<text xp="2.5" yp="76.5" sp="2.1" >LinkEnd()</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >End the link block.</text>
+<text xp="2.5" yp="65.4" sp="2.1" >Use(x int, y int, link string, s ...string)</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >Define the use of a link.</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Masking and Clipping</text>
+<text xp="2.5" yp="87.6" sp="2.1" >Mask(id string, x int, y int, w int, h int, s ...string)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >Define a mask.</text>
+<text xp="2.5" yp="76.5" sp="2.1" >MaskEnd()</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >End the mask definition.</text>
+<text xp="2.5" yp="65.4" sp="2.1" >ClipPath(s ...string)</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >Define a clipping mask.</text>
+<text xp="2.5" yp="54.3" sp="2.1" >ClipEnd()</text>
+<text type="block" xp="2.5" yp="50.6" wp="80" sp="2" >End the clipping path definition.</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Transforms</text>
+<text xp="2.5" yp="87.6" sp="2.1" >Gtransform(s string)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >begins a group, with the specified transform.</text>
+<text xp="2.5" yp="76.5" sp="2.1" >Translate(x, y int)</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >begins coordinate translation.</text>
+<text xp="2.5" yp="65.4" sp="2.1" >Scale(n float64)</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >coordinate system by n.</text>
+<text xp="2.5" yp="54.3" sp="2.1" >ScaleXY(dx, dy float64)</text>
+<text type="block" xp="2.5" yp="50.6" wp="80" sp="2" >scales the coordinate system by dx and dy.</text>
+<text xp="2.5" yp="43.2" sp="2.1" >Rotate(r float64)</text>
+<text type="block" xp="2.5" yp="39.5" wp="80" sp="2" >rotates the coordinate system by r degrees.</text>
+<text xp="2.5" yp="32.1" sp="2.1" >TranslateRotate(x, y int, r float64)</text>
+<text type="block" xp="2.5" yp="28.4" wp="80" sp="2" >translate to (x, y), then rotates to r degrees.</text>
+<text xp="2.5" yp="21" sp="2.1" >RotateTranslate(x, y int, r float64)</text>
+<text type="block" xp="2.5" yp="17.3" wp="80" sp="2" >rotates by r degrees, then translates to (x, y).</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Skewing</text>
+<text xp="2.5" yp="87.6" sp="2.1" >SkewX(a float64)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >skews the x coordinate system by angle a.</text>
+<text xp="2.5" yp="76.5" sp="2.1" >SkewY(a float64)</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >skews the y coordinate system by angle a.</text>
+<text xp="2.5" yp="65.4" sp="2.1" >SkewXY(ax, ay float64)</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >skews x and y coordinates by ax, ay respectively.</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Shapes</text>
+<text xp="2.5" yp="87.6" sp="2.1" >Circle(x, y, r int, s ...string)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >Circle centered at (x,y), with radius r.</text>
+<text xp="2.5" yp="76.5" sp="2.1" >Ellipse(x, y, w, h int, s ...string)</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >Ellipse centered at (x,y) height (h), width (w).</text>
+<text xp="2.5" yp="65.4" sp="2.1" >Polygon(x []int, y []int, s ...string)</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >Closed polygon with matched coordinates in x and y.</text>
+<text xp="2.5" yp="54.3" sp="2.1" >Rect(x, y, w, h int, s ...string)</text>
+<text type="block" xp="2.5" yp="50.6" wp="80" sp="2" >Rectangle with upper left at (x,y), width (w), height (h).</text>
+<text xp="2.5" yp="43.2" sp="2.1" >CenterRect(x, y, w, h int, s ...string)</text>
+<text type="block" xp="2.5" yp="39.5" wp="80" sp="2" >Rectangle centered at (x,y), width (w), height (h).</text>
+<text xp="2.5" yp="32.1" sp="2.1" >Roundrect(x, y, w, h, rx, ry int, s ...string)</text>
+<text type="block" xp="2.5" yp="28.4" wp="80" sp="2" >Rounded rectangle; upper left at (x,y), width (w), height (h), corner radii (rx,ry).</text>
+<text xp="2.5" yp="21" sp="2.1" >Square(x, y, l int, s ...string)</text>
+<text type="block" xp="2.5" yp="17.3" wp="80" sp="2" >Square with upper left at (x,y), slides length (l).</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Paths and Curves</text>
+<text xp="2.5" yp="87.6" sp="2.1" >Path(d string, s ...string)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >Artibrary path specified in d.</text>
+<text xp="2.5" yp="76.5" sp="2.1" >Arc(sx, sy, ax, ay, r int, large bool, sweep bool, ex ey int, s ...string)</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >Arc: begin (sx,sy), ending (ex, ey) width and height (ax, ay), the x axis rotation is r. If sweep is true, the arc direction is clockwise. If large is true, arc sweep angle is greater than 180 deg.</text>
+<text xp="2.5" yp="61.7" sp="2.1" >Bezier(sx, sy, cx, cy, px, py, ex, ey s ...string)</text>
+<text type="block" xp="2.5" yp="58" wp="80" sp="2" >Cubic bezier: start point (sx,sy), control (px,py) and (cx,cy), endpoint (ex, ey).</text>
+<text xp="2.5" yp="50.6" sp="2.1" >Qbez(sx, sy, cx, cy, ex, ey int, s ...string)</text>
+<text type="block" xp="2.5" yp="46.9" wp="80" sp="2" >Quadratic bezier: start point (sx,sy), control (cx,cy), endpoint (ex, ey)</text>
+<text xp="2.5" yp="39.5" sp="2.1" >Qbezier(sx, sy, cy, ex, ey, tx, ty int, s ...string)</text>
+<text type="block" xp="2.5" yp="35.8" wp="80" sp="2" >Quadratic Bezier:  start (sx, sy), ending at (tx,ty), with control points are at (cx,cy), (ex,ey).</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Lines</text>
+<text xp="2.5" yp="87.6" sp="2.1" >Line(x1 int, y1 int, x2 int, y2 int, s ...string)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >Straight line from (x1,y1) to (x2,y2).</text>
+<text xp="2.5" yp="76.5" sp="2.1" >Polyline(x []int, y []int, s ...string)</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >Polyline using matched coordinates in x and y.</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Images and Text</text>
+<text xp="2.5" yp="87.6" sp="2.1" >Image(x int, y int, w int, h int, link string, s ...string)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >Place the image with dimensions (w,h) at (x, y).</text>
+<text xp="2.5" yp="76.5" sp="2.1" >Text(x int, y int, t string, s ...string)</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >Place text at (x,y).</text>
+<text xp="2.5" yp="65.4" sp="2.1" >Textpath(t string, pathid string, s ...string)</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >Place text on a path specified in pathid.</text>
+<text xp="2.5" yp="54.3" sp="2.1" >Textlines(x, y int, s []string, size, spacing int, fill, align string)</text>
+<text type="block" xp="2.5" yp="50.6" wp="80" sp="2" >Places lines of text beginning at (x,y).</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Colors and Gradients</text>
+<text xp="2.5" yp="87.6" sp="2.1" >RGB(r int, g int, b int) string</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >Specify a color as a RGB triple.</text>
+<text xp="2.5" yp="76.5" sp="2.1" >RGBA(r int, g int, b int, a float64) string</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >Specify a color as RGBA.</text>
+<text xp="2.5" yp="65.4" sp="2.1" >LinearGradient(id string, x1, y1, x2, y2 uint8, sc []Offcolor)</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >Specify a linear gradient.</text>
+<text xp="2.5" yp="54.3" sp="2.1" >RadialGradient(id string, cx, cy, r, fx, fy uint8, sc []Offcolor)</text>
+<text type="block" xp="2.5" yp="50.6" wp="80" sp="2" >Specify a radial gradient.</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Filter Effects</text>
+<text xp="2.5" yp="87.6" sp="2.1" >Filter(id string, s ...string)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >Begin the filter definition.</text>
+<text xp="2.5" yp="76.5" sp="2.1" >Fend()</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >End the filter definition.</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Blend and Color Matrix Filters</text>
+<text xp="2.5" yp="87.6" sp="2.1" >FeBlend(fs Filterspec, mode string, s ...string)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >specifies a Blend filter primitive</text>
+<text xp="2.5" yp="76.5" sp="2.1" >FeColorMatrix(fs Filterspec, values [20]float64, s ...string)</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >specifies a color matrix filter primitive, with matrix values</text>
+<text xp="2.5" yp="65.4" sp="2.1" >FeColorMatrixHue(fs Filterspec, value float64, s ...string)</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >specifies a color matrix filter primitive, with hue rotation values</text>
+<text xp="2.5" yp="54.3" sp="2.1" >FeColorMatrixSaturate(fs Filterspec, value float64, s ...string)</text>
+<text type="block" xp="2.5" yp="50.6" wp="80" sp="2" >specifies a color matrix filter primitive, with saturation values</text>
+<text xp="2.5" yp="43.2" sp="2.1" >FeColorMatrixLuminence(fs Filterspec, s ...string)</text>
+<text type="block" xp="2.5" yp="39.5" wp="80" sp="2" >specifies a color matrix filter primitive, with luminence values</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Miscellaneous Filters (1)</text>
+<text xp="2.5" yp="87.6" sp="2.1" >FeComponentTransfer()</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >begins a feComponent filter element</text>
+<text xp="2.5" yp="76.5" sp="2.1" >FeCompEnd()</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >ends a feComponent filter element</text>
+<text xp="2.5" yp="65.4" sp="2.1" >FeComposite(fs Filterspec, operator string, k1, k2, k3, k4 int, s ...string)</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >specifies a feComposite filter primitive</text>
+<text xp="2.5" yp="54.3" sp="2.1" >FeConvolveMatrix(fs Filterspec, matrix [9]int, s ...string)</text>
+<text type="block" xp="2.5" yp="50.6" wp="80" sp="2" >specifies a feConvolveMatrix filter primitive</text>
+<text xp="2.5" yp="43.2" sp="2.1" >FeDiffEnd()</text>
+<text type="block" xp="2.5" yp="39.5" wp="80" sp="2" >ends a diffuse lighting filter primitive container</text>
+<text xp="2.5" yp="32.1" sp="2.1" >FeDisplacementMap(fs Filterspec, scale float64, xchannel, ychannel string, s ...string)</text>
+<text type="block" xp="2.5" yp="28.4" wp="80" sp="2" >specifies a feDisplacementMap filter primitive</text>
+<text xp="2.5" yp="21" sp="2.1" >FeFuncLinear(channel string, slope, intercept float64)</text>
+<text type="block" xp="2.5" yp="17.3" wp="80" sp="2" >specifies a linear style function for the feFunc{R|G|B|A} filter element</text>
+<text xp="2.5" yp="9.9" sp="2.1" >FeFuncGamma(channel string, amplitude, exponent, offset float64)</text>
+<text type="block" xp="2.5" yp="6.2" wp="80" sp="2" >specifies the curve values for gamma correction for the feFunc{R|G|B|A} filter element</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Miscellaneous Filters (2)</text>
+<text xp="2.5" yp="87.6" sp="2.1" >FeFuncTable(channel string, tv []float64)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >specifies the table of values for the feFunc{R|G|B|A} filter element</text>
+<text xp="2.5" yp="76.5" sp="2.1" >FeFuncDiscrete(channel string, tv []float64)</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >specifies the discrete values for the feFunc{R|G|B|A} filter element</text>
+<text xp="2.5" yp="65.4" sp="2.1" >FeGaussianBlur(fs Filterspec, stdx, stdy float64, s ...string)</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >specifies a Gaussian Blur filter primitive</text>
+<text xp="2.5" yp="54.3" sp="2.1" >FeImage(href string, result string, s ...string)</text>
+<text type="block" xp="2.5" yp="50.6" wp="80" sp="2" >specifies a feImage filter primitive</text>
+<text xp="2.5" yp="43.2" sp="2.1" >FeMerge(nodes []string, s ...string)</text>
+<text type="block" xp="2.5" yp="39.5" wp="80" sp="2" >specifies a feMerge filter primitive, containing feMerge elements</text>
+<text xp="2.5" yp="32.1" sp="2.1" >FeMorphology(fs Filterspec, op string, xradius, yradius float64, s ...string)</text>
+<text type="block" xp="2.5" yp="28.4" wp="80" sp="2" >specifies a feMorphologyLight filter primitive</text>
+<text xp="2.5" yp="21" sp="2.1" >FeOffset(fs Filterspec, dx, dy int, s ...string)</text>
+<text type="block" xp="2.5" yp="17.3" wp="80" sp="2" >specifies the feOffset filter primitive</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Lighting Filters (1)</text>
+<text xp="2.5" yp="87.6" sp="2.1" >FeDiffuseLighting(fs Filterspec, scale, constant float64, s ...string)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >specifies a diffuse lighting filter primitive</text>
+<text xp="2.5" yp="76.5" sp="2.1" >FeDistantLight(fs Filterspec, azimuth, elevation float64, s ...string)</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >specifies a feDistantLight filter primitive</text>
+<text xp="2.5" yp="65.4" sp="2.1" >FeFlood(fs Filterspec, color string, opacity float64, s ...string)</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >specifies a flood filter primitive</text>
+<text xp="2.5" yp="54.3" sp="2.1" >FePointLight(x, y, z float64, s ...string)</text>
+<text type="block" xp="2.5" yp="50.6" wp="80" sp="2" >specifies a fePpointLight filter primitive</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >Lighting Filters (2)</text>
+<text xp="2.5" yp="87.6" sp="2.1" >FeSpecularLighting(fs Filterspec, scale, constant float64, exponent int, color string, s ...string)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >specifies a specular lighting filter primitive</text>
+<text xp="2.5" yp="76.5" sp="2.1" >FeSpecEnd()</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >ends a specular lighting filter primitive container</text>
+<text xp="2.5" yp="65.4" sp="2.1" >FeSpotLight(fs Filterspec, x, y, z, px, py, pz float64, s ...string)</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >specifies a feSpotLight filter primitive</text>
+<text xp="2.5" yp="54.3" sp="2.1" >FeTile(fs Filterspec, in string, s ...string)</text>
+<text type="block" xp="2.5" yp="50.6" wp="80" sp="2" >specifies the tile utility filter primitive</text>
+<text xp="2.5" yp="43.2" sp="2.1" >FeTurbulence(fs Filterspec, ft string, bfx, bfy float64, oct int, seed int64, stitch bool, s ...string)</text>
+<text type="block" xp="2.5" yp="39.5" wp="80" sp="2" >specifies a turbulence filter primitive</text>
+</slide>
+<slide>
+<text xp="2.5" yp="95" sp="3" >High-level filters</text>
+<text xp="2.5" yp="87.6" sp="2.1" >Blur(p float64)</text>
+<text type="block" xp="2.5" yp="83.9" wp="80" sp="2" >Blur by p.</text>
+<text xp="2.5" yp="76.5" sp="2.1" >Brightness(p float64)</text>
+<text type="block" xp="2.5" yp="72.8" wp="80" sp="2" >Bighten by p.</text>
+<text xp="2.5" yp="65.4" sp="2.1" >Grayscale()</text>
+<text type="block" xp="2.5" yp="61.7" wp="80" sp="2" >Set as grayscale.</text>
+<text xp="2.5" yp="54.3" sp="2.1" >HueRotate(a float64)</text>
+<text type="block" xp="2.5" yp="50.6" wp="80" sp="2" >Rotate the colorspace around angle a.</text>
+<text xp="2.5" yp="43.2" sp="2.1" >Invert()</text>
+<text type="block" xp="2.5" yp="39.5" wp="80" sp="2" >Invert colors.</text>
+<text xp="2.5" yp="32.1" sp="2.1" >Saturate(p float64)</text>
+<text type="block" xp="2.5" yp="28.4" wp="80" sp="2" >Set the saturation by p percent.</text>
+<text xp="2.5" yp="21" sp="2.1" >Sepia()</text>
+<text type="block" xp="2.5" yp="17.3" wp="80" sp="2" >Filter to a sepia tone.</text>
+</slide>
+<slide bg="rgb(127,127,127)" fg="white">
+<text xp="10" yp="50" sp="5" >Read/Parse/Draw Pattern</text>
+</slide>
+<slide bg="white" fg="black">
+<text align="c" xp="10" yp="80" sp="5" >Data</text>
+<text align="c" xp="10" yp="25" sp="5" >Picture</text>
+<text xp="20" yp="85" sp="2" ></text>
+<image name="rpd-small.png" xp="42" yp="30" width="622" height="291" scale="100"/>
+<line xp1="10" yp1="75" xp2="10" yp2="40"/>
+<polygon xc="8 10 12" yc="41 36 41"/>
+</slide>
+<slide bg="white" fg="black">
+<text xp="2" yp="94" sp="2" >Imports</text>
+<text xp="35" yp="94" sp="2" >Data Structures</text>
+<text xp="68" yp="94" sp="2" >Flags and Main</text>
+<text xp="2" yp="46" sp="2" >Read the Input</text>
+<text xp="35" yp="46" sp="2" >Parse and Load</text>
+<text xp="68" yp="46" sp="2" >Draw</text>
+<text xp="2" yp="90" sp="1" ></text>
+<text xp="35" yp="90" sp="1" ></text>
+<text xp="68" yp="90" sp="1" ></text>
+<text xp="2" yp="42" sp="1" ></text>
+<text xp="35" yp="42" sp="1" ></text>
+<text xp="68" yp="42" sp="1" ></text>
+</slide>
+<slide bg="white" fg="black">
+<text xp="25" yp="95" sp="1.4" ></text>
+<image name="barchart.png" xp="50" yp="22" width="2720" height="1140" scale="40"/>
+</slide>
+<slide bg="white" fg="black">
+<text xp="5" yp="90" sp="2.5" >f50 sunset</text>
+<text xp="5" yp="85" sp="2" >https://api.flickr.com/services/rest/\n      ?method=flickr.photos.search\n      &amp;amp;api_key=...\n      &amp;amp;text=sunset\n      &amp;amp;per_page=50\n      &amp;amp;sort=interestingness-desc</text>
+<text xp="5" yp="50" sp="2" ></text>
+<image name="sunset.png" xp="70" yp="70" width="800" height="500" scale="100"/>
+</slide>
+<slide bg="rgb(127,127,127)" fg="white">
+<text xp="10" yp="50" sp="5" >SVGo Clients</text>
+</slide>
+<slide>
+<text align="c" xp="50" yp="90" sp="4" >SVGo Clients in the Repo</text>
+<list xp="5" yp="80" sp="1.6" >
+<li>svgdef</li>
+<li>android</li>
+<li>bubtrail</li>
+<li>bulletgraph</li>
+<li>colortab</li>
+<li>compx</li>
+<li>flower</li>
+<li>fontcompare</li>
+<li>f50</li>
+<li>fe</li>
+<li>funnel</li>
+<li>gradient</li>
+<li>html5logo</li>
+<li>imfade</li>
+<li>lewitt</li>
+<li>ltr</li>
+<li>marker</li>
+<li>paths</li>
+</list>
+<list xp="18" yp="80" sp="1.6" >
+<li>Creates a SVG representation of the API</li>
+<li>The Android logo</li>
+<li>Bubble trails</li>
+<li>Bullet Graphs (via Stephen Few)</li>
+<li>Display SVG named colors with RGB values</li>
+<li>Component diagrams</li>
+<li>Random \"flowers\"</li>
+<li>Compare two fonts</li>
+<li>Get 50 photos from Flickr from a query</li>
+<li>Filter effects</li>
+<li>Funnel from transparent circles</li>
+<li>Linear and radial gradients</li>
+<li>HTML5 logo with draggable elements</li>
+<li>Show image fading</li>
+<li>Version of Sol Lewitt's Wall Drawing 91</li>
+<li>Layer Tennis Remixes</li>
+<li>Test markers</li>
+<li>Demonstrate SVG paths</li>
+</list>
+<list xp="52" yp="80" sp="1.6" >
+<li>pattern</li>
+<li>planets</li>
+<li>pmap</li>
+<li>randcomp</li>
+<li>richter</li>
+<li>rl</li>
+<li>skewabc</li>
+<li>stockproduct</li>
+<li>svgopher</li>
+<li>svgplay</li>
+<li>svgplot</li>
+<li>svgrid</li>
+<li>tsg</li>
+<li>tumblrgrid</li>
+<li>turbulence</li>
+<li>vismem</li>
+<li>webfonts</li>
+<li>websvg</li>
+</list>
+<list xp="67" yp="80" sp="1.6" >
+<li>Test patterns</li>
+<li>Show the scale of the Solar system</li>
+<li>Proportion maps</li>
+<li>Compare random number generators</li>
+<li>Gerhard Richter's 256 colors</li>
+<li>Random lines</li>
+<li>Skew ABC</li>
+<li>Visualize product and stock prices</li>
+<li>SVGo Mascot</li>
+<li>SVGo sketching server</li>
+<li>Plot data</li>
+<li>Compose SVG files in a grid</li>
+<li>Twitter Search Grid</li>
+<li>Tumblr picture grid</li>
+<li>Turbulence filter effect</li>
+<li>Visualize data from files</li>
+<li>\"Hello, World\" with Google Web Fonts</li>
+<li>Generate SVG as a web server</li>
+</list>
+</slide>
+<slide>
+<image name="servers.png" xp="50" yp="50" width="2100" height="1628" scale="90"/>
+</slide>
+<slide>
+<image name="compx.png" xp="50" yp="50" width="2166" height="1626" scale="90"/>
+</slide>
+<slide>
+<image name="compx0.png" xp="50" yp="50" width="1568" height="1179" scale="100"/>
+</slide>
+<slide>
+<image name="compx1.png" xp="50" yp="50" width="1910" height="1112" scale="100"/>
+</slide>
+<slide>
+<image name="barchart.png" xp="50" yp="50" width="2720" height="1140" scale="67"/>
+</slide>
+<slide>
+<image name="bcmap0.png" xp="50" yp="50" width="1567" height="1176" scale="100"/>
+</slide>
+<slide>
+<image name="bcmap2.png" xp="50" yp="50" width="1562" height="1170" scale="100"/>
+</slide>
+<slide>
+<image name="bulletgraph.png" xp="50" yp="50" width="2716" height="1596" scale="67"/>
+</slide>
+<slide>
+<image name="bullet0.png" xp="50" yp="50" width="1516" height="1184" scale="100"/>
+</slide>
+<slide>
+<image name="bulletgraph0.png" xp="50" yp="50" width="1511" height="1183" scale="100"/>
+</slide>
+<slide>
+<image name="heatmap0.png" xp="50" yp="50" width="1896" height="939" scale="100"/>
+</slide>
+<slide>
+<image name="heatmap1.png" xp="50" yp="50" width="1893" height="928" scale="100"/>
+</slide>
+<slide>
+<image name="pmap3.png" xp="50" yp="50" width="1903" height="1058" scale="100"/>
+</slide>
+<slide>
+<image name="pmap2.png" xp="50" yp="50" width="1910" height="1060" scale="100"/>
+</slide>
+<slide>
+<image name="cc1.png" xp="50" yp="50" width="1588" height="1188" scale="100"/>
+</slide>
+<slide>
+<image name="cc2.png" xp="50" yp="50" width="1585" height="1187" scale="100"/>
+</slide>
+<slide>
+<image name="cc3.png" xp="50" yp="50" width="1578" height="1193" scale="100"/>
+</slide>
+<slide>
+<image name="cc4.png" xp="50" yp="50" width="1588" height="1196" scale="100"/>
+</slide>
+<slide>
+<image name="quad0.png" xp="50" yp="50" width="1574" height="1172" scale="100"/>
+</slide>
+<slide>
+<image name="quad2.png" xp="50" yp="50" width="1573" height="1173" scale="100"/>
+</slide>
+<slide>
+<image name="timeline.png" xp="50" yp="50" width="1576" height="1185" scale="100"/>
+</slide>
+<slide>
+<image name="roadmap2.png" xp="50" yp="50" width="1893" height="1128" scale="100"/>
+</slide>
+<slide>
+<image name="roadmap1.png" xp="50" yp="50" width="1581" height="1189" scale="100"/>
+</slide>
+<slide>
+<image name="timeline0.png" xp="50" yp="50" width="1577" height="1173" scale="100"/>
+</slide>
+<slide>
+<image name="soap.png" xp="50" yp="50" width="1565" height="1171" scale="100"/>
+</slide>
+<slide>
+<image name="pv.png" xp="50" yp="50" width="2142" height="1608" scale="90"/>
+</slide>
+<slide>
+<image name="rr0.png" xp="50" yp="50" width="1550" height="1496" scale="90"/>
+</slide>
+<slide>
+<text align="c" xp="50" yp="90" sp="4" >https://ajstarks.org:41980/</text>
+<image name="viztool.png" xp="50" yp="45" width="1226" height="1084" scale="100"/>
+</slide>
+<slide bg="rgb(127,127,127)" fg="white">
+<text xp="10" yp="50" sp="5" >Sketching with code</text>
+</slide>
+<slide>
+<image name="svgplay-hw0.png" xp="50" yp="50" width="1920" height="1200" scale="100"/>
+</slide>
+<slide>
+<image name="svgplay-hw1.png" xp="50" yp="50" width="1920" height="1200" scale="100"/>
+</slide>
+</deck>

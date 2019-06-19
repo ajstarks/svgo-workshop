@@ -1,0 +1,46 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
+  "num_results": 3313,
+  "results": [
+    {
+      "slug_name": "15notredame",
+      "section": "World",
+      "subsection": "Europe",
+      "title": "Worshiping in Hard Hats: Notre-Dame Offers First Mass Since Blaze",
+      "abstract": "A small group celebrated their faith and a fragile cathedral, which remains closed amid rebuilding.",
+      "url": "https://www.nytimes.com/2019/06/15/world/europe/notre-dame-mass.html",
+      "byline": "By ADAM NOSSITER",
+      "thumbnail_standard": "https://static01.nyt.com/images/2019/06/16/world/16notredame/16notredame-thumbStandard.jpg",
+      "item_type": "Article",
+      "source": "The New York Times",
+      "updated_date": "2019-06-15T16:20:30-04:00",
+      "created_date": "2019-06-15T16:04:47-04:00",
+      "published_date": "2019-06-14T20:00:00-04:00",
+      "first_published_date": "2019-06-15T16:03:17-04:00",
+      "material_type_facet": "News",
+	...
+    },
+    {
+      "slug_name": "15dc-iran",
+      "section": "World",
+      "subsection": "Middle East",
+      "title": "In Face-Off With Iran, Escalation May Depend on Who Prevails Inside Washington and Tehran",
+      "abstract": "The attacks in the Gulf of Oman emboldens the hard-liners in Iran and the U.S., each able to argue their longtime adversary is itching for war.",
+      "url": "https://www.nytimes.com/2019/06/15/world/middleeast/trump-iran-hard-liners.html",
+      "byline": "By DAVID E. SANGER and DAVID D. KIRKPATRICK",
+      "thumbnail_standard": "https://static01.nyt.com/images/2019/06/16/us/16DC-IRAN/15dc-IRAN-thumbStandard.jpg",
+      "item_type": "Article",
+      "source": "The New York Times",
+      "updated_date": "2019-06-15T15:48:01-04:00",
+      "created_date": "2019-06-15T14:36:14-04:00",
+      "published_date": "2019-06-14T20:00:00-04:00",
+      "first_published_date": "2019-06-15T14:34:43-04:00",
+      "material_type_facet": "News Analysis",
+      "kicker": "News Analysis",
+      "subheadline": null,
+        }
+      ]
+    }
+  ]
+}
