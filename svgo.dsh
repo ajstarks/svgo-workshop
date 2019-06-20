@@ -7,13 +7,13 @@ deck
 
 	slide 
 		ctext	"Workshop" 50 20 6
-		image	"images/svgopher.png" 50 60 1336 729 75
+		image	"images/svgopher.png" 50 60 1088 645 75
 	eslide
 
 	slide
-		image "images/svgopher.png" 15 50 1226 729 60
+		image "images/svgopher.png" 18 50 1088 645 45 
 		arrow 33 50 67 50 0.5 3 4 
-		ctext "Scalable Vector Graphics" 50 55 2
+		ctext "Scalable Vector Graphics" 50 55 2.5
 		text "io.Writer" 70 48 5 "mono"
 	eslide
 
@@ -305,13 +305,13 @@ deck
 		image		"images/hw.png" 70 75 960 540 90
 	eslide
 
-	slide 
-		ctext		"Data" 10 80 5
-		ctext		"Picture" 10 15 5
-		textfile	"code/thing.xml" 17 87 1.6 "mono"
-		image		"images/thingss.png" 55 35 2642 1140 30
-		arrow		10 75 10 25 1 8 6 "lightgray"
-	eslide
+//	slide 
+//		ctext		"Data" 10 80 5
+//		ctext		"Picture" 10 15 5
+//		textfile	"code/thing.xml" 17 87 1.6 "mono"
+//		image		"images/thingss.png" 55 35 2642 1140 30
+//		arrow		10 75 10 25 1 8 6 "lightgray"
+//	eslide
 
 	slide "white" "black"
 		textfile	"code/swebsvg.go" 5 90 2 "mono" "black"
@@ -460,46 +460,10 @@ deck
 		ctext       "Draw"       78 90 3 
 		textfile	"code/nytapi.txt"      5 82 1 "sans"
 		image       "images/nytlogo.jpg"  20 50 355 355
-		textfile	"code/n.json"          5 80 0.7 "sans" "gray"
+		textfile	"code/n.json"          5 80 0.7 "mono" "gray"
 		image		"images/nytsvg.png"   78 50 1188 760 65
 		arrow      40 50 55 50
 	eslide
-// 
-// 	slide
-// 		rect rx ry rw 100 "black"
-// 		text "Imports" ctx cty 4 "sans" "white"
-// 		textfile "code/nyt-imports.go" codex codey codesize "mono"
-// 	eslide
-// 
-// 	slide
-// 		rect rx ry rw 100 "black"
-// 		textblock "Data Structures" ctx cty 5 4 "sans" "white"
-// 		textfile "code/nyt-struct.go" codex codey codesize "mono"
-// 	eslide
-// 
-// 	slide
-// 		rect rx ry rw 100 "black"
-// 		text "Main" ctx cty 4 "sans" "white"
-// 		textfile "code/nyt-main.go" codex codey codesize "mono"
-// 	eslide
-// 
-// 	slide
-// 		rect rx ry rw 100 "black"
-// 		text "Network" ctx cty 4 "sans" "white"
-// 		textfile "code/nyt-network.go" codex codey codesize "mono"
-// 	eslide
-// 
-// 	slide
-// 		rect rx ry rw 100 "black"
-// 		textblock "Read and Decode" ctx cty 15 4 "sans" "white"
-// 		textfile "code/nyt-headlines.go" codex codey codesize "mono"
-// 	eslide
-// 
-// 	slide
-// 		rect rx ry rw 100 "black"
-// 		text "Drawing" ctx cty 4 "sans" "white"
-// 		textfile "code/nyt-draw.go" codex codey codesize "mono"
-// 	eslide
 
 
 	codesize=2
@@ -509,49 +473,49 @@ deck
 	ry=5
 	rw=100
 	rh=10
-	ctx=codex
+	ctx=50
 	cty=3
 
 	
 	slide
 		rect rx ry rw rh "black"
-		text "Imports" ctx cty 4 "sans" "white"
+		ctext "Imports" ctx cty 4 "sans" "white"
 		textfile "code/nyt-imports.go" codex codey codesize "mono"
 	eslide
 
 	slide
 		rect rx ry rw rh "black"
-		text "Constants" ctx cty 4 "sans" "white"
+		ctext "Constants" ctx cty 4 "sans" "white"
 		textfile "code/nyt-const.go" codex codey codesize "mono"
 	eslide
 
 	slide
 		rect rx ry rw rh "black"
-		text "Data Structures" ctx cty 4 "sans" "white"
+		ctext "Data Structures" ctx cty 4 "sans" "white"
 		textfile "code/nyt-struct.go" codex codey codesize "mono"
 	eslide
 
 	slide
 		rect rx ry rw rh "black"
-		text "Main" ctx cty 4 "sans" "white"
+		ctext "Main" ctx cty 4 "sans" "white"
 		textfile "code/nyt-main.go" codex codey codesize "mono"
 	eslide
 
 	slide
 		rect rx ry rw rh "black"
-		text "Network" ctx cty 4 "sans" "white"
+		ctext "Network" ctx cty 4 "sans" "white"
 		textfile "code/nyt-network.go" codex codey codesize "mono"
 	eslide
 
 	slide
 		rect rx ry rw rh "black"
-		text "Read and Decode" ctx cty 4 "sans" "white"
+		ctext "Read and Decode" ctx cty 4 "sans" "white"
 		textfile "code/nyt-headlines.go" codex codey codesize "mono"
 	eslide
 
 	slide
 		rect rx ry rw rh "black"
-		text "Drawing" ctx cty 4 "sans" "white"
+		ctext "Drawing" ctx cty 4 "sans" "white"
 		textfile "code/nyt-draw.go" codex codey codesize "mono"
 	eslide
 
