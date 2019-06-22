@@ -1,46 +1,3161 @@
 {
   "status": "OK",
-  "copyright": "Copyright (c) 2019 The New York Times Company.  All Rights Reserved.",
-  "num_results": 3313,
+  "copyright": "Copyright (c) 2019 The New York Times Company. All Rights Reserved.",
+  "section": "world",
+  "last_updated": "2019-06-21T21:47:21-04:00",
+  "num_results": 40,
   "results": [
     {
-      "slug_name": "15notredame",
-      "section": "World",
-      "subsection": "Europe",
-      "title": "Worshiping in Hard Hats: Notre-Dame Offers First Mass Since Blaze",
-      "abstract": "A small group celebrated their faith and a fragile cathedral, which remains closed amid rebuilding.",
-      "url": "https://www.nytimes.com/2019/06/15/world/europe/notre-dame-mass.html",
-      "byline": "By ADAM NOSSITER",
-      "thumbnail_standard": "https://static01.nyt.com/images/2019/06/16/world/16notredame/16notredame-thumbStandard.jpg",
-      "item_type": "Article",
-      "source": "The New York Times",
-      "updated_date": "2019-06-15T16:20:30-04:00",
-      "created_date": "2019-06-15T16:04:47-04:00",
-      "published_date": "2019-06-14T20:00:00-04:00",
-      "first_published_date": "2019-06-15T16:03:17-04:00",
-      "material_type_facet": "News",
-	...
-    },
-    {
-      "slug_name": "15dc-iran",
       "section": "World",
       "subsection": "Middle East",
-      "title": "In Face-Off With Iran, Escalation May Depend on Who Prevails Inside Washington and Tehran",
-      "abstract": "The attacks in the Gulf of Oman emboldens the hard-liners in Iran and the U.S., each able to argue their longtime adversary is itching for war.",
-      "url": "https://www.nytimes.com/2019/06/15/world/middleeast/trump-iran-hard-liners.html",
-      "byline": "By DAVID E. SANGER and DAVID D. KIRKPATRICK",
-      "thumbnail_standard": "https://static01.nyt.com/images/2019/06/16/us/16DC-IRAN/15dc-IRAN-thumbStandard.jpg",
+      "title": "U.S.-Iran Crisis Updates: Trump Says Military Was Ready to Strike",
+      "abstract": "After the downing of an American drone, leaders around the globe asked the United States and Iran to step back from the brink.",
+      "url": "https://www.nytimes.com/2019/06/21/world/middleeast/trump-iran.html",
+      "byline": "",
       "item_type": "Article",
-      "source": "The New York Times",
-      "updated_date": "2019-06-15T15:48:01-04:00",
-      "created_date": "2019-06-15T14:36:14-04:00",
-      "published_date": "2019-06-14T20:00:00-04:00",
-      "first_published_date": "2019-06-15T14:34:43-04:00",
-      "material_type_facet": "News Analysis",
-      "kicker": "News Analysis",
-      "subheadline": null,
+      "updated_date": "2019-06-21T17:57:38-04:00",
+      "created_date": "2019-06-21T06:46:09-04:00",
+      "published_date": "2019-06-21T06:46:09-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States International Relations",
+        "Defense and Military Forces",
+        "Politics and Government",
+        "Drones (Pilotless Planes)",
+        "Airlines and Airplanes"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Iran",
+        "United States",
+        "Strait of Hormuz"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21iran-briefing1/21iran-briefing1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An Air Force photograph of an RQ-4 Global Hawk surveillance drone, the kind of aircraft that was shot down this week.",
+          "copyright": "Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21iran-briefing1/21iran-briefing1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An Air Force photograph of an RQ-4 Global Hawk surveillance drone, the kind of aircraft that was shot down this week.",
+          "copyright": "Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21iran-briefing1/21iran-briefing1-articleInline.jpg",
+          "format": "Normal",
+          "height": 126,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An Air Force photograph of an RQ-4 Global Hawk surveillance drone, the kind of aircraft that was shot down this week.",
+          "copyright": "Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21iran-briefing1/21iran-briefing1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An Air Force photograph of an RQ-4 Global Hawk surveillance drone, the kind of aircraft that was shot down this week.",
+          "copyright": "Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21iran-briefing1/21iran-briefing1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1201,
+          "width": 1800,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An Air Force photograph of an RQ-4 Global Hawk surveillance drone, the kind of aircraft that was shot down this week.",
+          "copyright": "Agence France-Presse — Getty Images"
         }
-      ]
+      ],
+      "short_url": "https://nyti.ms/2KrzJu4"
+    },
+    {
+      "section": "U.S.",
+      "subsection": "Politics",
+      "title": "Trump Says He Was ‘Cocked and Loaded’ to Strike Iran, but Pulled Back",
+      "abstract": "The president said he stopped because 150 people would probably die in an attack as retaliation for Iranians shooting down an unmanned American drone.",
+      "url": "https://www.nytimes.com/2019/06/21/us/politics/trump-iran-attack.html",
+      "byline": "By MICHAEL D. SHEAR, HELENE COOPER and ERIC SCHMITT",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T20:58:07-04:00",
+      "created_date": "2019-06-21T09:12:50-04:00",
+      "published_date": "2019-06-21T09:12:50-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States Politics and Government",
+        "United States Defense and Military Forces"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "Iran"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/us/21prexy-promo-1/21prexy-promo-1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump’s national security advisers split about whether to respond militarily.",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/us/21prexy-promo-1/21prexy-promo-1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump’s national security advisers split about whether to respond militarily.",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/us/21prexy-promo-1/merlin_156790470_e5e1d1a4-4388-453b-be50-522119fdfb2f-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump’s national security advisers split about whether to respond militarily.",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/us/21prexy-promo-1/merlin_156790470_e5e1d1a4-4388-453b-be50-522119fdfb2f-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump’s national security advisers split about whether to respond militarily.",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/us/21prexy-promo-1/merlin_156790470_e5e1d1a4-4388-453b-be50-522119fdfb2f-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump’s national security advisers split about whether to respond militarily.",
+          "copyright": "Erin Schaff/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2KuOxYR"
+    },
+    {
+      "section": "World",
+      "subsection": "Asia Pacific",
+      "title": "‘These Forests Are the Lungs of the Country’: Thai Rangers Guard Precious Rosewood",
+      "abstract": "Deep in a jungle in Thailand, a battle is being waged between poorly armed forest rangers and poachers trying to sate China’s growing appetite for rare and precious rosewood.",
+      "url": "https://www.nytimes.com/2019/06/21/world/asia/thailand-rosewood-poaching.html",
+      "byline": "By BEN C. SOLOMON and RICHARD C. PADDOCK",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T14:53:36-04:00",
+      "created_date": "2019-06-21T05:00:31-04:00",
+      "published_date": "2019-06-21T05:00:31-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Forests and Forestry",
+        "Wood and Wood Products",
+        "World Heritage Sites",
+        "Poaching (Wildlife)",
+        "Trees and Shrubs"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Thailand",
+        "Southeast Asia",
+        "China"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/05/31/world/00thai-redwood-dispatch-6/00thai-redwood-dispatch-6-thumbStandard-v2.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Weapons training takes place on an army base near the forest.",
+          "copyright": "Luke Duggleby for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/05/31/world/00thai-redwood-dispatch-6/00thai-redwood-dispatch-6-thumbLarge-v2.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Weapons training takes place on an army base near the forest.",
+          "copyright": "Luke Duggleby for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/05/31/world/00thai-redwood-dispatch-6/merlin_145517775_28b095d2-eca1-465f-a7aa-71f138467e19-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Weapons training takes place on an army base near the forest.",
+          "copyright": "Luke Duggleby for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/05/31/world/00thai-redwood-dispatch-6/merlin_145517775_28b095d2-eca1-465f-a7aa-71f138467e19-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Weapons training takes place on an army base near the forest.",
+          "copyright": "Luke Duggleby for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/05/31/world/00thai-redwood-dispatch-6/merlin_145517775_28b095d2-eca1-465f-a7aa-71f138467e19-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Weapons training takes place on an army base near the forest.",
+          "copyright": "Luke Duggleby for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2FqVM02"
+    },
+    {
+      "section": "World",
+      "subsection": "Asia Pacific",
+      "title": "Erdogan’s Purges Leave Turkey’s Justice System Reeling",
+      "abstract": "Around 4,000 judges have been purged since a failed 2016 coup and replaced with inexperienced judges operating in a climate of fear.",
+      "url": "https://www.nytimes.com/2019/06/21/world/asia/erdogan-turkey-courts-judiciary-justice.html",
+      "byline": "By CARLOTTA GALL",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T05:47:57-04:00",
+      "created_date": "2019-06-21T05:47:57-04:00",
+      "published_date": "2019-06-21T05:47:57-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Politics and Government",
+        "Elections, Courts and the Judiciary",
+        "Legal Profession"
+      ],
+      "org_facet": [
+        "Justice and Development Party (Turkey)"
+      ],
+      "per_facet": [
+        "Erdogan, Recep Tayyip"
+      ],
+      "geo_facet": [
+        "Turkey"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/11/world/xxturkey-justice1/xxturkey-justice1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The authoritarianism of President Recep Tayyip Erdogan, center, and the cronyism in his governing party are undermining Turkey’s economy and education system.",
+          "copyright": "European Pressphoto Agency, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/11/world/xxturkey-justice1/xxturkey-justice1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The authoritarianism of President Recep Tayyip Erdogan, center, and the cronyism in his governing party are undermining Turkey’s economy and education system.",
+          "copyright": "European Pressphoto Agency, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/11/world/xxturkey-justice1/xxturkey-justice1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The authoritarianism of President Recep Tayyip Erdogan, center, and the cronyism in his governing party are undermining Turkey’s economy and education system.",
+          "copyright": "European Pressphoto Agency, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/11/world/xxturkey-justice1/xxturkey-justice1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The authoritarianism of President Recep Tayyip Erdogan, center, and the cronyism in his governing party are undermining Turkey’s economy and education system.",
+          "copyright": "European Pressphoto Agency, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/11/world/xxturkey-justice1/xxturkey-justice1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The authoritarianism of President Recep Tayyip Erdogan, center, and the cronyism in his governing party are undermining Turkey’s economy and education system.",
+          "copyright": "European Pressphoto Agency, via Shutterstock"
+        }
+      ],
+      "short_url": "https://nyti.ms/2WUTg85"
+    },
+    {
+      "section": "World",
+      "subsection": "Asia Pacific",
+      "title": "Hong Kong Protests Resume as Police Headquarters Is Surrounded",
+      "abstract": "Thousands of demonstrators returned to Hong Kong’s streets on Friday, putting new pressure on the government over an unpopular extradition bill.",
+      "url": "https://www.nytimes.com/2019/06/20/world/asia/hong-kong.html",
+      "byline": "By DANIEL VICTOR",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T20:17:10-04:00",
+      "created_date": "2019-06-20T23:13:40-04:00",
+      "published_date": "2019-06-20T23:13:40-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Politics and Government",
+        "Demonstrations, Protests and Riots",
+        "Extradition"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Lam, Carrie (1957- )"
+      ],
+      "geo_facet": [
+        "China",
+        "Hong Kong"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21hongkong-02/21hongkong-02-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Streets around the police headquarters remained closed to vehicles well into Friday evening.",
+          "copyright": "Lam Yik Fei for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21hongkong-02/21hongkong-02-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Streets around the police headquarters remained closed to vehicles well into Friday evening.",
+          "copyright": "Lam Yik Fei for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21hongkong-02/a26f24052d3c4acdb309e9930a8cf0de-1-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Streets around the police headquarters remained closed to vehicles well into Friday evening.",
+          "copyright": "Lam Yik Fei for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21hongkong-02/21hongkong-02-mediumThreeByTwo210-v2.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Streets around the police headquarters remained closed to vehicles well into Friday evening.",
+          "copyright": "Lam Yik Fei for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21hongkong-02/a26f24052d3c4acdb309e9930a8cf0de-1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Streets around the police headquarters remained closed to vehicles well into Friday evening.",
+          "copyright": "Lam Yik Fei for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2RAnQD7"
+    },
+    {
+      "section": "World",
+      "subsection": "Asia Pacific",
+      "title": "In Pictures: For Kim Jong-un and Xi Jinping, Small Talk and Mass Games",
+      "abstract": "China’s leader made a rare visit to North Korea this week, a two-day trip full of pomp and propaganda.",
+      "url": "https://www.nytimes.com/2019/06/21/world/asia/xi-jinping-china-north-korea.html",
+      "byline": "By RUSSELL GOLDMAN",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T07:19:45-04:00",
+      "created_date": "2019-06-21T03:56:43-04:00",
+      "published_date": "2019-06-21T03:56:43-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Propaganda"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Kim Jong-un",
+        "Xi Jinping",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "North Korea",
+        "China"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/22/world/21nkorea-visual-1/21nkorea-visual-1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Xi Jinping of China was welcomed by Kim Jong-un, the leader of North Korea, with a 21-gun salute.   ",
+          "copyright": "Liu Weibing/Xinhua, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/22/world/21nkorea-visual-1/21nkorea-visual-1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Xi Jinping of China was welcomed by Kim Jong-un, the leader of North Korea, with a 21-gun salute.   ",
+          "copyright": "Liu Weibing/Xinhua, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/22/world/21nkorea-visual-1/merlin_156758175_88e43cfe-2b39-45c2-a11e-8834d4be5393-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Xi Jinping of China was welcomed by Kim Jong-un, the leader of North Korea, with a 21-gun salute.   ",
+          "copyright": "Liu Weibing/Xinhua, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/22/world/21nkorea-visual-1/merlin_156758175_88e43cfe-2b39-45c2-a11e-8834d4be5393-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Xi Jinping of China was welcomed by Kim Jong-un, the leader of North Korea, with a 21-gun salute.   ",
+          "copyright": "Liu Weibing/Xinhua, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/22/world/21nkorea-visual-1/merlin_156758175_88e43cfe-2b39-45c2-a11e-8834d4be5393-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Xi Jinping of China was welcomed by Kim Jong-un, the leader of North Korea, with a 21-gun salute.   ",
+          "copyright": "Liu Weibing/Xinhua, via Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/2FpJZyO"
+    },
+    {
+      "section": "World",
+      "subsection": "Europe",
+      "title": "U.K. Official Suspended for Forcing Out Climate Protester by the Neck",
+      "abstract": "TV footage showed Mark Field, a senior foreign policy official, jump from his seat and grab a protester at an event Thursday night.",
+      "url": "https://www.nytimes.com/2019/06/21/world/europe/mark-field-climate-protester-uk.html",
+      "byline": "By PALKO KARASZ",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T11:26:40-04:00",
+      "created_date": "2019-06-21T08:08:27-04:00",
+      "published_date": "2019-06-21T08:08:27-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Demonstrations, Protests and Riots",
+        "Politics and Government",
+        "Legislatures and Parliaments"
+      ],
+      "org_facet": [
+        "Greenpeace"
+      ],
+      "per_facet": [
+        "Field, Mark (1964- )",
+        "Hammond, Philip"
+      ],
+      "geo_facet": [
+        "Great Britain"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21uk-protest3/21uk-protest3-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A screenshot from a BBC video shows the minister Mark Field, left, grabbing a protester by the neck and forcing her out after Greenpeace activists interrupted a speech by Philip Hammond, chancellor of the exchequer, in London on Thursday.",
+          "copyright": "BBC"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21uk-protest3/21uk-protest3-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A screenshot from a BBC video shows the minister Mark Field, left, grabbing a protester by the neck and forcing her out after Greenpeace activists interrupted a speech by Philip Hammond, chancellor of the exchequer, in London on Thursday.",
+          "copyright": "BBC"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21uk-protest3/21uk-protest3-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A screenshot from a BBC video shows the minister Mark Field, left, grabbing a protester by the neck and forcing her out after Greenpeace activists interrupted a speech by Philip Hammond, chancellor of the exchequer, in London on Thursday.",
+          "copyright": "BBC"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21uk-protest3/21uk-protest3-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A screenshot from a BBC video shows the minister Mark Field, left, grabbing a protester by the neck and forcing her out after Greenpeace activists interrupted a speech by Philip Hammond, chancellor of the exchequer, in London on Thursday.",
+          "copyright": "BBC"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21uk-protest3/21uk-protest3-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1054,
+          "width": 1581,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A screenshot from a BBC video shows the minister Mark Field, left, grabbing a protester by the neck and forcing her out after Greenpeace activists interrupted a speech by Philip Hammond, chancellor of the exchequer, in London on Thursday.",
+          "copyright": "BBC"
+        }
+      ],
+      "short_url": "https://nyti.ms/2Y27BAT"
+    },
+    {
+      "section": "World",
+      "subsection": "Asia Pacific",
+      "title": "Friendlier Days for North Korea and China? Maybe Not",
+      "abstract": "On the surface, all seemed warm as Kim Jong-un played host to Xi Jinping this week. So why didn’t the Chinese leader stay longer?",
+      "url": "https://www.nytimes.com/2019/06/21/world/asia/xi-jinping-north-korea-visit.html",
+      "byline": "By JANE PERLEZ",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T07:38:24-04:00",
+      "created_date": "2019-06-21T07:38:24-04:00",
+      "published_date": "2019-06-21T07:38:24-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Embargoes and Sanctions",
+        "Arms Control and Limitation and Disarmament",
+        "Nuclear Weapons",
+        "International Relations"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Kim Jong-un",
+        "Trump, Donald J",
+        "Xi Jinping"
+      ],
+      "geo_facet": [
+        "China",
+        "North Korea"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21nkorea-1/21nkorea-1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Xi Jinping of China, left, and Kim Jong-un, the North Korean leader, in Pyongyang, the North’s capital, on Thursday.",
+          "copyright": "Shen Hong/Xinhua, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21nkorea-1/21nkorea-1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Xi Jinping of China, left, and Kim Jong-un, the North Korean leader, in Pyongyang, the North’s capital, on Thursday.",
+          "copyright": "Shen Hong/Xinhua, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21nkorea-1/merlin_156758181_ec9f08f6-3657-4ad8-919e-bdaccbda5d8c-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Xi Jinping of China, left, and Kim Jong-un, the North Korean leader, in Pyongyang, the North’s capital, on Thursday.",
+          "copyright": "Shen Hong/Xinhua, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21nkorea-1/21nkorea-1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Xi Jinping of China, left, and Kim Jong-un, the North Korean leader, in Pyongyang, the North’s capital, on Thursday.",
+          "copyright": "Shen Hong/Xinhua, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21nkorea-1/merlin_156758181_ec9f08f6-3657-4ad8-919e-bdaccbda5d8c-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Xi Jinping of China, left, and Kim Jong-un, the North Korean leader, in Pyongyang, the North’s capital, on Thursday.",
+          "copyright": "Shen Hong/Xinhua, via Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/2FpnkCM"
+    },
+    {
+      "section": "World",
+      "subsection": "Europe",
+      "title": "Police Respond to Altercation Between Boris Johnson and His Girlfriend",
+      "abstract": "A neighbor called the police when Johnson, who is favored to become Britain’s next prime minister, was heard shouting at his girlfriend, a newspaper reported.",
+      "url": "https://www.nytimes.com/2019/06/21/world/europe/boris-johnson-police-girlfriend.html",
+      "byline": "By ELLEN BARRY",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T18:59:11-04:00",
+      "created_date": "2019-06-21T18:55:22-04:00",
+      "published_date": "2019-06-21T18:55:22-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Politics and Government"
+      ],
+      "org_facet": [
+        "Conservative Party (Great Britain)",
+        "Scotland Yard (Metropolitan Police Service)"
+      ],
+      "per_facet": [
+        "Johnson, Boris"
+      ],
+      "geo_facet": [
+        "Great Britain",
+        "London (England)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21johnson/21johnson-thumbStandard-v2.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A neighbor of Boris Johnson’s, alarmed by screaming from his apartment, called the police, The Guardian reported.",
+          "copyright": "Peter Summers/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21johnson/21johnson-thumbLarge-v2.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A neighbor of Boris Johnson’s, alarmed by screaming from his apartment, called the police, The Guardian reported.",
+          "copyright": "Peter Summers/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21johnson/21johnson-articleInline-v2.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A neighbor of Boris Johnson’s, alarmed by screaming from his apartment, called the police, The Guardian reported.",
+          "copyright": "Peter Summers/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21johnson/21johnson-mediumThreeByTwo210-v2.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A neighbor of Boris Johnson’s, alarmed by screaming from his apartment, called the police, The Guardian reported.",
+          "copyright": "Peter Summers/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21johnson/21johnson-superJumbo-v2.jpg",
+          "format": "superJumbo",
+          "height": 1364,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A neighbor of Boris Johnson’s, alarmed by screaming from his apartment, called the police, The Guardian reported.",
+          "copyright": "Peter Summers/Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/2IwDjB6"
+    },
+    {
+      "section": "Science",
+      "subsection": "",
+      "title": "For Cephalopod Week, Dive Into the World of Octopuses, Squids and More",
+      "abstract": "A few fun facts about the many-armed creatures.",
+      "url": "https://www.nytimes.com/2019/06/21/science/cephalopods-octopus-squid-facts.html",
+      "byline": "By KNVUL SHEIKH",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T18:42:56-04:00",
+      "created_date": "2019-06-21T18:42:56-04:00",
+      "published_date": "2019-06-21T18:42:56-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Fish and Other Marine Life",
+        "Animal Cognition",
+        "Octopus",
+        "Squid",
+        "Genetics and Heredity",
+        "your-feed-science"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/science/21cephalopods3/21cephalopods3-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An octopus at the Océanopolis sea center, in Brest, France.",
+          "copyright": "Fred Tanneau/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/science/21cephalopods3/21cephalopods3-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An octopus at the Océanopolis sea center, in Brest, France.",
+          "copyright": "Fred Tanneau/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/science/21cephalopods3/merlin_147494628_93fd896c-f044-4f85-861d-18867569af67-articleInline.jpg",
+          "format": "Normal",
+          "height": 122,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An octopus at the Océanopolis sea center, in Brest, France.",
+          "copyright": "Fred Tanneau/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/science/21cephalopods3/21cephalopods3-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An octopus at the Océanopolis sea center, in Brest, France.",
+          "copyright": "Fred Tanneau/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/science/21cephalopods3/merlin_147494628_93fd896c-f044-4f85-861d-18867569af67-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1315,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "An octopus at the Océanopolis sea center, in Brest, France.",
+          "copyright": "Fred Tanneau/Agence France-Presse — Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/2L8ERTq"
+    },
+    {
+      "section": "Briefing",
+      "subsection": "",
+      "title": "Iran, Supreme Court, Giant Squid: Your Friday Evening Briefing",
+      "abstract": "Here’s what you need to know at the end of the day.",
+      "url": "https://www.nytimes.com/2019/06/21/briefing/iran-supreme-court-giant-squid.html",
+      "byline": "By REMY TUMIN and MARCUS PAYADUE",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T17:57:44-04:00",
+      "created_date": "2019-06-21T17:51:27-04:00",
+      "published_date": "2019-06-21T17:51:27-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/c-21iran-react-brief-promo/21iran-react-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/c-21iran-react-brief-promo/21iran-react-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/c-21iran-react-brief-promo/merlin_156790494_58be0d7c-153f-4534-8a43-59a0e28280c3-articleInline.jpg",
+          "format": "Normal",
+          "height": 125,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/c-21iran-react-brief-promo/21iran-react-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/c-21iran-react-brief-promo/c-21iran-react-brief-promo-superJumbo-v2.jpg",
+          "format": "superJumbo",
+          "height": 188,
+          "width": 624,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Erin Schaff/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2Ldcpjc"
+    },
+    {
+      "section": "Business",
+      "subsection": "",
+      "title": "The Oil Market Shows It Can Take a Punch",
+      "abstract": "The Persian Gulf crisis has not ignited a major price spike, thanks to growing oil production in the U.S. and a slowing in overall demand.",
+      "url": "https://www.nytimes.com/2019/06/21/business/oil-prices-us-iran.html",
+      "byline": "By STANLEY REED",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T16:52:21-04:00",
+      "created_date": "2019-06-21T16:52:21-04:00",
+      "published_date": "2019-06-21T16:52:21-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Oil (Petroleum) and Gasoline",
+        "International Trade and World Market",
+        "Gulf of Oman Incident (June 2019)",
+        "Prices (Fares, Fees and Rates)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Gulf of Oman",
+        "Iran",
+        "Persian Gulf",
+        "Strait of Hormuz",
+        "United States"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/business/21oilcrisis-1/21oilcrisis-1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Attacks on two oil tankers near the Persian Gulf have ratcheted up tensions between the United States and Iran — and raised fears over the safety of a vital energy trade route.",
+          "copyright": "Iranian Students' News Agency, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/business/21oilcrisis-1/21oilcrisis-1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Attacks on two oil tankers near the Persian Gulf have ratcheted up tensions between the United States and Iran — and raised fears over the safety of a vital energy trade route.",
+          "copyright": "Iranian Students' News Agency, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/business/21oilcrisis-1/21oilcrisis-1-articleInline.jpg",
+          "format": "Normal",
+          "height": 128,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Attacks on two oil tankers near the Persian Gulf have ratcheted up tensions between the United States and Iran — and raised fears over the safety of a vital energy trade route.",
+          "copyright": "Iranian Students' News Agency, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/business/21oilcrisis-1/21oilcrisis-1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Attacks on two oil tankers near the Persian Gulf have ratcheted up tensions between the United States and Iran — and raised fears over the safety of a vital energy trade route.",
+          "copyright": "Iranian Students' News Agency, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/business/21oilcrisis-1/merlin_156711018_9ef85e06-60f8-41bb-9c0a-25e32b8a1b9d-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1334,
+          "width": 2000,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Attacks on two oil tankers near the Persian Gulf have ratcheted up tensions between the United States and Iran — and raised fears over the safety of a vital energy trade route.",
+          "copyright": "Iranian Students' News Agency, via Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/2L9qwWT"
+    },
+    {
+      "section": "World",
+      "subsection": "Canada",
+      "title": "Canada’s Parliament Shuts Down, and Election Season (Unofficially) Begins",
+      "abstract": "A variety of new laws will govern this year’s pre-election period and shorten the length of the official campaign.",
+      "url": "https://www.nytimes.com/2019/06/21/world/canada/canada-federal-election-parliament.html",
+      "byline": "By IAN AUSTEN",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T18:19:56-04:00",
+      "created_date": "2019-06-21T16:34:33-04:00",
+      "published_date": "2019-06-21T16:34:33-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Elections"
+      ],
+      "org_facet": [
+        "Toronto Raptors",
+        "National Basketball Assn"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "Canada"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21canadaletter-parl/21canadaletter-parl-thumbStandard-v2.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "New election laws will kick in next month as Canada’s campaign is off to its unofficial start.",
+          "copyright": "Ian Austen/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21canadaletter-parl/21canadaletter-parl-thumbLarge-v2.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "New election laws will kick in next month as Canada’s campaign is off to its unofficial start.",
+          "copyright": "Ian Austen/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21canadaletter-parl/e44f86d1c4cc4d3b954520d69e3071f4-articleInline.jpg",
+          "format": "Normal",
+          "height": 126,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "New election laws will kick in next month as Canada’s campaign is off to its unofficial start.",
+          "copyright": "Ian Austen/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21canadaletter-parl/21canadaletter-parl-mediumThreeByTwo210-v2.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "New election laws will kick in next month as Canada’s campaign is off to its unofficial start.",
+          "copyright": "Ian Austen/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21canadaletter-parl/e44f86d1c4cc4d3b954520d69e3071f4-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1360,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "New election laws will kick in next month as Canada’s campaign is off to its unofficial start.",
+          "copyright": "Ian Austen/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2Iym7ex"
+    },
+    {
+      "section": "World",
+      "subsection": "Americas",
+      "title": "Fatal Shooting of Migrant in Mexico Prompts Government Investigations",
+      "abstract": "Witnesses told investigators that people wearing police uniforms shot at a truck carrying migrants after it passed through a checkpoint without stopping, the attorney general of Veracruz State said.",
+      "url": "https://www.nytimes.com/2019/06/21/world/americas/mexico-migrant-death.html",
+      "byline": "By KIRK SEMPLE and PAULINA VILLEGAS",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T16:41:53-04:00",
+      "created_date": "2019-06-21T14:33:23-04:00",
+      "published_date": "2019-06-21T14:33:23-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Police Brutality, Misconduct and Shootings",
+        "Immigration and Emigration",
+        "Illegal Immigration"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Lopez Obrador, Andres Manuel"
+      ],
+      "geo_facet": [
+        "Mexico",
+        "United States"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21mexico/merlin_156684312_e1ac025e-8996-45e6-a137-0f1a6f49670e-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Soldiers that are part of the National Guard working at a checkpoint in the state of Chiapas, Mexico.",
+          "copyright": "Luis Antonio Rojas for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21mexico/merlin_156684312_e1ac025e-8996-45e6-a137-0f1a6f49670e-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Soldiers that are part of the National Guard working at a checkpoint in the state of Chiapas, Mexico.",
+          "copyright": "Luis Antonio Rojas for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21mexico/merlin_156684312_e1ac025e-8996-45e6-a137-0f1a6f49670e-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Soldiers that are part of the National Guard working at a checkpoint in the state of Chiapas, Mexico.",
+          "copyright": "Luis Antonio Rojas for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21mexico/merlin_156684312_e1ac025e-8996-45e6-a137-0f1a6f49670e-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Soldiers that are part of the National Guard working at a checkpoint in the state of Chiapas, Mexico.",
+          "copyright": "Luis Antonio Rojas for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21mexico/merlin_156684312_e1ac025e-8996-45e6-a137-0f1a6f49670e-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Soldiers that are part of the National Guard working at a checkpoint in the state of Chiapas, Mexico.",
+          "copyright": "Luis Antonio Rojas for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2FoMGkr"
+    },
+    {
+      "section": "World",
+      "subsection": "Africa",
+      "title": "500 Vultures Killed in Botswana by Poachers’ Poison, Government Says",
+      "abstract": "As scavengers, vultures can help rangers locate poachers by their presence in the air over freshly killed animals, such as elephants.",
+      "url": "https://www.nytimes.com/2019/06/21/world/africa/vultures-poisoned-botswana-poachers-elephants.html",
+      "byline": "By KIMON de GREEF",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T14:11:57-04:00",
+      "created_date": "2019-06-21T14:11:57-04:00",
+      "published_date": "2019-06-21T14:11:57-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Vultures (Birds)",
+        "Poaching (Wildlife)",
+        "Elephants",
+        "Endangered and Extinct Species"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Botswana"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21vultures/21vultures-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "White-backed and hooded vultures feeding on an elephant carcass in Botswana in 2016.",
+          "copyright": "Beckie Garbett, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21vultures/21vultures-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "White-backed and hooded vultures feeding on an elephant carcass in Botswana in 2016.",
+          "copyright": "Beckie Garbett, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21vultures/merlin_136364325_64c7c427-2fc9-4ff6-b0fd-8624206ac8f0-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "White-backed and hooded vultures feeding on an elephant carcass in Botswana in 2016.",
+          "copyright": "Beckie Garbett, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21vultures/merlin_136364325_64c7c427-2fc9-4ff6-b0fd-8624206ac8f0-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "White-backed and hooded vultures feeding on an elephant carcass in Botswana in 2016.",
+          "copyright": "Beckie Garbett, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21vultures/merlin_136364325_64c7c427-2fc9-4ff6-b0fd-8624206ac8f0-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "White-backed and hooded vultures feeding on an elephant carcass in Botswana in 2016.",
+          "copyright": "Beckie Garbett, via Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/2FpkfTf"
+    },
+    {
+      "section": "World",
+      "subsection": "Middle East",
+      "title": "In Trump’s Iran Response, Some See a Dangerous Ambiguity",
+      "abstract": "As diplomats try to ratchet down tensions, some of them worry that hard-liners in Iran could be emboldened to further test President Trump’s resolve.",
+      "url": "https://www.nytimes.com/2019/06/21/world/middleeast/trump-iran-retaliation.html",
+      "byline": "By DAVID D. KIRKPATRICK",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T20:58:07-04:00",
+      "created_date": "2019-06-21T13:23:18-04:00",
+      "published_date": "2019-06-21T13:23:18-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States International Relations",
+        "Defense and Military Forces",
+        "Embargoes and Sanctions",
+        "Gulf of Oman Incident (June 2019)",
+        "United States Defense and Military Forces",
+        "Drones (Pilotless Planes)",
+        "Nuclear Weapons",
+        "International Relations"
+      ],
+      "org_facet": [
+        "European Union"
+      ],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "Iran",
+        "United States"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21iran-react/21iran-react-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump speaking in the White House with Secretary of State Mike Pompeo and John R. Bolton, the national security adviser, behind him.",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21iran-react/21iran-react-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump speaking in the White House with Secretary of State Mike Pompeo and John R. Bolton, the national security adviser, behind him.",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21iran-react/merlin_156790494_58be0d7c-153f-4534-8a43-59a0e28280c3-articleInline.jpg",
+          "format": "Normal",
+          "height": 125,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump speaking in the White House with Secretary of State Mike Pompeo and John R. Bolton, the national security adviser, behind him.",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21iran-react/21iran-react-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump speaking in the White House with Secretary of State Mike Pompeo and John R. Bolton, the national security adviser, behind him.",
+          "copyright": "Erin Schaff/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21iran-react/merlin_156790494_58be0d7c-153f-4534-8a43-59a0e28280c3-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1352,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Trump speaking in the White House with Secretary of State Mike Pompeo and John R. Bolton, the national security adviser, behind him.",
+          "copyright": "Erin Schaff/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2IyyZ4l"
+    },
+    {
+      "section": "World",
+      "subsection": "Europe",
+      "title": "Who Will Get E.U.’s Top Jobs? Bloc Must Decide How to Fill Them First",
+      "abstract": "In typical European Union style, the bloc’s leaders even disagreed on the process they would follow to reach a decision.",
+      "url": "https://www.nytimes.com/2019/06/21/world/europe/european-union-leadership.html",
+      "byline": "By MATINA STEVIS-GRIDNEFF",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T16:09:06-04:00",
+      "created_date": "2019-06-21T12:48:45-04:00",
+      "published_date": "2019-06-21T12:48:45-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Politics and Government",
+        "Legislatures and Parliaments"
+      ],
+      "org_facet": [
+        "European Union",
+        "European Commission",
+        "European Central Bank",
+        "European Parliament",
+        "European Council"
+      ],
+      "per_facet": [
+        "Juncker, Jean-Claude",
+        "Merkel, Angela",
+        "Tusk, Donald"
+      ],
+      "geo_facet": [
+        "Brussels (Belgium)",
+        "Europe"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21eu-leaders1/21eu-leaders1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "European Union leaders meeting in Brussels on Friday. They said they would convene again next week to assign the bloc’s top jobs.",
+          "copyright": "Pool photo by Stephanie Lecocq"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21eu-leaders1/21eu-leaders1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "European Union leaders meeting in Brussels on Friday. They said they would convene again next week to assign the bloc’s top jobs.",
+          "copyright": "Pool photo by Stephanie Lecocq"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21eu-leaders1/21eu-leaders1-articleInline.jpg",
+          "format": "Normal",
+          "height": 122,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "European Union leaders meeting in Brussels on Friday. They said they would convene again next week to assign the bloc’s top jobs.",
+          "copyright": "Pool photo by Stephanie Lecocq"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21eu-leaders1/21eu-leaders1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "European Union leaders meeting in Brussels on Friday. They said they would convene again next week to assign the bloc’s top jobs.",
+          "copyright": "Pool photo by Stephanie Lecocq"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21eu-leaders1/21eu-leaders1-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1364,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "European Union leaders meeting in Brussels on Friday. They said they would convene again next week to assign the bloc’s top jobs.",
+          "copyright": "Pool photo by Stephanie Lecocq"
+        }
+      ],
+      "short_url": "https://nyti.ms/2KyAnGi"
+    },
+    {
+      "section": "World",
+      "subsection": "Europe",
+      "title": "Spanish Court Sentences Pamplona ‘Wolf Pack’ to 15 Years for Rape",
+      "abstract": "The decision overruled the verdicts of lower courts that had found the men guilty of a lesser charge. That initial ruling led to mass protests.",
+      "url": "https://www.nytimes.com/2019/06/21/world/europe/spain-wolf-pack-pamplona-rape.html",
+      "byline": "By RAPHAEL MINDER",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T21:13:35-04:00",
+      "created_date": "2019-06-21T10:54:49-04:00",
+      "published_date": "2019-06-21T10:54:49-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Sex Crimes",
+        "Decisions and Verdicts",
+        "Sentences (Criminal)",
+        "Women and Girls"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Spain"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21spain-sub/21spain-sub-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ángel Boza leaving a courthouse in Seville, Spain, on Friday. He is one of the five men convicted of gang raping an 18-year-old in Pamplona in 2016.",
+          "copyright": "Marcelo Del Pozo/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21spain-sub/21spain-sub-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ángel Boza leaving a courthouse in Seville, Spain, on Friday. He is one of the five men convicted of gang raping an 18-year-old in Pamplona in 2016.",
+          "copyright": "Marcelo Del Pozo/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21spain-sub/21spain-sub-articleInline.jpg",
+          "format": "Normal",
+          "height": 122,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ángel Boza leaving a courthouse in Seville, Spain, on Friday. He is one of the five men convicted of gang raping an 18-year-old in Pamplona in 2016.",
+          "copyright": "Marcelo Del Pozo/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21spain-sub/21spain-sub-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ángel Boza leaving a courthouse in Seville, Spain, on Friday. He is one of the five men convicted of gang raping an 18-year-old in Pamplona in 2016.",
+          "copyright": "Marcelo Del Pozo/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21spain-sub/merlin_156778371_a682b25d-8cc2-4221-aa4d-ce7338d0694a-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ángel Boza leaving a courthouse in Seville, Spain, on Friday. He is one of the five men convicted of gang raping an 18-year-old in Pamplona in 2016.",
+          "copyright": "Marcelo Del Pozo/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2WYMgat"
+    },
+    {
+      "section": "World",
+      "subsection": "Asia Pacific",
+      "title": "From a Tibetan Filmmaker, an Unvarnished View of His Land",
+      "abstract": "Pema Tseden’s portraits of Tibet are not the heavenly, mist-shrouded Himalayan paradise of popular Western imagination, but an unsentimental view of a windswept plateau on the fringes of modernity.",
+      "url": "https://www.nytimes.com/2019/06/21/world/asia/pema-tseden-tibet-china.html",
+      "byline": "By AMY QIN",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T18:00:34-04:00",
+      "created_date": "2019-06-21T10:30:07-04:00",
+      "published_date": "2019-06-21T10:30:07-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Movies",
+        "Censorship",
+        "Language and Languages",
+        "Jinpa (Movie)",
+        "Tharlo (Movie)"
+      ],
+      "org_facet": [
+        "Beijing Film Academy"
+      ],
+      "per_facet": [
+        "Tseden, Pema"
+      ],
+      "geo_facet": [
+        "Tibet",
+        "China"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/05/31/world/00tibet-film-hppromo/00tibet-film-hppromo-thumbStandard-v2.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Tibetan filmmaker Pema Tseden, shown at his Beijing apartment, has managed to make realistic movies about Tibet without being muzzled by China’s censors.",
+          "copyright": "Gilles Sabrié for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/05/31/world/00tibet-film-hppromo/00tibet-film-hppromo-thumbLarge-v2.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Tibetan filmmaker Pema Tseden, shown at his Beijing apartment, has managed to make realistic movies about Tibet without being muzzled by China’s censors.",
+          "copyright": "Gilles Sabrié for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/05/31/world/00tibet-film-hppromo/00tibet-film-hppromo-articleInline-v2.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Tibetan filmmaker Pema Tseden, shown at his Beijing apartment, has managed to make realistic movies about Tibet without being muzzled by China’s censors.",
+          "copyright": "Gilles Sabrié for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/05/31/world/00tibet-film-hppromo/00tibet-film-hppromo-mediumThreeByTwo210-v2.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Tibetan filmmaker Pema Tseden, shown at his Beijing apartment, has managed to make realistic movies about Tibet without being muzzled by China’s censors.",
+          "copyright": "Gilles Sabrié for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/05/31/world/00tibet-film-hppromo/00tibet-film-hppromo-superJumbo-v2.jpg",
+          "format": "superJumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Tibetan filmmaker Pema Tseden, shown at his Beijing apartment, has managed to make realistic movies about Tibet without being muzzled by China’s censors.",
+          "copyright": "Gilles Sabrié for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2FiLsqP"
+    },
+    {
+      "section": "Travel",
+      "subsection": "",
+      "title": "Five Places to Visit in Barcelona",
+      "abstract": "The author Carlos Ruiz Zafón offers a travel guide to his hometown with a darker spin on some familiar spots.",
+      "url": "https://www.nytimes.com/2019/06/21/travel/five-places-to-visit-in-barcelona-carlos-ruiz-zafon.html",
+      "byline": "By LAUREN SLOSS",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T09:00:03-04:00",
+      "created_date": "2019-06-21T09:00:03-04:00",
+      "published_date": "2019-06-21T09:00:03-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Travel and Vacations",
+        "Books and Literature"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Ruiz Zafon, Carlos"
+      ],
+      "geo_facet": [
+        "Barcelona (Spain)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/travel/21Barcelona-5Places5/merlin_156083370_f3c6e8e3-8aa6-4daa-8c1a-c4da24c2a58c-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A statue at the Cementiri de Montjüic in Barcelona. “I still love the place, no matter how creepy it is,” the Barcelona-born novelist Carlos Ruiz Zafón said of one of his favorite spots.",
+          "copyright": "Natalia Wisniewska for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/travel/21Barcelona-5Places5/merlin_156083370_f3c6e8e3-8aa6-4daa-8c1a-c4da24c2a58c-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A statue at the Cementiri de Montjüic in Barcelona. “I still love the place, no matter how creepy it is,” the Barcelona-born novelist Carlos Ruiz Zafón said of one of his favorite spots.",
+          "copyright": "Natalia Wisniewska for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/travel/21Barcelona-5Places5/merlin_156083370_f3c6e8e3-8aa6-4daa-8c1a-c4da24c2a58c-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A statue at the Cementiri de Montjüic in Barcelona. “I still love the place, no matter how creepy it is,” the Barcelona-born novelist Carlos Ruiz Zafón said of one of his favorite spots.",
+          "copyright": "Natalia Wisniewska for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/travel/21Barcelona-5Places5/merlin_156083370_f3c6e8e3-8aa6-4daa-8c1a-c4da24c2a58c-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A statue at the Cementiri de Montjüic in Barcelona. “I still love the place, no matter how creepy it is,” the Barcelona-born novelist Carlos Ruiz Zafón said of one of his favorite spots.",
+          "copyright": "Natalia Wisniewska for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/travel/21Barcelona-5Places5/merlin_156083370_f3c6e8e3-8aa6-4daa-8c1a-c4da24c2a58c-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A statue at the Cementiri de Montjüic in Barcelona. “I still love the place, no matter how creepy it is,” the Barcelona-born novelist Carlos Ruiz Zafón said of one of his favorite spots.",
+          "copyright": "Natalia Wisniewska for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2FiumcD"
+    },
+    {
+      "section": "World",
+      "subsection": "Middle East",
+      "title": "Airlines Divert Flights Around Iran After U.S. Drone Is Shot Down",
+      "abstract": "As diplomats try to ratchet down tensions, global airlines are broadly rerouting flights around Iran and nearby waterways.",
+      "url": "https://www.nytimes.com/2019/06/21/world/middleeast/airlines-drone-attack-iran.html",
+      "byline": "By MEGAN SPECIA",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T17:13:25-04:00",
+      "created_date": "2019-06-21T05:45:56-04:00",
+      "published_date": "2019-06-21T05:45:56-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Politics and Government",
+        "Drones (Pilotless Planes)"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "Iran",
+        "Tehran (Iran)",
+        "United States"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21iran/21iran-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A handout image from Iran state television’s English service Press TV, said to show the firing of a surface-to-air missile at an American surveillance drone.",
+          "copyright": "Press TV"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21iran/21iran-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A handout image from Iran state television’s English service Press TV, said to show the firing of a surface-to-air missile at an American surveillance drone.",
+          "copyright": "Press TV"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21iran/21iran-articleInline.jpg",
+          "format": "Normal",
+          "height": 121,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A handout image from Iran state television’s English service Press TV, said to show the firing of a surface-to-air missile at an American surveillance drone.",
+          "copyright": "Press TV"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21iran/21iran-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A handout image from Iran state television’s English service Press TV, said to show the firing of a surface-to-air missile at an American surveillance drone.",
+          "copyright": "Press TV"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21iran/21iran-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 937,
+          "width": 1404,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A handout image from Iran state television’s English service Press TV, said to show the firing of a surface-to-air missile at an American surveillance drone.",
+          "copyright": "Press TV"
+        }
+      ],
+      "short_url": "https://nyti.ms/2XZNm76"
+    },
+    {
+      "section": "Briefing",
+      "subsection": "",
+      "title": "Iran, N.B.A. Draft, ‘Toy Story’: Your Friday Briefing",
+      "abstract": "Here’s what you need to know.",
+      "url": "https://www.nytimes.com/2019/06/21/briefing/iran-nba-draft-toy-story.html",
+      "byline": "By CHRIS STANFORD",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T09:59:07-04:00",
+      "created_date": "2019-06-21T05:20:15-04:00",
+      "published_date": "2019-06-21T05:20:15-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21usbrifing_amcore/21usbrifing_trump-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21usbrifing_amcore/21usbrifing_trump-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21usbrifing_amcore/21usbrifing_trump-articleInline.jpg",
+          "format": "Normal",
+          "height": 118,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21usbrifing_amcore/21usbrifing_trump-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21usbrifing_amcore/21usbrifing_amcore-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 188,
+          "width": 624,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/2Fmp2F0"
+    },
+    {
+      "section": "The Weekly",
+      "subsection": "",
+      "title": "When ISIS Killed Cyclists on Their Journey Around the World",
+      "abstract": "Watch our new TV show from The New York Times on FX and Hulu",
+      "url": "https://www.nytimes.com/2019/06/21/the-weekly/isis-bike-attack-tajikistan.html",
+      "byline": "",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T12:17:49-04:00",
+      "created_date": "2019-06-21T05:00:10-04:00",
+      "published_date": "2019-06-21T05:00:10-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Terrorism",
+        "Television",
+        "Bicycles and Bicycling",
+        "The Weekly (TV Program)"
+      ],
+      "org_facet": [
+        "FX (TV Network)",
+        "Georgetown University",
+        "Hulu.com",
+        "Islamic State in Iraq and Syria (ISIS)",
+        "New York Times"
+      ],
+      "per_facet": [
+        "Callimachi, Rukmini Maria (1973- )",
+        "Geoghegan, Lauren",
+        "Austin, Jay"
+      ],
+      "geo_facet": [
+        "Tajikistan",
+        "Georgia",
+        "Washington (DC)"
+      ],
+      "multimedia": [],
+      "short_url": "https://nyti.ms/2Fnnf2H"
+    },
+    {
+      "section": "World",
+      "subsection": "Australia",
+      "title": "Sydney to Declare a Climate Emergency in Face of National Inaction",
+      "abstract": "The mayor said it was important that Australia’s largest city, which has already made ambitious pledges to reduce greenhouse emissions, raise its voice in a global demand for action.",
+      "url": "https://www.nytimes.com/2019/06/21/world/australia/sydney-climate-emergency.html",
+      "byline": "By ISABELLA KWAI",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T04:38:47-04:00",
+      "created_date": "2019-06-21T04:37:05-04:00",
+      "published_date": "2019-06-21T04:37:05-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Global Warming",
+        "Politics and Government"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Australia",
+        "Sydney (Australia)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21oz-climate-1/21oz-climate-1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Students and other demonstrators at a climate rally in Sydney, Australia, in March.",
+          "copyright": "Mick Tsikas/EPA, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21oz-climate-1/21oz-climate-1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Students and other demonstrators at a climate rally in Sydney, Australia, in March.",
+          "copyright": "Mick Tsikas/EPA, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21oz-climate-1/merlin_152095281_819542b6-6e13-4059-95ff-4abd3f9cd549-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Students and other demonstrators at a climate rally in Sydney, Australia, in March.",
+          "copyright": "Mick Tsikas/EPA, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21oz-climate-1/merlin_152095281_819542b6-6e13-4059-95ff-4abd3f9cd549-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Students and other demonstrators at a climate rally in Sydney, Australia, in March.",
+          "copyright": "Mick Tsikas/EPA, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21oz-climate-1/merlin_152095281_819542b6-6e13-4059-95ff-4abd3f9cd549-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Students and other demonstrators at a climate rally in Sydney, Australia, in March.",
+          "copyright": "Mick Tsikas/EPA, via Shutterstock"
+        }
+      ],
+      "short_url": "https://nyti.ms/2Rs4akx"
+    },
+    {
+      "section": "World",
+      "subsection": "Asia Pacific",
+      "title": "Taiwan’s iPhone Tycoon Walks a Fraught U.S.-China Line in His Presidential Run",
+      "abstract": "Terry Gou, who stepped back from his electronics empire on Friday, must strike a balance between the Washington and Beijing as the trade war simmers.",
+      "url": "https://www.nytimes.com/2019/06/21/world/asia/taiwan-terry-gou-foxconn-president-iphone.html",
+      "byline": "By CHRIS HORTON",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T14:17:18-04:00",
+      "created_date": "2019-06-21T03:15:34-04:00",
+      "published_date": "2019-06-21T03:15:34-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "International Relations"
+      ],
+      "org_facet": [
+        "Apple Inc",
+        "Chinese Nationalist Party (Taiwan)",
+        "Foxconn Technology"
+      ],
+      "per_facet": [
+        "Gou, Terry (1950- )"
+      ],
+      "geo_facet": [
+        "Taiwan"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/22/world/22taiwan-guo/00taiwan-guo-top-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Terry Gou built Foxconn by straddling the gap between the United States and China, but would have to do that on a larger and more difficult scale if he became president of Taiwan.",
+          "copyright": "Tyrone Siu/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/22/world/22taiwan-guo/00taiwan-guo-top-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Terry Gou built Foxconn by straddling the gap between the United States and China, but would have to do that on a larger and more difficult scale if he became president of Taiwan.",
+          "copyright": "Tyrone Siu/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/22/world/22taiwan-guo/merlin_156717381_854c5ab6-0b8f-4032-ae9f-c979e50207a8-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Terry Gou built Foxconn by straddling the gap between the United States and China, but would have to do that on a larger and more difficult scale if he became president of Taiwan.",
+          "copyright": "Tyrone Siu/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/22/world/22taiwan-guo/merlin_156717381_854c5ab6-0b8f-4032-ae9f-c979e50207a8-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Terry Gou built Foxconn by straddling the gap between the United States and China, but would have to do that on a larger and more difficult scale if he became president of Taiwan.",
+          "copyright": "Tyrone Siu/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/22/world/22taiwan-guo/merlin_156717381_854c5ab6-0b8f-4032-ae9f-c979e50207a8-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Terry Gou built Foxconn by straddling the gap between the United States and China, but would have to do that on a larger and more difficult scale if he became president of Taiwan.",
+          "copyright": "Tyrone Siu/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2ZAq5Jc"
+    },
+    {
+      "section": "Briefing",
+      "subsection": "",
+      "title": "Iran, North Korea, British Prime Minister: Your Friday Briefing",
+      "abstract": "Here’s what you need to know.",
+      "url": "https://www.nytimes.com/2019/06/20/briefing/iran-north-korea-british-prime-minister.html",
+      "byline": "By MELINA DELKIC",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T01:27:56-04:00",
+      "created_date": "2019-06-20T23:58:13-04:00",
+      "published_date": "2019-06-20T23:58:13-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States International Relations",
+        "Defense and Military Forces",
+        "Drones (Pilotless Planes)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Iran"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/briefing/21ambriefing-euro-promo/21ambriefing-euro-slide-H194-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Jeff Overs/BBC"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/briefing/21ambriefing-euro-promo/21ambriefing-euro-slide-H194-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Jeff Overs/BBC"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/briefing/21ambriefing-euro-promo/21ambriefing-euro-slide-H194-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Jeff Overs/BBC"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/briefing/21ambriefing-euro-promo/21ambriefing-euro-slide-H194-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Jeff Overs/BBC"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/briefing/21ambriefing-euro-promo/21ambriefing-euro-promo-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 188,
+          "width": 624,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Jeff Overs/BBC"
+        }
+      ],
+      "short_url": "https://nyti.ms/31OYLci"
+    },
+    {
+      "section": "World",
+      "subsection": "Australia",
+      "title": "What I Learned Watching My Father Watch the Hong Kong Protests",
+      "abstract": "Hong Kong has been galvanized by mass protests over the last two weeks. Those who grew up there and left are experiencing a wide range of emotions.",
+      "url": "https://www.nytimes.com/2019/06/20/world/australia/hong-kong-demonstrations.html",
+      "byline": "By ISABELLA KWAI",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T00:48:47-04:00",
+      "created_date": "2019-06-20T22:41:06-04:00",
+      "published_date": "2019-06-20T22:41:06-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Politics and Government",
+        "Demonstrations, Protests and Riots",
+        "Immigration and Emigration",
+        "Youth"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Australia",
+        "Hong Kong"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/16/world/21australialetter112-1/16hk-photos4-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Hong Kong’s chief executive apologized to the public on Sunday after a surprisingly large and defiant crowd poured onto the streets and converged on government offices.",
+          "copyright": "Lam Yik Fei for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/16/world/21australialetter112-1/16hk-photos4-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Hong Kong’s chief executive apologized to the public on Sunday after a surprisingly large and defiant crowd poured onto the streets and converged on government offices.",
+          "copyright": "Lam Yik Fei for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/16/world/21australialetter112-1/merlin_156536337_e548a46f-cb51-481a-a01b-e09d879b2054-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Hong Kong’s chief executive apologized to the public on Sunday after a surprisingly large and defiant crowd poured onto the streets and converged on government offices.",
+          "copyright": "Lam Yik Fei for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/16/world/21australialetter112-1/merlin_156536337_e548a46f-cb51-481a-a01b-e09d879b2054-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Hong Kong’s chief executive apologized to the public on Sunday after a surprisingly large and defiant crowd poured onto the streets and converged on government offices.",
+          "copyright": "Lam Yik Fei for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/16/world/21australialetter112-1/merlin_156536337_e548a46f-cb51-481a-a01b-e09d879b2054-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Hong Kong’s chief executive apologized to the public on Sunday after a surprisingly large and defiant crowd poured onto the streets and converged on government offices.",
+          "copyright": "Lam Yik Fei for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/31O7I5i"
+    },
+    {
+      "section": "Briefing",
+      "subsection": "",
+      "title": "Iran, Biden, World Cup: Your Thursday Evening Briefing",
+      "abstract": "Here’s what you need to know at the end of the day.",
+      "url": "https://www.nytimes.com/2019/06/20/briefing/iran-biden-world-cup.html",
+      "byline": "By ALEXANDRIA SYMONDS and MARCUS PAYADUE",
+      "item_type": "Article",
+      "updated_date": "2019-06-20T18:47:55-04:00",
+      "created_date": "2019-06-20T17:58:26-04:00",
+      "published_date": "2019-06-20T17:58:26-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/briefing/c20PM-briefing-us-ss-core/20PM-briefing-us-ss-slide-9L0V-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/briefing/c20PM-briefing-us-ss-core/20PM-briefing-us-ss-slide-9L0V-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/briefing/c20PM-briefing-us-ss-core/20PM-briefing-us-ss-slide-9L0V-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/briefing/c20PM-briefing-us-ss-core/20PM-briefing-us-ss-slide-9L0V-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/briefing/c20PM-briefing-us-ss-core/c20PM-briefing-us-ss-core-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 188,
+          "width": 624,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/2RuKCMr"
+    },
+    {
+      "section": "World",
+      "subsection": "Europe",
+      "title": "Turkey Jails 151 for Life for Roles in Failed 2016 Coup",
+      "abstract": "Those sentenced include a former commander of the Turkish Air Force and 17 men who were found guilty of attempting to kill the president.",
+      "url": "https://www.nytimes.com/2019/06/20/world/europe/turkey-coup-2016-trial-life-sentences.html",
+      "byline": "By CARLOTTA GALL",
+      "item_type": "Article",
+      "updated_date": "2019-06-20T18:24:22-04:00",
+      "created_date": "2019-06-20T17:46:54-04:00",
+      "published_date": "2019-06-20T17:46:54-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Coups D'Etat and Attempted Coups D'Etat"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Erdogan, Recep Tayyip",
+        "Gulen, Fethullah"
+      ],
+      "geo_facet": [
+        "Istanbul (Turkey)",
+        "Turkey"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20turkey1/20turkey1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gen. Akin Ozturk, center, and other defendants arriving in 2017 for their trial in a court near Ankara.",
+          "copyright": "Adem Altan/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20turkey1/20turkey1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gen. Akin Ozturk, center, and other defendants arriving in 2017 for their trial in a court near Ankara.",
+          "copyright": "Adem Altan/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20turkey1/merlin_125458484_eca0f116-3553-4dda-80a6-022852af4a55-articleInline.jpg",
+          "format": "Normal",
+          "height": 120,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gen. Akin Ozturk, center, and other defendants arriving in 2017 for their trial in a court near Ankara.",
+          "copyright": "Adem Altan/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20turkey1/20turkey1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gen. Akin Ozturk, center, and other defendants arriving in 2017 for their trial in a court near Ankara.",
+          "copyright": "Adem Altan/Agence France-Presse — Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20turkey1/merlin_125458484_eca0f116-3553-4dda-80a6-022852af4a55-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1297,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Gen. Akin Ozturk, center, and other defendants arriving in 2017 for their trial in a court near Ankara.",
+          "copyright": "Adem Altan/Agence France-Presse — Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/31Kyiwa"
+    },
+    {
+      "section": "Climate",
+      "subsection": "",
+      "title": "E.U. Leaders Fail to Strengthen Climate Target",
+      "abstract": "A proposal to reduce the 28-country bloc's net carbon emissions to zero by 2050 failed when eastern countries that are heavily dependent on coal raised objections.",
+      "url": "https://www.nytimes.com/2019/06/20/climate/europe-carbon-neutral.html",
+      "byline": "By MILAN SCHREUER",
+      "item_type": "Article",
+      "updated_date": "2019-06-20T23:45:24-04:00",
+      "created_date": "2019-06-20T17:31:42-04:00",
+      "published_date": "2019-06-20T17:31:42-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Environment",
+        "Global Warming",
+        "Greenhouse Gas Emissions",
+        "Carbon Dioxide",
+        "Coal"
+      ],
+      "org_facet": [
+        "European Union",
+        "European Parliament"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/science/20CLI-EUROPECLIMATE/20CLI-EUROPECLIMATE-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Prime Minister Mateusz Morawiecki of Poland on Thursday in Brussels at the European Union summit meeting.",
+          "copyright": "Yves Herman/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/science/20CLI-EUROPECLIMATE/20CLI-EUROPECLIMATE-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Prime Minister Mateusz Morawiecki of Poland on Thursday in Brussels at the European Union summit meeting.",
+          "copyright": "Yves Herman/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/science/20CLI-EUROPECLIMATE/merlin_156722541_4c430d1a-f520-43c9-82dd-f46ad46465c4-articleInline.jpg",
+          "format": "Normal",
+          "height": 130,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Prime Minister Mateusz Morawiecki of Poland on Thursday in Brussels at the European Union summit meeting.",
+          "copyright": "Yves Herman/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/science/20CLI-EUROPECLIMATE/20CLI-EUROPECLIMATE-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Prime Minister Mateusz Morawiecki of Poland on Thursday in Brussels at the European Union summit meeting.",
+          "copyright": "Yves Herman/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/science/20CLI-EUROPECLIMATE/merlin_156722541_4c430d1a-f520-43c9-82dd-f46ad46465c4-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1405,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Prime Minister Mateusz Morawiecki of Poland on Thursday in Brussels at the European Union summit meeting.",
+          "copyright": "Yves Herman/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/31NxXcn"
+    },
+    {
+      "section": "Briefing",
+      "subsection": "",
+      "title": "Iran, North Korea, India: Your Friday Briefing",
+      "abstract": "Iran downs a U.S. drone.",
+      "url": "https://www.nytimes.com/2019/06/20/briefing/iran-north-korea-india.html",
+      "byline": "By ALISHA HARIDASANI GUPTA",
+      "item_type": "Article",
+      "updated_date": "2019-06-20T18:16:30-04:00",
+      "created_date": "2019-06-20T16:41:49-04:00",
+      "published_date": "2019-06-20T16:41:49-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21ambriefing_asia_promo/590ae7aad2bb4c8b8a147cbfcc7d971f-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Kevin Frayer/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21ambriefing_asia_promo/590ae7aad2bb4c8b8a147cbfcc7d971f-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Kevin Frayer/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21ambriefing_asia_promo/590ae7aad2bb4c8b8a147cbfcc7d971f-articleInline.jpg",
+          "format": "Normal",
+          "height": 118,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Kevin Frayer/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21ambriefing_asia_promo/590ae7aad2bb4c8b8a147cbfcc7d971f-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Kevin Frayer/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/21/world/21ambriefing_asia_promo/21ambriefing_asia_promo-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 188,
+          "width": 624,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Kevin Frayer/Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/31HOJtb"
+    },
+    {
+      "section": "Magazine",
+      "subsection": "",
+      "title": "Afghan War Casualty Report: June 14-20",
+      "abstract": "At least seven pro-government forces and seven civilians were killed in Afghanistan during the past week.",
+      "url": "https://www.nytimes.com/2019/06/20/magazine/afghan-war-casualty-report-june-14-20.html",
+      "byline": "By FAHIM ABED",
+      "item_type": "Article",
+      "updated_date": "2019-06-20T15:04:08-04:00",
+      "created_date": "2019-06-20T15:04:01-04:00",
+      "published_date": "2019-06-20T15:04:01-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Civilian Casualties",
+        "Afghanistan War (2001- )"
+      ],
+      "org_facet": [
+        "Afghan Air Force",
+        "Taliban",
+        "Afghan National Security Forces"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "Afghanistan"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/magazine/20atwar-casualtyreport/merlin_156715062_6d850b35-4513-4f00-956f-fcc139640bce-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The site of a bombing in Jalalabad, Afghanistan, on June 20, 2019.",
+          "copyright": "Ghulamullah Habibi/EPA, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/magazine/20atwar-casualtyreport/merlin_156715062_6d850b35-4513-4f00-956f-fcc139640bce-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The site of a bombing in Jalalabad, Afghanistan, on June 20, 2019.",
+          "copyright": "Ghulamullah Habibi/EPA, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/magazine/20atwar-casualtyreport/merlin_156715062_6d850b35-4513-4f00-956f-fcc139640bce-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The site of a bombing in Jalalabad, Afghanistan, on June 20, 2019.",
+          "copyright": "Ghulamullah Habibi/EPA, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/magazine/20atwar-casualtyreport/merlin_156715062_6d850b35-4513-4f00-956f-fcc139640bce-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The site of a bombing in Jalalabad, Afghanistan, on June 20, 2019.",
+          "copyright": "Ghulamullah Habibi/EPA, via Shutterstock"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/magazine/20atwar-casualtyreport/merlin_156715062_6d850b35-4513-4f00-956f-fcc139640bce-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The site of a bombing in Jalalabad, Afghanistan, on June 20, 2019.",
+          "copyright": "Ghulamullah Habibi/EPA, via Shutterstock"
+        }
+      ],
+      "short_url": "https://nyti.ms/2XsaeyX"
+    },
+    {
+      "section": "World",
+      "subsection": "Asia Pacific",
+      "title": "Christchurch Victims Say New Zealand Has Fallen Short of Lofty Promises",
+      "abstract": "The government’s swift response to the massacre drew global praise. It also raised expectations among the victims that they say are now evaporating in the face of bureaucracy.",
+      "url": "https://www.nytimes.com/2019/06/20/world/asia/christchurch-mosque-victims.html",
+      "byline": "By CHARLOTTE GRAHAM-McLAY",
+      "item_type": "Article",
+      "updated_date": "2019-06-20T15:00:09-04:00",
+      "created_date": "2019-06-20T15:00:09-04:00",
+      "published_date": "2019-06-20T15:00:09-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Christchurch, New Zealand, Attack (March 2019)",
+        "Terrorism",
+        "Mosques",
+        "Philanthropy",
+        "Politics and Government",
+        "Murders, Attempted Murders and Homicides"
+      ],
+      "org_facet": [
+        "Al Noor Mosque (Christchurch, New Zealand)"
+      ],
+      "per_facet": [
+        "Ardern, Jacinda"
+      ],
+      "geo_facet": [
+        "New Zealand",
+        "Christchurch (New Zealand)",
+        "Australia"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20nz-victims-1/20nz-victims-1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Temel Atacocugu, who has lived in New Zealand for a decade, was shot nine times at Al Noor mosque in Christchurch in March. He is waiting for visa approval for his mother and nephew from Turkey so they can help care for him.",
+          "copyright": "Matthew Abbott for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20nz-victims-1/20nz-victims-1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Temel Atacocugu, who has lived in New Zealand for a decade, was shot nine times at Al Noor mosque in Christchurch in March. He is waiting for visa approval for his mother and nephew from Turkey so they can help care for him.",
+          "copyright": "Matthew Abbott for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20nz-victims-1/merlin_156579621_172130f5-dc90-4c5a-8ef0-c9070ad9ec5c-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Temel Atacocugu, who has lived in New Zealand for a decade, was shot nine times at Al Noor mosque in Christchurch in March. He is waiting for visa approval for his mother and nephew from Turkey so they can help care for him.",
+          "copyright": "Matthew Abbott for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20nz-victims-1/merlin_156579621_172130f5-dc90-4c5a-8ef0-c9070ad9ec5c-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Temel Atacocugu, who has lived in New Zealand for a decade, was shot nine times at Al Noor mosque in Christchurch in March. He is waiting for visa approval for his mother and nephew from Turkey so they can help care for him.",
+          "copyright": "Matthew Abbott for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20nz-victims-1/merlin_156579621_172130f5-dc90-4c5a-8ef0-c9070ad9ec5c-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Temel Atacocugu, who has lived in New Zealand for a decade, was shot nine times at Al Noor mosque in Christchurch in March. He is waiting for visa approval for his mother and nephew from Turkey so they can help care for him.",
+          "copyright": "Matthew Abbott for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2Xmwryt"
+    },
+    {
+      "section": "Business",
+      "subsection": "",
+      "title": "A ‘Sorceress’ in Brazil, a ‘Wink’ in India: Walmart Pleads Guilty After a Decade of Bribes",
+      "abstract": "A settlement ends an inquiry into the retailer’s dealings with government officials around the globe, which came after a New York Times report in 2012.",
+      "url": "https://www.nytimes.com/2019/06/20/business/walmart-bribery-settlement.html",
+      "byline": "By MICHAEL CORKERY",
+      "item_type": "Article",
+      "updated_date": "2019-06-20T20:02:42-04:00",
+      "created_date": "2019-06-20T14:36:20-04:00",
+      "published_date": "2019-06-20T14:36:20-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Fines (Penalties)",
+        "Bribery and Kickbacks",
+        "Foreign Corrupt Practices Act (1977)"
+      ],
+      "org_facet": [
+        "Walmart Stores Inc",
+        "Securities and Exchange Commission"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "Brazil",
+        "India",
+        "Mexico"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/business/20walmart/20walmart-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The settlement Walmart reached with the Department of Justice and the Securities and Exchange Commission caps one of the biggest investigations ever under the Foreign Corrupt Practices Act, which makes it illegal for American corporations to bribe foreign officials.",
+          "copyright": "Kamil Krzaczynski/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/business/20walmart/20walmart-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The settlement Walmart reached with the Department of Justice and the Securities and Exchange Commission caps one of the biggest investigations ever under the Foreign Corrupt Practices Act, which makes it illegal for American corporations to bribe foreign officials.",
+          "copyright": "Kamil Krzaczynski/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/business/20walmart/merlin_156365106_0a2cc452-a7a3-44f7-8508-54a12cbf50ae-articleInline.jpg",
+          "format": "Normal",
+          "height": 123,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The settlement Walmart reached with the Department of Justice and the Securities and Exchange Commission caps one of the biggest investigations ever under the Foreign Corrupt Practices Act, which makes it illegal for American corporations to bribe foreign officials.",
+          "copyright": "Kamil Krzaczynski/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/business/20walmart/20walmart-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The settlement Walmart reached with the Department of Justice and the Securities and Exchange Commission caps one of the biggest investigations ever under the Foreign Corrupt Practices Act, which makes it illegal for American corporations to bribe foreign officials.",
+          "copyright": "Kamil Krzaczynski/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/business/20walmart/merlin_156365106_0a2cc452-a7a3-44f7-8508-54a12cbf50ae-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1328,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The settlement Walmart reached with the Department of Justice and the Securities and Exchange Commission caps one of the biggest investigations ever under the Foreign Corrupt Practices Act, which makes it illegal for American corporations to bribe foreign officials.",
+          "copyright": "Kamil Krzaczynski/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2ZyYOXx"
+    },
+    {
+      "section": "Science",
+      "subsection": "",
+      "title": "Would You Return This Lost Wallet?",
+      "abstract": "An intriguing new study found that people across the world are more inclined to give back a lost wallet if there is money inside.",
+      "url": "https://www.nytimes.com/2019/06/20/science/lost-wallet-what-to-do.html",
+      "byline": "By PAM BELLUCK",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T05:54:25-04:00",
+      "created_date": "2019-06-20T14:00:11-04:00",
+      "published_date": "2019-06-20T14:00:11-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Lost and Found Property",
+        "wallet",
+        "Altruism",
+        "Research",
+        "Ethics (Personal)",
+        "your-feed-science"
+      ],
+      "org_facet": [
+        "Science (Journal)"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/science/20wallet2/merlin_156729945_74696032-f5b2-45f5-9179-265d63dd6874-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Andriy Popov/Alamy"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/science/20wallet2/merlin_156729945_74696032-f5b2-45f5-9179-265d63dd6874-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Andriy Popov/Alamy"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/science/20wallet2/merlin_156729945_74696032-f5b2-45f5-9179-265d63dd6874-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Andriy Popov/Alamy"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/science/20wallet2/merlin_156729945_74696032-f5b2-45f5-9179-265d63dd6874-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Andriy Popov/Alamy"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/science/20wallet2/merlin_156729945_74696032-f5b2-45f5-9179-265d63dd6874-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Andriy Popov/Alamy"
+        }
+      ],
+      "short_url": "https://nyti.ms/2RoOped"
+    },
+    {
+      "section": "World",
+      "subsection": "Europe",
+      "title": "Russian Discontent Surfaces in Putin’s Annual Call-in Show",
+      "abstract": "The curated questions were not all that critical, but some screen texts were. “Just one question,” one of them read. “When will you leave?”",
+      "url": "https://www.nytimes.com/2019/06/20/world/europe/putin-call-in-protests-discontent.html",
+      "byline": "By NEIL MacFARQUHAR",
+      "item_type": "Article",
+      "updated_date": "2019-06-20T23:47:15-04:00",
+      "created_date": "2019-06-20T13:53:59-04:00",
+      "published_date": "2019-06-20T13:53:59-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Politics and Government",
+        "Polls and Public Opinion",
+        "Police Brutality, Misconduct and Shootings"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Putin, Vladimir V",
+        "Golunov, Ivan"
+      ],
+      "geo_facet": [
+        "Russia",
+        "Moscow (Russia)"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20russia-putin/2orussia-putin-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Vladimir V. Putin at his annual televised phone-in show on Thursday.",
+          "copyright": "Alexey Nikolsky/Sputnik, via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20russia-putin/2orussia-putin-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Vladimir V. Putin at his annual televised phone-in show on Thursday.",
+          "copyright": "Alexey Nikolsky/Sputnik, via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20russia-putin/merlin_156718896_ccdd6561-ee0e-47db-a266-e15e8a77e83f-articleInline.jpg",
+          "format": "Normal",
+          "height": 131,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Vladimir V. Putin at his annual televised phone-in show on Thursday.",
+          "copyright": "Alexey Nikolsky/Sputnik, via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20russia-putin/20russia-putin-mediumThreeByTwo210-v2.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Vladimir V. Putin at his annual televised phone-in show on Thursday.",
+          "copyright": "Alexey Nikolsky/Sputnik, via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20russia-putin/merlin_156718896_ccdd6561-ee0e-47db-a266-e15e8a77e83f-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1410,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Vladimir V. Putin at his annual televised phone-in show on Thursday.",
+          "copyright": "Alexey Nikolsky/Sputnik, via Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2Xrcerc"
+    },
+    {
+      "section": "World",
+      "subsection": "Europe",
+      "title": "Fight to Lead the U.K. Narrows to 2: Boris Johnson vs. Jeremy Hunt",
+      "abstract": "Foreign secretary Jeremy Hunt finished second in a vote among Tory lawmakers, keeping him in the race. But critics call him “Theresa May in trousers.”",
+      "url": "https://www.nytimes.com/2019/06/20/world/europe/boris-johnson-jeremy-hunt.html",
+      "byline": "By STEPHEN CASTLE",
+      "item_type": "Article",
+      "updated_date": "2019-06-20T21:09:44-04:00",
+      "created_date": "2019-06-20T13:11:55-04:00",
+      "published_date": "2019-06-20T13:11:55-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Politics and Government",
+        "Elections",
+        "Great Britain Withdrawal from EU (Brexit)"
+      ],
+      "org_facet": [
+        "Conservative Party (Great Britain)"
+      ],
+      "per_facet": [
+        "Hunt, Jeremy",
+        "Gove, Michael Andrew",
+        "Johnson, Boris"
+      ],
+      "geo_facet": [
+        "Great Britain"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20torieshunt1/20torieshunt1-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Jeremy Hunt, the foreign secretary and a candidate to lead the Conservative Party and become the next prime minister, in London last week.",
+          "copyright": "Toby Melville/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20torieshunt1/20torieshunt1-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Jeremy Hunt, the foreign secretary and a candidate to lead the Conservative Party and become the next prime minister, in London last week.",
+          "copyright": "Toby Melville/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20torieshunt1/merlin_156485634_17a791ca-793d-4efe-b05a-6898d8d726c0-articleInline.jpg",
+          "format": "Normal",
+          "height": 133,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Jeremy Hunt, the foreign secretary and a candidate to lead the Conservative Party and become the next prime minister, in London last week.",
+          "copyright": "Toby Melville/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20torieshunt1/20torieshunt1-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Jeremy Hunt, the foreign secretary and a candidate to lead the Conservative Party and become the next prime minister, in London last week.",
+          "copyright": "Toby Melville/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20torieshunt1/merlin_156485634_17a791ca-793d-4efe-b05a-6898d8d726c0-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1436,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Jeremy Hunt, the foreign secretary and a candidate to lead the Conservative Party and become the next prime minister, in London last week.",
+          "copyright": "Toby Melville/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2RqUBCD"
+    },
+    {
+      "section": "World",
+      "subsection": "Middle East",
+      "title": "Hamas Leader Says Israel Isn’t Upholding Cease-Fire Terms",
+      "abstract": "Ismail Haniya said Israel was delaying the easing of restrictions on border-crossers and arbitrarily modifying fishing zones as a “form of blackmail.”",
+      "url": "https://www.nytimes.com/2019/06/20/world/middleeast/hamas-israel-gaza-cease-fire.html",
+      "byline": "By DAVID M. HALBFINGER",
+      "item_type": "Article",
+      "updated_date": "2019-06-20T23:35:37-04:00",
+      "created_date": "2019-06-20T12:58:14-04:00",
+      "published_date": "2019-06-20T12:58:14-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Economic Conditions and Trends",
+        "Palestinians",
+        "Defense and Military Forces"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Haniya, Ismail",
+        "Netanyahu, Benjamin"
+      ],
+      "geo_facet": [
+        "Gaza Strip",
+        "Israel"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20hamas/20hamas-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ismail Haniya, Hamas’s leader, at a rare news conference in Gaza City on Thursday.",
+          "copyright": "Mohammed Salem/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20hamas/20hamas-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ismail Haniya, Hamas’s leader, at a rare news conference in Gaza City on Thursday.",
+          "copyright": "Mohammed Salem/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20hamas/20hamas-articleInline.jpg",
+          "format": "Normal",
+          "height": 124,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ismail Haniya, Hamas’s leader, at a rare news conference in Gaza City on Thursday.",
+          "copyright": "Mohammed Salem/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20hamas/20hamas-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ismail Haniya, Hamas’s leader, at a rare news conference in Gaza City on Thursday.",
+          "copyright": "Mohammed Salem/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20hamas/20hamas-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1335,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ismail Haniya, Hamas’s leader, at a rare news conference in Gaza City on Thursday.",
+          "copyright": "Mohammed Salem/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2Xmn165"
+    },
+    {
+      "section": "Business",
+      "subsection": "",
+      "title": "As Hong Kong Erupted Over Extradition Bill, City’s Tycoons Waited and Worried",
+      "abstract": "Business titans who have prospered in the global financial center feared the wrath of China. They spoke out only after Beijing wavered. China’s rise has enriched, and intimidated, them.",
+      "url": "https://www.nytimes.com/2019/06/20/business/hong-kong-business-extradition.html",
+      "byline": "By ALEXANDRA STEVENSON and KEITH BRADSHER",
+      "item_type": "Article",
+      "updated_date": "2019-06-21T10:05:42-04:00",
+      "created_date": "2019-06-20T12:45:29-04:00",
+      "published_date": "2019-06-20T12:45:29-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Politics and Government",
+        "Demonstrations, Protests and Riots",
+        "Extradition",
+        "Law and Legislation"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Lam, Carrie (1957- )"
+      ],
+      "geo_facet": [
+        "Hong Kong",
+        "China"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/19/business/00hktycoon-01/00hktycoon-01-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A demonstration in Hong Kong on June 16. Even after opponents of a proposed extradition law took to the streets, the city’s powerful business interests largely stayed silent.",
+          "copyright": "Lam Yik Fei for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/19/business/00hktycoon-01/00hktycoon-01-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A demonstration in Hong Kong on June 16. Even after opponents of a proposed extradition law took to the streets, the city’s powerful business interests largely stayed silent.",
+          "copyright": "Lam Yik Fei for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/19/business/00hktycoon-01/merlin_156531024_20908434-257a-4b5d-8924-cca11a37cdd7-articleInline.jpg",
+          "format": "Normal",
+          "height": 127,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A demonstration in Hong Kong on June 16. Even after opponents of a proposed extradition law took to the streets, the city’s powerful business interests largely stayed silent.",
+          "copyright": "Lam Yik Fei for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/19/business/00hktycoon-01/merlin_156531024_20908434-257a-4b5d-8924-cca11a37cdd7-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A demonstration in Hong Kong on June 16. Even after opponents of a proposed extradition law took to the streets, the city’s powerful business interests largely stayed silent.",
+          "copyright": "Lam Yik Fei for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/19/business/00hktycoon-01/merlin_156531024_20908434-257a-4b5d-8924-cca11a37cdd7-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A demonstration in Hong Kong on June 16. Even after opponents of a proposed extradition law took to the streets, the city’s powerful business interests largely stayed silent.",
+          "copyright": "Lam Yik Fei for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/2Rst3wz"
+    },
+    {
+      "section": "World",
+      "subsection": "Europe",
+      "title": "The E.U. Is Choosing Its Leaders. Here’s Why It Matters.",
+      "abstract": "The race to name the presidents of the four institutions that run the European Union is on, at a critical time for the bloc. Here’s what each institution does.",
+      "url": "https://www.nytimes.com/2019/06/20/world/europe/eu-leadership-explained.html",
+      "byline": "By MATINA STEVIS-GRIDNEFF",
+      "item_type": "Article",
+      "updated_date": "2019-06-20T12:28:07-04:00",
+      "created_date": "2019-06-20T12:28:07-04:00",
+      "published_date": "2019-06-20T12:28:07-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Appointments and Executive Changes",
+        "Euro (Currency)",
+        "Politics and Government"
+      ],
+      "org_facet": [
+        "European Union",
+        "European Commission",
+        "European Central Bank",
+        "European Parliament",
+        "European Council"
+      ],
+      "per_facet": [
+        "Juncker, Jean-Claude",
+        "Draghi, Mario",
+        "Tusk, Donald"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20eu-explainer2/20eu-explainer2-thumbStandard.jpg",
+          "format": "Standard Thumbnail",
+          "height": 75,
+          "width": 75,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "As the European Commission president, Jean-Claude Juncker is arguably the most powerful figure in Brussels.",
+          "copyright": "Yves Herman/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20eu-explainer2/20eu-explainer2-thumbLarge.jpg",
+          "format": "thumbLarge",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "As the European Commission president, Jean-Claude Juncker is arguably the most powerful figure in Brussels.",
+          "copyright": "Yves Herman/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20eu-explainer2/merlin_155549352_33e7ee92-7f84-46b1-af4f-7d799628555c-articleInline.jpg",
+          "format": "Normal",
+          "height": 126,
+          "width": 190,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "As the European Commission president, Jean-Claude Juncker is arguably the most powerful figure in Brussels.",
+          "copyright": "Yves Herman/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20eu-explainer2/20eu-explainer2-mediumThreeByTwo210.jpg",
+          "format": "mediumThreeByTwo210",
+          "height": 140,
+          "width": 210,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "As the European Commission president, Jean-Claude Juncker is arguably the most powerful figure in Brussels.",
+          "copyright": "Yves Herman/Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2019/06/20/world/20eu-explainer2/merlin_155549352_33e7ee92-7f84-46b1-af4f-7d799628555c-superJumbo.jpg",
+          "format": "superJumbo",
+          "height": 1359,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "As the European Commission president, Jean-Claude Juncker is arguably the most powerful figure in Brussels.",
+          "copyright": "Yves Herman/Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/2Rs5qEd"
     }
   ]
 }

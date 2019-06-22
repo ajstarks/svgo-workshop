@@ -6,8 +6,8 @@ deck
 	canvas 1920 1080
 
 	slide 
-		ctext	"Workshop" 50 20 6
-		image	"images/svgopher.png" 50 60 1088 645 75
+		image	"images/svgopher.png" 30 50 1088 645 70
+		text	"Workshop" 55 50 7
 	eslide
 
 	slide
@@ -445,24 +445,16 @@ deck
 		text "Read/Parse/Draw Pattern" 10 50 subsize "sans" "white"
 	eslide
 	
-	ctx=5
-	cty=60
-	codex=32
-	codey=95
-	rx=15
-	ry=50
-	rw=30
-	codesize=1.45
-
 	slide
+		mline=35
 		text        "Read"       5  90 3
 		ctext	    "Parse"      50 90 3
 		ctext       "Draw"       78 90 3 
 		textfile	"code/nytapi.txt"      5 82 1 "sans"
-		image       "images/nytlogo.jpg"  20 50 355 355
+		image       "images/nytlogo.jpg"  20 mline 355 355
 		textfile	"code/n.json"          5 80 0.7 "mono" "gray"
-		image		"images/nytsvg.png"   78 50 1188 760 65
-		arrow      40 50 55 50
+		image		"images/nytsvg.png"   78 mline 1188 760 65
+		arrow      40 mline 55 mline 
 	eslide
 
 
@@ -510,7 +502,13 @@ deck
 	slide
 		rect rx ry rw rh "black"
 		ctext "Read and Decode" ctx cty 4 "sans" "white"
-		textfile "code/nyt-headlines.go" codex codey codesize "mono"
+		textfile "code/nyt-stories.go" codex codey codesize "mono"
+	eslide
+
+	slide
+		rect rx ry rw rh "black"
+		ctext "Drawing (setup)" ctx cty 4 "sans" "white"
+		textfile "code/nyt-drawtop.go" codex codey codesize "mono"
 	eslide
 
 	slide

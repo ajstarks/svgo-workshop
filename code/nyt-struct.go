@@ -1,15 +1,15 @@
-// NYTHeadlines is the headline info from the New York Times
-type NYTHeadlines struct {
-	Status     string   `json:"status"`
-	Copyright  string   `json:"copyright"`
-	NumResults int      `json:"num_results"`
+// NYTStories is the Top Stories from the New York Times
+type NYTStories struct {
+	StoryCount int      `json:"num_results"`
 	Results    []result `json:"results"`
 }
-
 type result struct {
-	Section    string `json:"section"`
-	Subsection string `json:"subsection"`
-	Title      string `json:"title"`
-	Abstract   string `json:"abstract"`
-	Thumbnail  string `json:"thumbnail_standard"`
+	Title      string       `json:"title"`
+	Multimedia []multimedia `json:"multimedia"`
+}
+type multimedia struct {
+	URL    string `json:"url"`
+	Width  int    `json:"width"`
+	Height int    `json:"height"`
+	Format string `json:"format"`
 }

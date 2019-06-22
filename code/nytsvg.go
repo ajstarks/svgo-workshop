@@ -14,38 +14,46 @@ import (
 
 // API Info and formats
 const (
-	NYTAPIkey = "7f35400618208b235360ee874ed70df0"
-	NYTfmt    = "http://api.nytimes.com/svc/news/v3/content/all/%s/"
-	param     = ".json?api-key=%s&limit=5"
+	NYTAPIkey = "HxTV50RYD7LyGzHxUy7XCThV3kQ3HYvk"
+	NYTfmt    = "https://api.nytimes.com/svc/topstories/v2/%s.json?api-key=%s"
 	style     = "font-size:20pt;font-family:sans-serif;fill:white"
 	errfmt    = "unable to get network data for %s (%s)"
 	datefmt   = "Monday Jan 2, 2006"
-	usage     = "(arts, health, sports, science, technology, u.s., world)"
+	usage     = `section choices:
+arts, automobiles, books, business, fashion, 
+food, health, home, insider, magazine, movies, 
+national, nyregion, obituaries, opinion, politics, 
+realestate, science, sports, sundayreview, technology,
+theater, tmagazine, travel, upshot, world`
 )
 
-// NYTHeadlines is the headline info from the New York Times
-type NYTHeadlines struct {
-	Status     string   `json:"status"`
-	Copyright  string   `json:"copyright"`
-	NumResults int      `json:"num_results"`
+// NYTStories is the headline info from the New York Times
+type NYTStories struct {
+	StoryCount int      `json:"num_results"`
 	Results    []result `json:"results"`
 }
 
 type result struct {
-	Section    string `json:"section"`
-	Subsection string `json:"subsection"`
-	Title      string `json:"title"`
-	Abstract   string `json:"abstract"`
-	Thumbnail  string `json:"thumbnail_standard"`
+	Title      string       `json:"title"`
+	Multimedia []multimedia `json:"multimedia"`
+}
+
+type multimedia struct {
+	URL    string `json:"url"`
+	Width  int    `json:"width"`
+	Height int    `json:"height"`
+	Format string `json:"format"`
 }
 
 func main() {
-	var section = flag.String("h", "u.s.", usage)
+	var section = flag.String("s", "home", usage)
+	var nstories = flag.Int("n", 5, "number of stories")
 	flag.Parse()
+	width, height := 1200, *nstories*150
 	canvas := svg.New(os.Stdout)
-	canvas.Start(1200, 900)
-	canvas.Rect(0, 0, 1200, 900)
-	nytheadlines(canvas, *section)
+	canvas.Start(width, height)
+	canvas.Rect(0, 0, width, height)
+	nytStories(canvas, *section, *nstories)
 	canvas.End()
 }
 
@@ -63,31 +71,47 @@ func netread(url string) (io.ReadCloser, error) {
 	return resp.Body, nil
 }
 
-// nytheadlines retrieves data
+// nytStories retrieves Top Stories data
 // from the New York Times API, decodes and displays it.
-func nytheadlines(canvas *svg.SVG, section string) {
-	r, err := netread(fmt.Sprintf(NYTfmt+param, section, NYTAPIkey))
+func nytStories(canvas *svg.SVG, section string, n int) {
+	r, err := netread(fmt.Sprintf(NYTfmt, section, NYTAPIkey))
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "headline read error: %v\n", err)
 		return
 	}
 	defer r.Close()
-	var data NYTHeadlines
+	var data NYTStories
 	if err = json.NewDecoder(r).Decode(&data); err != nil {
 		fmt.Fprintf(os.Stderr, "decode: %v\n", err)
 		return
 	}
-	thumbsize := 75
+	drawStories(canvas, data, n)
+}
+
+// drawStories walks the result structure, displaying title and thumbnail
+func drawStories(canvas *svg.SVG, data NYTStories, n int) {
 	top, left := 200, 150
 	imx, titley := left-100, top-100
-	x, y := left, top
+	x, y, th, tw := left, top, 75, 75
 	ts := fmt.Sprintf("New York Times for %s", time.Now().Format(datefmt))
+	imagelink := ""
+	if n > data.StoryCount {
+		n = data.StoryCount
+	}
+
 	canvas.Gstyle(style)
-	canvas.Text(imx, titley, ts, "font-size:175%")
-	for _, d := range data.Results {
+	canvas.Text(imx, titley, ts, "font-size:150%")
+	for i := 0; i < n; i++ {
+		d := data.Results[i]
+		for _, m := range d.Multimedia {
+			if m.Format == "Standard Thumbnail" {
+				tw, th, imagelink = m.Width, m.Height, m.URL
+				break
+			}
+		}
 		canvas.Text(x, y, d.Title)
-		canvas.Image(imx, y-thumbsize/2, thumbsize, thumbsize, d.Thumbnail)
-		y += 120
+		canvas.Image(imx, y-th/2, tw, th, imagelink)
+		y += th + (th / 2)
 	}
 	canvas.Gend()
 }
