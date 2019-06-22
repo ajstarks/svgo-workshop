@@ -136,9 +136,6 @@ deck
 		image	"images/quad.png" cx cy 2106 1544 67
 	eslide
 
-	slide 
-		image	"images/roadmap.png" cx cy 2146 1610 67
-	eslide
 	
 	slide 
 		image	"images/pv.png" cx cy 2142 1608 67
