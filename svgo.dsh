@@ -302,14 +302,6 @@ deck
 		image		"images/hw.png" 70 75 960 540 90
 	eslide
 
-//	slide 
-//		ctext		"Data" 10 80 5
-//		ctext		"Picture" 10 15 5
-//		textfile	"code/thing.xml" 17 87 1.6 "mono"
-//		image		"images/thingss.png" 55 35 2642 1140 30
-//		arrow		10 75 10 25 1 8 6 "lightgray"
-//	eslide
-
 	slide "white" "black"
 		textfile	"code/swebsvg.go" 5 90 2 "mono" "black"
 		image		"images/websvg-red.png" 85 75 1006 958 40
@@ -424,18 +416,18 @@ deck
 		text "Sketching with code" 10 50 subsize "sans" "white"
 	eslide
 
+	slide 
+		text  "svgplay" 5 5 2
+		image "images/sp1.png" cx cy 1920 1080
+	eslide
+
+	slide 
+		text  "svgplay" 5 5 2
+		image "images/sp2.png" cx cy 1920 1080
+	eslide
+
 	slide
 		image "images/svgplay-setup.png" 50 50 1920 1080
-	eslide
-
-	slide 
-		text  "svgplay" 5 5 2
-		image "images/svgplay1.png" cx cy 3432 1858 55
-	eslide
-
-	slide 
-		text  "svgplay" 5 5 2
-		image "images/svgplay2.png" cx cy 3432 1858 55
 	eslide
 
 	slide "rgb(127,127,127)" "white"
