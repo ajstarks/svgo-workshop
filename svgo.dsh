@@ -10,6 +10,16 @@ deck
 		text	"Workshop" 55 50 7
 	eslide
 
+	slide "gray" "white"
+		ctext  "You will learn:" 50 80 5
+		image "images/api.png"	20 50 1920 1080 25
+		image "images/sp1.png"		50 50 1920 1080 25
+		image "images/nytsvg.png"	80 50 1180 760  40
+		ctext "SVGo API" 			20 20 2.5
+		ctext "Sketching with code"	50 20 2.5
+		ctext "SVGo with other APIs"	80 20 2.5
+	eslide
+
 	slide
 		image "images/svgopher.png" 18 50 1088 645 45 
 		arrow 33 50 67 50 0.5 3 4 
@@ -417,12 +427,10 @@ deck
 	eslide
 
 	slide 
-		text  "svgplay" 5 5 2
 		image "images/sp1.png" cx cy 1920 1080
 	eslide
 
 	slide 
-		text  "svgplay" 5 5 2
 		image "images/sp2.png" cx cy 1920 1080
 	eslide
 
@@ -436,14 +444,14 @@ deck
 	
 	slide
 		mline=35
-		text        "Read"       5  90 3
-		ctext	    "Parse"      50 90 3
-		ctext       "Draw"       78 90 3 
-		textfile	"code/nytapi.txt"      5 82 1 "sans"
+		text        "Read"       5  90 4
+		ctext	    "Parse"      50 90 4
+		ctext       "Draw"       78 90 4 
+		textfile	"code/nytapi.txt"      5 82 1.5 "sans"
 		image       "images/nytlogo.jpg"  20 mline 355 355
 		textfile	"code/n.json"          5 80 0.7 "mono" "gray"
 		image		"images/nytsvg.png"   78 mline 1188 760 65
-		arrow      40 mline 55 mline 
+		arrow      30 mline 55 mline 
 	eslide
 
 
