@@ -438,6 +438,12 @@ deck
 		image "images/svgplay-setup.png" 50 50 1920 1080
 	eslide
 
+    slide
+        etext   "codepicdeck" 95 5 3 "serif" "black" 100 "https://github.com/ajstarks/deck/blob/master/cmd/codepicdeck/codepicdeck.go"
+        image   "images/svgplay-title.png" cx cy 1800 1200 90 "https://speakerdeck.com/ajstarks/svgo-code-plus-picture-examples"
+    eslide
+
+
 	slide "rgb(127,127,127)" "white"
 		text "Read/Parse/Draw Pattern" 10 50 subsize "sans" "white"
 	eslide
