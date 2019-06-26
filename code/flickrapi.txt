@@ -1,6 +1,0 @@
-https://api.flickr.com/services/rest/
-?method=flickr.photos.search
-&api_key=...
-&text=sunset
-&per_page=50
-&sort=interestingness-desc
