@@ -7,7 +7,9 @@ deck
 
 	slide
 		image	"images/svgopher.png" 30 50 1088 645 70
-		text	"Workshop" 55 50 7
+		etext	"Workshop" 85 50 7
+		etext	"Anthony Starks" 85 10 2 "sans" "gray"
+		etext   "@ajstarks"      85 5  2 "sans" "gray"
 	eslide
 
 	slide "gray" "white"
