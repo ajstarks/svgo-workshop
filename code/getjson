@@ -1,3 +1,0 @@
-#!/bin/sh
-key="7f35400618208b235360ee874ed70df0"
-curl http://api.nytimes.com/svc/news/v3/content/all/$1/.json?api-key=$key\&limit=5
