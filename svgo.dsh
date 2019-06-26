@@ -350,6 +350,16 @@ deck
 	slide
 		text	"SVGo Method Categories" 10 90 4
 		blist	10 75 3 "sans" "slategray"
+			li "Shapes"
+			li "Paths, Lines and Curves"
+			li "Text and Images"
+			li "Colors and Gradients"
+			li "Transforms"
+			li "Skewing"
+			li "Filter Effects"
+		elist
+
+		blist	60 75 3 "sans" "slategray"
 			li "Starting and Ending"
 			li "Metadata"
 			li "Utility"
@@ -358,15 +368,7 @@ deck
 			li "Links"
 			li "Masking and Clipping"
 		elist
-		blist	60 75 3 "sans" "slategray"
-			li "Transforms"
-			li "Skewing"
-			li "Shapes"
-			li "Paths, Lines and Curves"
-			li "Images and Text"
-			li "Colors and Gradients"
-			li "Filter Effects"
-		elist
+	
 	eslide
 	
 	slide
@@ -389,6 +391,14 @@ deck
 		cimage "images/qbezier.png" "QBez(sx, sy, cx, cy, px, py, ex, ey int, s string...)" 75 80 491 272 70
 		cimage "images/path.png" "Path(d string, s string...)" 50 20 289 222 70
 	eslide
+
+	slide
+		ctext	"Text and Images" 50 90 4
+		cimage "images/text.png" "Text(x, y int, s string, s ...string)" 20 76 583 118 60
+		cimage "images/textpath.png" "Textpath(t string, pathid string, s ...string)" 70 80 437 232 60
+		cimage "images/textlines.png" "Textlines(x, y int, s []string, size, spacing int, fill, align string)" 50 50 608 213 60
+		cimage "images/image.png" "Image(x, y,  w, h int, link string, s ...string)" 50 20 255 259 60
+	eslide
 	
 	slide
 		ctext	"Gradients and Colors" 50 90 4
@@ -408,15 +418,7 @@ deck
 		cimage "images/translate.png" "Translate(x, y int)" 80 50 419 265 60
 		cimage "images/rotate.png" "Rotate(a float64)" 50 20 796 654 35
 	eslide
-	
-	slide
-		ctext	"Text and Images" 50 90 4
-		cimage "images/text.png" "Text(x, y int, s string, s ...string)" 20 76 583 118 60
-		cimage "images/textpath.png" "Textpath(t string, pathid string, s ...string)" 70 80 437 232 60
-		cimage "images/textlines.png" "Textlines(x, y int, s []string, size, spacing int, fill, align string)" 50 50 608 213 60
-		cimage "images/image.png" "Image(x, y,  w, h int, link string, s ...string)" 50 20 255 259 60
-	eslide
-	
+
 	slide
 		ctext	"Filter Effects" 50 90 4
 		image	"images/fet.png" 50 50 1580 482
@@ -463,7 +465,7 @@ deck
 
 	codesize=2
 	codex=5
-	codey=90
+	codey=92
 	rx=50
 	ry=5
 	rw=100
@@ -518,6 +520,12 @@ deck
 		rect rx ry rw rh "black"
 		ctext "Drawing" ctx cty 4 "sans" "white"
 		textfile "code/nyt-draw.go" codex codey codesize "mono"
+	eslide
+
+	slide
+		rect rx ry rw rh "black"
+		ctext "Helpers" ctx cty 4 "sans" "white"
+		textfile "code/nyt-support.go" codex codey codesize "mono"
 	eslide
 
 	slide

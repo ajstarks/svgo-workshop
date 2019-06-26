@@ -9,5 +9,5 @@ import (
 	"os"
 	"time"
 
-	svg "github.com/ajstarks/svgo"
+	"github.com/ajstarks/svgo"
 )
