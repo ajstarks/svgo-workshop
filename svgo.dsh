@@ -5,24 +5,24 @@ deck
 	subsize=7
 	canvas 1920 1080
 
-	slide 
+	slide
 		image	"images/svgopher.png" 30 50 1088 645 70
 		text	"Workshop" 55 50 7
 	eslide
 
 	slide "gray" "white"
 		ctext  "You will learn:" 50 80 5
-		image "images/api.png"	20 50 1920 1080 25
-		image "images/sp1.png"		50 50 1920 1080 25
-		image "images/nytsvg.png"	80 50 1180 760  40
-		ctext "SVGo API" 			20 20 2.5
+		image "images/api.png"	17 50 1920 1080 30
+		image "images/sp1.png"		50 50 1920 1080 30
+		image "images/nytsvg.png"	82 50 1239 929 40
+		ctext "SVGo API" 			17 20 2.5
 		ctext "Sketching with code"	50 20 2.5
-		ctext "SVGo with other APIs"	80 20 2.5
+		ctext "SVGo with other APIs"	82 20 2.5
 	eslide
 
 	slide
-		image "images/svgopher.png" 18 50 1088 645 45 
-		arrow 33 50 67 50 0.5 3 4 
+		image "images/svgopher.png" 18 50 1088 645 45
+		arrow 33 50 67 50 0.5 3 4
 		ctext "Scalable Vector Graphics" 50 55 2.5
 		text "io.Writer" 70 48 5 "mono"
 	eslide
@@ -34,7 +34,7 @@ deck
 	eslide
 
 	slide
-		ctext	"SVGo Clients in the Repo" 50 90 4 
+		ctext	"SVGo Clients in the Repo" 50 90 4
 		list	5 80 1.5 "mono" "" 100 1.6
 			li "svgdef"
 			li "android"
@@ -121,45 +121,45 @@ deck
 		text "SVGo Clients" 10 50 subsize "sans" "white"
 	eslide
 	
-	slide 
+	slide
 		image	"images/compx.png" cx cy 2166 1626 67
 	eslide
 
-	slide 
+	slide
 		image	"images/benchviz.png" cx cy 2018 1610 67
 	eslide
 
-	slide 
+	slide
 		ctext	"structlayout -json bytes Reader | structlayout-svg -t bytes.Reader > reader.svg" 50 5 2
 		image	"images/bytesreader.png" cx cy 827 828
 	eslide
 
-	slide 
+	slide
 		image	"images/go-rel.png" cx cy 3334 1432 60
 	eslide
 
-	slide 
+	slide
 		image	"images/bulletgraph.png" cx cy 2716 1596 67
 	eslide
 
-	slide 
+	slide
 		image	"images/quad.png" cx cy 2106 1544 67
 	eslide
 
 	
-	slide 
+	slide
 		image	"images/pv.png" cx cy 2142 1608 67
 	eslide
 
-	slide 
+	slide
 		image	"images/rr0.png" cx cy 1550 1496 72
 	eslide
 
-	slide 
+	slide
 		image	"images/apple-stockchart.png" cx cy 1600 900
 	eslide
 
-	slide 
+	slide
 		image	"images/tweetfreq.png" cx cy 2138 1596 67
 	eslide
 
@@ -177,27 +177,27 @@ deck
 		image	"images/ar.jpg" cx cy 1425 1000
 	eslide
 
-	slide 
+	slide
 		image	"images/201933.png" cx cy 900 846
 	eslide
 
-	slide 
+	slide
 		image	"images/201935.png" cx cy 900 846
 	eslide
 
-	slide 
+	slide
 		image	"images/201939.png" cx cy 900 846
 	eslide
 
-	slide 
+	slide
 		image	"images/danny.jpg" cx cy 1920 1080
 	eslide
 
-	slide 
+	slide
 		image	"images/shining.png" cx cy 1920 1080 100 "https://www.youtube.com/watch?v=5N3ME6vQOnQ"
 	eslide
 
-	slide 
+	slide
 		textfile "code/defunit.go" 45 92 1.8 "mono"
 		textfile "code/defrunit.go" 45 65 1.8 "mono"
 		textfile "code/shloop.go" 45 33 1.8 "mono"
@@ -210,11 +210,11 @@ deck
 		text "SVGo API Design" 10 50 subsize "sans" "white"
 	eslide
 
-	slide 
+	slide
 		image "images/android.png" cx cy 877 877 80 "https://nyti.ms/2k84rr5"
 	eslide
 
-	slide 
+	slide
 		etext		"Scale" 28 70 4.5
 		etext		"Roundrect" 42.5 50 4.5
 		ctext		"Circle" 57.5 48 4.5
@@ -226,7 +226,7 @@ deck
 		image		"images/android.png" cx cy 877 877 80
 	eslide
 
-	slide 
+	slide
 		ctext	"Element" 30 90 2.5 "sans" "gray"
 		ctext	"Arguments" 50 90 2.5 "sans" "gray"
 		ctext	"Rect" 30 80 3.5 "sans" "rgb(127,0,0)"
@@ -240,7 +240,7 @@ deck
 		line	50 89 50 85
 	eslide
 
-	slide 
+	slide
 		ctext	"Element" 30 90 2.5 "sans" "gray"
 		ctext	"Arguments" 50 90 2.5 "sans" "gray"
 		ctext	"CSS Style" 67 90 2.5 "sans" "gray"
@@ -253,13 +253,13 @@ deck
 		ctext	"250" 50 7 2
 		ctext	"125" 70 25 2
 		rect	50 25 30 25 "blue"
-		rect	50 25 29 24 "gray" 
+		rect	50 25 29 24 "gray"
 		line	30 89 30 85
 		line	50 89 50 85
 		line	67 89 67 80
 	eslide
 	
-	slide 
+	slide
 		ctext	"Element" 30 90 2.5 "sans" "gray"
 		ctext	"Arguments" 50 90 2.5 "sans" "gray"
 		ctext	"Attributes" 75 90 2.5 "sans" "gray"
@@ -272,7 +272,7 @@ deck
 		ctext	"250" 50 7 2
 		ctext	"125" 70 25 2
 		rect	50 25 30 25 "blue"
-		rect	50 25 29 24 "gray" 
+		rect	50 25 29 24 "gray"
 		line	30 89 30 85
 		line	50 89 50 85
 		line	75 89 75 80
@@ -318,20 +318,20 @@ deck
 		image		"images/websvg-green.png" 85 25 998 956 40
 	eslide
 
-	slide 
+	slide
 		ctext  "https://ajstarks.org:1958/" 50 95 2.5 "sans" "black" 100 "https://ajstarks.org:1958/"
 		cimage "images/clock.png"		"clock" 12.5 80 256 256 90
-		cimage "images/funnel.png"		"funnel" 37.5 80 256 256 90 
-		cimage "images/rotext.png"		"rotext" 62.5 80 256 256 90 
-		cimage "images/flower.png"		"flower" 87.5 80 256 256 90 
-		cimage "images/rshape.png"		"rshape" 12.5 50 256 256 90 
-		cimage "images/cube.png"		"cube" 37.5 50 256 256 90 
-		cimage "images/mondrian.png"	"mondrian" 62.5 50 256 256 90 
-		cimage "images/lewitt.png"		"lewitt" 87.5 50 256 256 90 
-		cimage "images/face.png"		"face" 12.5 20 256 256 90 
-		cimage "images/pacman.png"		"pacman" 37.5 20 256 256 90 
-		cimage "images/tux.png"			"tux" 62.5 20 256 256 90 
-		cimage "images/concentric.png"	"concentric" 87.5 20 256 256 90 
+		cimage "images/funnel.png"		"funnel" 37.5 80 256 256 90
+		cimage "images/rotext.png"		"rotext" 62.5 80 256 256 90
+		cimage "images/flower.png"		"flower" 87.5 80 256 256 90
+		cimage "images/rshape.png"		"rshape" 12.5 50 256 256 90
+		cimage "images/cube.png"		"cube" 37.5 50 256 256 90
+		cimage "images/mondrian.png"	"mondrian" 62.5 50 256 256 90
+		cimage "images/lewitt.png"		"lewitt" 87.5 50 256 256 90
+		cimage "images/face.png"		"face" 12.5 20 256 256 90
+		cimage "images/pacman.png"		"pacman" 37.5 20 256 256 90
+		cimage "images/tux.png"			"tux" 62.5 20 256 256 90
+		cimage "images/concentric.png"	"concentric" 87.5 20 256 256 90
 	eslide
 
 	slide "white" "black"
@@ -347,8 +347,8 @@ deck
 		text "API Reference" 10 50 subsize "sans" "white"
 	eslide
 
-	slide 
-		text	"SVGo Method Categories" 10 90 4 
+	slide
+		text	"SVGo Method Categories" 10 90 4
 		blist	10 75 3 "sans" "slategray"
 			li "Starting and Ending"
 			li "Metadata"
@@ -369,8 +369,8 @@ deck
 		elist
 	eslide
 	
-	slide 
-		ctext	"Shapes" 50 90 4 
+	slide
+		ctext	"Shapes" 50 90 4
 		cimage "images/rect.png" "Rect(x, y, w, h int, s string...)"					17 80 460 260 50
 		cimage "images/roundrect.png" "Roundrect(x, y, w, h, rx, ry int, s string...)"	50 80 484 284 50
 		cimage "images/square.png" "Square(x, y, l int, s string...)"					85 80 279 266 50
@@ -382,24 +382,24 @@ deck
 		cimage "images/polyline.png" "Polyline(x, y []int, s string...)"				85 20 461 268 50
 	eslide
 	
-	slide 
-		ctext	"Curves and Paths" 50 90 4 
+	slide
+		ctext	"Curves and Paths" 50 90 4
 		cimage "images/bezier.png" "Bezier(sx, sy, cx, cy, ex, ey int, s string...)" 25 80 489 224 70
 		cimage "images/arc.png" "Arc(sx, ax, ay, r int, dir, large bool, ex, ey int, s string...)" 50 50 489 212 70
 		cimage "images/qbezier.png" "QBez(sx, sy, cx, cy, px, py, ex, ey int, s string...)" 75 80 491 272 70
 		cimage "images/path.png" "Path(d string, s string...)" 50 20 289 222 70
 	eslide
 	
-	slide 
-		ctext	"Gradients and Colors" 50 90 4 
+	slide
+		ctext	"Gradients and Colors" 50 90 4
 		cimage "images/lineargradient.png" "LinearGradient(id string, x1, y1, x2, y2 uint8, sc []Offcolor)" 30 75 547 271 80
 		cimage "images/radialgradient.png" "RadialGradient(id string, cx, cy, r, fx, fy uint8, sc []Offcolor)" 30 35 464 267 80
 		cimage "images/rgb.png" "RGB(r, g, b int)" 80 72 378 196 80
 		cimage "images/rgba.png" "RGBA(r, g, b int, a float64)" 80 32 403 196 80
 	eslide
 	
-	slide 
-		ctext	"Transforms" 50 90 4 
+	slide
+		ctext	"Transforms" 50 90 4
 		cimage "images/scale.png" "Scale(n float64)" 20 80 418 260 60
 		cimage "images/scalexy.png" "ScaleXY(dx, dy float64)" 50 80 420 268 60
 		cimage "images/skewx.png" "SkewX(a float64)" 80 80 527 263 60
@@ -409,16 +409,16 @@ deck
 		cimage "images/rotate.png" "Rotate(a float64)" 50 20 796 654 35
 	eslide
 	
-	slide 
-		ctext	"Text and Images" 50 90 4 
+	slide
+		ctext	"Text and Images" 50 90 4
 		cimage "images/text.png" "Text(x, y int, s string, s ...string)" 20 76 583 118 60
 		cimage "images/textpath.png" "Textpath(t string, pathid string, s ...string)" 70 80 437 232 60
 		cimage "images/textlines.png" "Textlines(x, y int, s []string, size, spacing int, fill, align string)" 50 50 608 213 60
 		cimage "images/image.png" "Image(x, y,  w, h int, link string, s ...string)" 50 20 255 259 60
 	eslide
 	
-	slide 
-		ctext	"Filter Effects" 50 90 4 
+	slide
+		ctext	"Filter Effects" 50 90 4
 		image	"images/fet.png" 50 50 1580 482
 	eslide
 
@@ -426,11 +426,11 @@ deck
 		text "Sketching with code" 10 50 subsize "sans" "white"
 	eslide
 
-	slide 
+	slide
 		image "images/sp1.png" cx cy 1920 1080
 	eslide
 
-	slide 
+	slide
 		image "images/sp2.png" cx cy 1920 1080
 	eslide
 
@@ -452,12 +452,12 @@ deck
 		mline=35
 		text        "Read"       5  90 4
 		ctext	    "Parse"      50 90 4
-		ctext       "Draw"       78 90 4 
+		ctext       "Draw"       78 90 4
 		textfile	"code/nytapi.txt"      5 82 1.5 "sans"
 		image       "images/nytlogo.jpg"  20 mline 355 355
 		textfile	"code/n.json"          5 80 0.7 "mono" "gray"
-		image		"images/nytsvg.png"   78 mline 1188 760 65
-		arrow      30 mline 55 mline 
+		image		"images/nytsvg.png"   78 mline 1239 929 65
+		arrow      30 mline 55 mline
 	eslide
 
 

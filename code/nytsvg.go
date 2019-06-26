@@ -16,7 +16,7 @@ import (
 const (
 	NYTAPIkey = "HxTV50RYD7LyGzHxUy7XCThV3kQ3HYvk"
 	NYTfmt    = "https://api.nytimes.com/svc/topstories/v2/%s.json?api-key=%s"
-	style     = "font-size:20pt;font-family:sans-serif;fill:white"
+	style     = "font-size:10pt;font-family:sans-serif;text-anchor:middle;fill:white"
 	errfmt    = "unable to get network data for %s (%s)"
 	datefmt   = "Monday Jan 2, 2006"
 	usage     = `section choices:
@@ -35,6 +35,7 @@ type NYTStories struct {
 
 type result struct {
 	Title      string       `json:"title"`
+	URL        string       `json:"url"`
 	Multimedia []multimedia `json:"multimedia"`
 }
 
@@ -47,13 +48,13 @@ type multimedia struct {
 
 func main() {
 	var section = flag.String("s", "home", usage)
-	var nstories = flag.Int("n", 5, "number of stories")
+	var nstories = flag.Int("n", 25, "number of stories")
 	flag.Parse()
-	width, height := 1200, *nstories*150
+	width, height := 1000, (*nstories/5)*150
 	canvas := svg.New(os.Stdout)
 	canvas.Start(width, height)
 	canvas.Rect(0, 0, width, height)
-	nytStories(canvas, *section, *nstories)
+	nytStories(canvas, width, *section, *nstories)
 	canvas.End()
 }
 
@@ -73,7 +74,7 @@ func netread(url string) (io.ReadCloser, error) {
 
 // nytStories retrieves Top Stories data
 // from the New York Times API, decodes and displays it.
-func nytStories(canvas *svg.SVG, section string, n int) {
+func nytStories(canvas *svg.SVG, width int, section string, n int) {
 	r, err := netread(fmt.Sprintf(NYTfmt, section, NYTAPIkey))
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "headline read error: %v\n", err)
@@ -85,33 +86,52 @@ func nytStories(canvas *svg.SVG, section string, n int) {
 		fmt.Fprintf(os.Stderr, "decode: %v\n", err)
 		return
 	}
-	drawStories(canvas, data, n)
+	drawStories(canvas, width, data, n)
 }
 
-// drawStories walks the result structure, displaying title and thumbnail
-func drawStories(canvas *svg.SVG, data NYTStories, n int) {
-	top, left := 200, 150
-	imx, titley := left-100, top-100
-	x, y, th, tw := left, top, 75, 75
-	ts := fmt.Sprintf("New York Times for %s", time.Now().Format(datefmt))
-	imagelink := ""
+// drawStories walks the result structure,
+// displaying title and thumbnail in a grid
+func drawStories(canvas *svg.SVG, width int, data NYTStories, n int) {
+	top, left := 100, 150
+	titley := top - 50
+	x, y := left, top
+	ts := fmt.Sprintf("New York Times Top Stories %s", time.Now().Format(datefmt))
 	if n > data.StoryCount {
 		n = data.StoryCount
 	}
 
 	canvas.Gstyle(style)
-	canvas.Text(imx, titley, ts, "font-size:150%")
+	canvas.Text(width/2, titley, ts, "font-size:300%")
 	for i := 0; i < n; i++ {
 		d := data.Results[i]
-		for _, m := range d.Multimedia {
-			if m.Format == "Standard Thumbnail" {
-				tw, th, imagelink = m.Width, m.Height, m.URL
-				break
-			}
+		tw, th, imagelink := imageinfo(d)
+		if i > 0 && i%5 == 0 {
+			x = left
+			y += th + (th / 2)
 		}
-		canvas.Text(x, y, d.Title)
-		canvas.Image(imx, y-th/2, tw, th, imagelink)
-		y += th + (th / 2)
+		canvas.Link(d.URL, d.Title)
+		canvas.Image(x, y, tw, th, imagelink)
+		canvas.Text(x+tw/2, y+th+12, struncate(d.Title, 20))
+		canvas.LinkEnd()
+		x += tw * 2
 	}
 	canvas.Gend()
+}
+
+// struncate truncates a string with ellipsis
+func struncate(s string, n int) string {
+	if len(s) <= n {
+		return s
+	}
+	return s[0:n] + "..."
+}
+
+// imageinfo returns the thumbnail image information
+func imageinfo(data result) (int, int, string) {
+	for _, m := range data.Multimedia {
+		if m.Format == "Standard Thumbnail" {
+			return m.Width, m.Height, m.URL
+		}
+	}
+	return 75, 75, ""
 }

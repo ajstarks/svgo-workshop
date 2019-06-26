@@ -1,16 +1,17 @@
 	canvas.Gstyle(style)
-	canvas.Text(imx, titley, ts, "font-size:150%")
+	canvas.Text(width/2, titley, ts, "font-size:300%")
 	for i := 0; i < n; i++ {
 		d := data.Results[i]
-		for _, m := range d.Multimedia {
-			if m.Format == "Standard Thumbnail" {
-				tw, th, imagelink = m.Width, m.Height, m.URL
-				break
-			}
+		tw, th, imagelink := imageinfo(d)
+		if i > 0 && i%5 == 0 {
+			x = left
+			y += th + (th / 2)
 		}
-		canvas.Text(x, y, d.Title)
-		canvas.Image(imx, y-th/2, tw, th, imagelink)
-		y += th + (th / 2)
+		canvas.Link(d.URL, d.Title)
+		canvas.Image(x, y, tw, th, imagelink)
+		canvas.Text(x+tw/2, y+th+12, struncate(d.Title, 20))
+		canvas.LinkEnd()
+		x += tw * 2
 	}
 	canvas.Gend()
 }
