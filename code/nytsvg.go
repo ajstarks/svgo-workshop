@@ -18,6 +18,7 @@ const (
 	NYTfmt    = "https://api.nytimes.com/svc/topstories/v2/%s.json?api-key=%s"
 	style     = "font-size:10pt;font-family:sans-serif;text-anchor:middle;fill:white"
 	errfmt    = "unable to get network data for %s (%s)"
+	headfmt   = "New York Times Top stores for %s"
 	datefmt   = "Monday Jan 2, 2006"
 	usage     = `section choices:
 arts, automobiles, books, business, fashion, 
@@ -95,7 +96,7 @@ func drawStories(canvas *svg.SVG, width int, data NYTStories, n int) {
 	top, left := 100, 150
 	titley := top - 50
 	x, y := left, top
-	ts := fmt.Sprintf("New York Times Top Stories %s", time.Now().Format(datefmt))
+	ts := fmt.Sprintf(headfmt, time.Now().Format(datefmt))
 	if n > data.StoryCount {
 		n = data.StoryCount
 	}

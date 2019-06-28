@@ -442,16 +442,42 @@ deck
 		image "images/svgplay-setup.png" 50 50 1920 1080
 	eslide
 
+
     slide
         etext   "codepicdeck" 95 5 3 "serif" "black" 100 "https://github.com/ajstarks/deck/blob/master/cmd/codepicdeck/codepicdeck.go"
         image   "images/svgplay-title.png" cx cy 1800 1200 90 "https://speakerdeck.com/ajstarks/svgo-code-plus-picture-examples"
     eslide
 
+	slide "rgb(220,220,220)" 
+		image "images/svgplay-ex9.png" 25 50 1375 1042 65 
+		image "images/svgplay-ex4.png" 75 50 1375 1042 65 
+	eslide
+
+	
+	slide "rgb(220,220,220)" 
+		image "images/svgplay-ex12.png" 25 50 1375 1042 65 
+		image "images/svgplay-ex3.png"  75 50 1375 1042 65 
+	eslide
 
 	slide "rgb(127,127,127)" "white"
 		text "Read/Parse/Draw Pattern" 10 50 subsize "sans" "white"
 	eslide
-	
+
+	slide
+		rpy=60
+		spy=rpy-10
+		rpsize=6
+		ctext "Read"  20 rpy rpsize 
+		ctext "from the data source" 20 spy 3 "sans" "gray"
+		ctext "Parse" 50 rpy rpsize 
+		ctext "into data structures" 50 spy 3 "sans" "gray"
+		ctext "Draw"  80 rpy rpsize 
+		ctext "from the structures"  80 spy 3 "sans" "gray"
+		ctext "Data" 20 25 3 "sans" "maroon"
+		ctext "Picture" 80 25 3 "sans" "maroon"
+		arrow 30 27 70 27
+	eslide
+
 	slide
 		mline=35
 		text        "Read"       5  90 4

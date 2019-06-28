@@ -1,0 +1,36 @@
+#!/bin/sh
+awk -F\t '
+BEGIN {
+	x=2.5
+	titley=95
+	ftop=85
+	tab=42
+	leading=3.7
+	apisize=2.1
+	descsize=2
+	print "<deck>"
+}
+
+/^[A-Z]|^\.\.\./ {
+	x = 2.5
+	printf "\t\t<text xp=\"%.2f\" yp=\"%.2f\" sp=\"%.2f\" color=\"rgb(0,0,127)\" font=\"sans\">%s</text>\n", x, y, apisize, $1
+	y -= leading
+	printf "\t\t<text xp=\"%.2f\" yp=\"%.2f\" sp=\"%.2f\" color=\"rgb(80,80,80)\" font=\"serif\" type=\"block\" wp=\"80\">%s</text>\n", x, y, descsize, $2
+	if (length($2) > 100) {
+		y -= leading*3
+	} else {
+		y -= leading*2
+	}
+}
+
+/^#/ {
+	y = titley
+	printf "\t<slide>\n\t\t<text xp=\"%.2f\" yp=\"%.2f\" sp=\"3\">%s</text>\n", x, y, substr($0, 3)
+	y -= leading*2
+}
+/^$/ {
+	print "\t</slide>"
+}
+END {
+	print "\t</slide>\n</deck>"
+}' $*
