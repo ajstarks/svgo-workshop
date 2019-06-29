@@ -483,7 +483,7 @@ deck
 		text        "Read"       5  90 4
 		ctext	    "Parse"      50 90 4
 		ctext       "Draw"       78 90 4
-		textfile	"code/nytapi.txt"      5 82 1.5 "sans"
+		text		"https://api.nytimes.com/svc/topstories/v2/food.json?api-key=..."      5 82 1.5 "sans"
 		image       "images/nytlogo.jpg"  20 mline 355 355
 		textfile	"code/n.json"          5 80 0.7 "mono" "gray"
 		image		"images/nytsvg.png"   78 mline 1239 929 65
