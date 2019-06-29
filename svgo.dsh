@@ -13,7 +13,7 @@ deck
 	eslide
 
 	slide "gray" "white"
-		ctext  "You will learn:" 50 80 5
+		ctext "You will learn:" 50 80 5
 		image "images/api.png"	17 50 1920 1080 30
 		image "images/sp1.png"		50 50 1920 1080 30
 		image "images/nytsvg.png"	82 50 1239 929 40
@@ -122,7 +122,7 @@ deck
 	slide "rgb(127,127,127)" "white"
 		text "SVGo Clients" 10 50 subsize "sans" "white"
 	eslide
-	
+
 	slide
 		image	"images/compx.png" cx cy 2166 1626 67
 	eslide
@@ -148,7 +148,6 @@ deck
 		image	"images/quad.png" cx cy 2106 1544 67
 	eslide
 
-	
 	slide
 		image	"images/pv.png" cx cy 2142 1608 67
 	eslide
@@ -260,7 +259,7 @@ deck
 		line	50 89 50 85
 		line	67 89 67 80
 	eslide
-	
+
 	slide
 		ctext	"Element" 30 90 2.5 "sans" "gray"
 		ctext	"Arguments" 50 90 2.5 "sans" "gray"
@@ -318,8 +317,8 @@ deck
 		textfile	"code/swebsvg.go" 5 90 2 "mono" "black"
 		image		"images/websvg-red.png" 85 75 1006 958 40
 		image		"images/websvg-green.png" 85 25 998 956 40
-		text        "/circle"       75 95 2 "mono"
-		text        "/circle/green" 75 45 2 "mono"
+		text        "/circle"       75 95 2 "mono" "rgb(50,50,50)"
+		text        "/circle/green" 75 45 2 "mono" "rgb(50,50,50)"
 	eslide
 
 	slide
@@ -346,7 +345,7 @@ deck
 		image	"images/pacman40.png" 70 50 256 256
 		image	"images/pacman70.png" 70 15 256 256
 	eslide
-	
+
 	slide "rgb(127,127,127)" "white"
 		text "API Reference" 10 50 subsize "sans" "white"
 	eslide
@@ -372,9 +371,9 @@ deck
 			li "Links"
 			li "Masking and Clipping"
 		elist
-	
+
 	eslide
-	
+
 	slide
 		ctext	"Shapes" 50 90 4
 		cimage "images/rect.png" "Rect(x, y, w, h int, s string...)"					17 80 460 260 50
@@ -387,7 +386,7 @@ deck
 		cimage "images/line.png" "Line(x1, y2, x2, y2 int, s string...)"				50 17 503 97 50
 		cimage "images/polyline.png" "Polyline(x, y []int, s string...)"				85 20 461 268 50
 	eslide
-	
+
 	slide
 		ctext	"Curves and Paths" 50 90 4
 		cimage "images/bezier.png" "Bezier(sx, sy, cx, cy, ex, ey int, s string...)" 25 80 489 224 70
@@ -403,7 +402,7 @@ deck
 		cimage "images/textlines.png" "Textlines(x, y int, s []string, size, spacing int, fill, align string)" 50 50 608 213 60
 		cimage "images/image.png" "Image(x, y,  w, h int, link string, s ...string)" 50 20 255 259 60
 	eslide
-	
+
 	slide
 		ctext	"Gradients and Colors" 50 90 4
 		cimage "images/lineargradient.png" "LinearGradient(id string, x1, y1, x2, y2 uint8, sc []Offcolor)" 30 75 547 271 80
@@ -411,7 +410,7 @@ deck
 		cimage "images/rgb.png" "RGB(r, g, b int)" 80 72 378 196 80
 		cimage "images/rgba.png" "RGBA(r, g, b int, a float64)" 80 32 403 196 80
 	eslide
-	
+
 	slide
 		ctext	"Transforms" 50 90 4
 		cimage "images/scale.png" "Scale(n float64)" 20 80 418 260 60
@@ -455,7 +454,7 @@ deck
 		image "images/svgplay-ex4.png" 75 50 1375 1042 65 
 	eslide
 
-	
+
 	slide "rgb(220,220,220)" 
 		image "images/svgplay-ex12.png" 25 50 1375 1042 65 
 		image "images/svgplay-ex3.png"  75 50 1375 1042 65 
@@ -492,18 +491,16 @@ deck
 		arrow      30 mline 55 mline
 	eslide
 
-
 	codesize=2
-	codex=5
-	codey=92
+	codex=4
+	codey=82
 	rx=50
-	ry=5
+	ry=95
 	rw=100
 	rh=10
 	ctx=50
-	cty=3
+	cty=95
 
-	
 	slide
 		rect rx ry rw rh "black"
 		ctext "Imports" ctx cty 4 "sans" "white"
