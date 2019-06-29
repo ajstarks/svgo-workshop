@@ -318,6 +318,8 @@ deck
 		textfile	"code/swebsvg.go" 5 90 2 "mono" "black"
 		image		"images/websvg-red.png" 85 75 1006 958 40
 		image		"images/websvg-green.png" 85 25 998 956 40
+		text        "/circle"       75 95 2 "mono"
+		text        "/circle/green" 75 45 2 "mono"
 	eslide
 
 	slide
