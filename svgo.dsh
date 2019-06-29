@@ -492,67 +492,69 @@ deck
 	eslide
 
 	codesize=2
-	codex=4
+	lsize=3
+	codex=3.5
 	codey=82
 	rx=50
 	ry=95
 	rw=100
 	rh=10
-	ctx=50
-	cty=95
+	ctx=codex
+	codew=97
+	cty=93
 
 	slide
 		rect rx ry rw rh "black"
-		ctext "Imports" ctx cty 4 "sans" "white"
-		textfile "code/nyt-imports.go" codex codey codesize "mono"
+		text "Imports" ctx cty lsize "sans" "white"
+		textcode "code/nyt-imports.go" codex codey codew codesize "mono"
 	eslide
 
 	slide
 		rect rx ry rw rh "black"
-		ctext "Constants" ctx cty 4 "sans" "white"
-		textfile "code/nyt-const.go" codex codey codesize "mono"
+		text "Constants" ctx cty lsize "sans" "white"
+		textcode "code/nyt-const.go" codex codey codew codesize "mono"
 	eslide
 
 	slide
 		rect rx ry rw rh "black"
-		ctext "Data Structures" ctx cty 4 "sans" "white"
-		textfile "code/nyt-struct.go" codex codey codesize "mono"
+		text "Data Structures" ctx cty lsize "sans" "white"
+		textcode "code/nyt-struct.go" codex codey codew codesize "mono"
 	eslide
 
 	slide
 		rect rx ry rw rh "black"
-		ctext "Main" ctx cty 4 "sans" "white"
-		textfile "code/nyt-main.go" codex codey codesize "mono"
+		text "Main" ctx cty lsize "sans" "white"
+		textcode "code/nyt-main.go" codex codey codew codesize "mono"
 	eslide
 
 	slide
 		rect rx ry rw rh "black"
-		ctext "Network" ctx cty 4 "sans" "white"
-		textfile "code/nyt-network.go" codex codey codesize "mono"
+		text "Network" ctx cty lsize "sans" "white"
+		textcode "code/nyt-network.go" codex codey codew codesize "mono"
 	eslide
 
 	slide
 		rect rx ry rw rh "black"
-		ctext "Read and Decode" ctx cty 4 "sans" "white"
-		textfile "code/nyt-stories.go" codex codey codesize "mono"
+		text "Read and Decode" ctx cty lsize "sans" "white"
+		textcode "code/nyt-stories.go" codex codey codew codesize "mono"
 	eslide
 
 	slide
 		rect rx ry rw rh "black"
-		ctext "Drawing (setup)" ctx cty 4 "sans" "white"
-		textfile "code/nyt-drawtop.go" codex codey codesize "mono"
+		text "Drawing (setup)" ctx cty lsize "sans" "white"
+		textcode "code/nyt-drawtop.go" codex codey codew codesize "mono"
 	eslide
 
 	slide
 		rect rx ry rw rh "black"
-		ctext "Drawing" ctx cty 4 "sans" "white"
-		textfile "code/nyt-draw.go" codex codey codesize "mono"
+		text "Drawing" ctx cty lsize "sans" "white"
+		textcode "code/nyt-draw.go" codex codey codew codesize "mono"
 	eslide
 
 	slide
 		rect rx ry rw rh "black"
-		ctext "Helpers" ctx cty 4 "sans" "white"
-		textfile "code/nyt-support.go" codex codey codesize "mono"
+		text "Helpers" ctx cty lsize "sans" "white"
+		textcode "code/nyt-support.go" codex codey codew codesize "mono"
 	eslide
 
 	slide
