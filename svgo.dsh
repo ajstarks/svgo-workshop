@@ -37,8 +37,8 @@ deck
 
 	slide
 		rect	50 52 100 30 "gray" 85
-		text	"$ go get github.com/ajstarks/svgo"                     2.5 55 3.5 "sans" "white"
-		text    "$ git clone https://github.com/ajstarks/svgo-workshop" 2.5 45 3.5 "sans" "white"
+		text	"$ go get github.com/ajstarks/svgo/..."                 5 55 3.5 "sans" "white"
+		text    "$ git clone https://github.com/ajstarks/svgo-workshop" 5 45 3.5 "sans" "white"
 		image	"images/svgdef.png" 50 50 1597 1198 90
 	eslide
 
