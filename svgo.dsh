@@ -12,14 +12,27 @@ deck
 		etext   "@ajstarks"      85 5  2 "sans" "gray"
 	eslide
 
-	slide "gray" "white"
-		ctext "You will learn:" 50 80 5
-		image "images/api.png"	17 50 1920 1080 30
-		image "images/sp1.png"		50 50 1920 1080 30
-		image "images/nytsvg.png"	82 50 1239 929 40
-		ctext "SVGo API" 			17 20 2.5
-		ctext "Sketching with code"	50 20 2.5
-		ctext "SVGo with other APIs"	82 20 2.5
+	capy=20
+	capsize=3
+	slide "rgb(127,127,127)" "white"
+		ctext "You will learn:" cx 80 5
+		image "images/api.png"	    17 cy 1920 1080 30
+		image "images/sp1.png"		50 cy 1920 1080 30
+		image "images/nytsvg.png"	82 cy 1239 929 40
+		ctext "SVGo API" 			    17 capy capsize
+		ctext "Sketching with code"	    50 capy capsize
+		ctext "SVGo with other APIs"	82 capy capsize
+	eslide
+
+	slide "rgb(127,127,127)" "white"
+		ctext "You will need:" cx 80 5
+		image "images/go-terminal.png" 30 cy 1169 332 80
+		image "images/chrome.png"      62 cy 200 200
+		image "images/firefox.png"     72 cy 200 200
+		image "images/safari.png"      82 cy 200 200
+		image "images/edge.png"        92 cy 200 200
+		ctext "Go installation and command line" 30 capy capsize
+		ctext "Modern Browser"                   77 capy capsize
 	eslide
 
 	slide
@@ -35,8 +48,6 @@ deck
 		ctext "Scalable Vector Graphics" 50 55 2.5
 		text "io.Writer" 70 48 5 "mono"
 	eslide
-
-	
 
 	slide
 		ctext	"SVGo Clients in the Repo" 50 90 4
@@ -374,7 +385,6 @@ deck
 			li "Links"
 			li "Masking and Clipping"
 		elist
-
 	eslide
 
 	slide
@@ -562,5 +572,12 @@ deck
 
 	slide
 		image "images/nytsvg-run.png" 50 50 1920 1080
+	eslide
+
+	slide
+		image	"images/svgopher.png" 30 50 1088 645 70
+		etext	"Thank You" 85 50 7
+		etext	"Anthony Starks" 85 10 2 "sans" "gray"
+		etext   "@ajstarks"      85 5  2 "sans" "gray"
 	eslide
 edeck
