@@ -23,18 +23,20 @@ deck
 	eslide
 
 	slide
+		rect	50 52 100 30 "gray" 85
+		text	"$ go get github.com/ajstarks/svgo"                     2.5 55 3.5 "sans" "white"
+		text    "$ git clone https://github.com/ajstarks/svgo-workshop" 2.5 45 3.5 "sans" "white"
+		image	"images/svgdef.png" 50 50 1597 1198 90
+	eslide
+
+	slide
 		image "images/svgopher.png" 18 50 1088 645 45
 		arrow 33 50 67 50 0.5 3 4
 		ctext "Scalable Vector Graphics" 50 55 2.5
 		text "io.Writer" 70 48 5 "mono"
 	eslide
 
-	slide
-		rect	50 52 100 30 "gray" 85
-		text	"$ go get github.com/ajstarks/svgo"                     2.5 55 3.5 "sans" "white"
-		text    "$ git clone https://github.com/ajstarks/svgo-workshop" 2.5 45 3.5 "sans" "white"
-		image	"images/svgdef.png" 50 50 1597 1198 90
-	eslide
+	
 
 	slide
 		ctext	"SVGo Clients in the Repo" 50 90 4
