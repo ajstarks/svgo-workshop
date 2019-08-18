@@ -12,10 +12,12 @@ deck
 		etext   "@ajstarks"      85 5  2 "sans" "gray"
 	eslide
 
+	subtop=85
 	capy=20
-	capsize=3
+	subsize=6
+	capsize=subsize/2
 	slide "rgb(127,127,127)" "white"
-		ctext "You will learn:" cx 80 5
+		ctext "You will learn:" cx subtop subsize 
 		image "images/api.png"	    17 cy 1920 1080 30
 		image "images/sp1.png"		50 cy 1920 1080 30
 		image "images/nytsvg.png"	82 cy 1239 929 40
@@ -25,8 +27,8 @@ deck
 	eslide
 
 	slide "rgb(127,127,127)" "white"
-		ctext "You will need:" cx 80 5
-		image "images/go-terminal.png" 30 cy 1169 332 80
+		ctext "You will need:" cx subtop subsize 
+		image "images/go-terminal.png" 30 cy 1634 864 60
 		image "images/chrome.png"      62 cy 200 200
 		image "images/firefox.png"     72 cy 200 200
 		image "images/safari.png"      82 cy 200 200
