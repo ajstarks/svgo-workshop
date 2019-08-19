@@ -398,8 +398,8 @@ deck
 		cimage "images/ellipse.png" "Ellipse(x, y, w, h int, s string...)"				50 50 411 208 50
 		cimage "images/circle.png" "Circle(x, y, r int, s string...)"					85 50 273 213 50
 		cimage "images/polygon.png" "Polygon(x, y []int, s string...)"					17 20 452 263 50
-		cimage "images/line.png" "Line(x1, y2, x2, y2 int, s string...)"				50 17 503 97 50
-		cimage "images/polyline.png" "Polyline(x, y []int, s string...)"				85 20 461 268 50
+		cimage "images/line.png" "Line(x1, y2, x2, y2 int, s string...)"				85 16 503 97 50
+		cimage "images/polyline.png" "Polyline(x, y []int, s string...)"				50 20 461 268 50
 	eslide
 
 	slide
