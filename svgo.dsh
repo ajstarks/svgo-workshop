@@ -506,7 +506,7 @@ deck
 		arrow      30 mline 55 mline
 	eslide
 
-	codesize=2
+	codesize=1.9
 	lsize=3
 	codex=3.5
 	codey=82
