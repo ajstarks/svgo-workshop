@@ -460,7 +460,7 @@ deck
 
 
     slide
-        etext   "codepicdeck" 95 5 3 "serif" "black" 100 "https://github.com/ajstarks/deck/blob/master/cmd/codepicdeck/codepicdeck.go"
+        etext   "code/svgplay-samples" 95 5 3 "serif" "black" 100 "https://github.com/ajstarks/deck/blob/master/cmd/codepicdeck/codepicdeck.go"
         image   "images/svgplay-title.png" cx cy 1800 1200 90 "https://speakerdeck.com/ajstarks/svgo-code-plus-picture-examples"
     eslide
 
@@ -489,8 +489,8 @@ deck
 		ctext "into data structures" 50 spy 3 "sans" "gray"
 		ctext "Draw"  80 rpy rpsize 
 		ctext "from the structures"  80 spy 3 "sans" "gray"
-		ctext "Data" 20 25 3 "sans" "maroon"
-		ctext "Picture" 80 25 3 "sans" "maroon"
+		ctext "Data" 20 25 5 "sans" "maroon"
+		ctext "Picture" 80 25 5 "sans" "maroon"
 		arrow 30 27 70 27
 	eslide
 
