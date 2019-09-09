@@ -374,11 +374,11 @@ deck
 			li "Text and Images"
 			li "Colors and Gradients"
 			li "Transforms"
-			li "Skewing"
+			li "Animation"
 			li "Filter Effects"
 		elist
 
-		blist	60 75 3 "sans" "slategray"
+		blist	55 75 3 "sans" "slategray"
 			li "Starting and Ending"
 			li "Metadata"
 			li "Utility"
@@ -419,7 +419,7 @@ deck
 	eslide
 
 	slide
-		ctext	"Gradients and Colors" 50 90 4
+		ctext  "Gradients and Colors" 50 90 4
 		cimage "images/lineargradient.png" "LinearGradient(id string, x1, y1, x2, y2 uint8, sc []Offcolor)" 30 75 547 271 80
 		cimage "images/radialgradient.png" "RadialGradient(id string, cx, cy, r, fx, fy uint8, sc []Offcolor)" 30 35 464 267 80
 		cimage "images/rgb.png" "RGB(r, g, b int)" 80 72 378 196 80
@@ -427,7 +427,7 @@ deck
 	eslide
 
 	slide
-		ctext	"Transforms" 50 90 4
+		ctext  "Transforms" 50 90 4
 		cimage "images/scale.png" "Scale(n float64)" 20 80 418 260 60
 		cimage "images/scalexy.png" "ScaleXY(dx, dy float64)" 50 80 420 268 60
 		cimage "images/skewx.png" "SkewX(a float64)" 80 80 527 263 60
@@ -435,6 +435,21 @@ deck
 		cimage "images/skewxy.png" "SkewXY(ax, ay float64)" 50 50 695 503 40
 		cimage "images/translate.png" "Translate(x, y int)" 80 50 419 265 60
 		cimage "images/rotate.png" "Rotate(a float64)" 50 20 796 654 35
+	eslide
+
+	slide
+		tl=15
+		ctext  "Animation" 50 90 4
+		image "images/animate.png" 	10 82 511 531 20
+		image "images/am.png"		10 67 611 521 20
+		image "images/amt.png"		10 40 499 494 20
+		text "Animate(link, attr string, from, to int, duration float64, repeat int, s ...string)"					tl 80 2
+		text "AnimateMotion(link, path string, duration float64, repeat int, s ...string) "							tl 68 2
+		text "AnimateTranslate(link string, fx, fy, tx, ty int, duration float64, repeat int, s ...string)"			tl 56 2
+		text "AnimateRotate(link string, fs, fc, fe, ts, tc, te int, duration float64, repeat int, s ...string)"	tl 44 2
+		text "AnimateScale(link string, from, to, duration float64, repeat int, s ...string)"						tl 32 2
+		text "AnimateSkewX(link string, from, to, duration float64, repeat int, s ...string)"						tl 20 2
+		text "AnimateSkewY(link string, from, to, duration float64, repeat int, s ...string)"						tl 6 2
 	eslide
 
 	slide
