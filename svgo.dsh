@@ -470,7 +470,7 @@ deck
 	eslide
 
 	slide
-		image "images/svgplay-setup.png" 50 50 1920 1080
+		image "images/svgplay-browser-shell.png" 50 50 1920 1080
 	eslide
 
 
