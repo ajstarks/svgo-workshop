@@ -141,10 +141,6 @@ deck
 	eslide
 
 	slide
-		image	"images/compx.png" cx cy 2166 1626 67
-	eslide
-
-	slide
 		image	"images/benchviz.png" cx cy 2018 1610 67
 	eslide
 
@@ -195,13 +191,15 @@ deck
 		image	"images/ar.jpg" cx cy 1425 1000
 	eslide
 
-	slide
-		image	"images/201933.png" cx cy 900 846
-	eslide
+	
 
-	slide
-		image	"images/201935.png" cx cy 900 846
-	eslide
+	// slide
+	// 	image	"images/201933.png" cx cy 900 846
+	// eslide
+
+	// slide
+	// 	image	"images/201935.png" cx cy 900 846
+	// eslide
 
 	slide
 		image	"images/201939.png" cx cy 900 846
@@ -222,6 +220,14 @@ deck
 		image	"images/unit.png" 13 84 522 414 50
 		image	"images/runit.png" 18 55 462 412 50
 		image	"images/unit+runit2.png" 20 22 1054 700 50
+	eslide
+
+	slide
+		image	"images/decksh.png" cx cy 1920 1080
+ 	eslide
+
+	slide
+		image	"images/dchart.png" cx cy 1920 1080
 	eslide
 
 	slide "rgb(127,127,127)" "white"
