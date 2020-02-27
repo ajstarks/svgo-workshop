@@ -29,18 +29,19 @@ deck
 	slide "rgb(127,127,127)" "white"
 		ctext "You will need:" cx subtop subsize 
 		image "images/go-terminal.png" 30 cy 1634 864 60
-		image "images/chrome.png"      62 cy 200 200
-		image "images/firefox.png"     72 cy 200 200
-		image "images/safari.png"      82 cy 200 200
-		image "images/edge.png"        92 cy 200 200
+		image "images/chrome.png"      62 cy 160 160
+		image "images/firefox.png"     72 cy 160 160
+		image "images/safari.png"      82 cy 160 160
+		image "images/edge.png"        92 cy 160 160
 		ctext "Go installation and command line" 30 capy capsize
 		ctext "Modern Browser"                   77 capy capsize
 	eslide
 
 	slide
-		rect	50 52 100 30 "gray" 85
-		text	"$ go get github.com/ajstarks/svgo/..."                 5 55 3.5 "sans" "white"
-		text    "$ git clone https://github.com/ajstarks/svgo-workshop" 5 45 3.5 "sans" "white"
+		rect	50 52 100 40 "gray" 85
+		text	"$ go get github.com/ajstarks/svgo/..."                 5 60 2.8 "mono" "white"
+		text    "$ git clone https://github.com/ajstarks/svgo-workshop" 5 50 2.8 "mono" "white"
+		text    "$ cd svgo-workshop/code/svgplay-samples"               5 40 2.8 "mono" "white"
 		image	"images/svgdef.png" 50 50 1597 1198 90
 	eslide
 
@@ -297,31 +298,32 @@ deck
 
 	// SVG coordinate system
 	slide
-		rect 50 50 60 60 "rgb(200,200,200)"
-		ctext "Y" 15 81 3
-		ctext "X" 20 10 3
-		text "width" 80 10 3
-		ctext "height" 15 20 3
-		ctext "(width/2, height/2)" 50 52 2
-		ctext "(width,height)" 80 22 2
-		ctext "(0,0)" 20 82 2
-		circle 50 50 1 "maroon"
-		circle 20 80 1 "maroon"
-		circle 80 20 1 "maroon"
-		arrow 15 80 15 25 0.3 4 2
-		arrow 21 11.5 80 11.5 0.3
+		dotsize=1.5
+		rect 50 50 70 70 "rgb(200,200,200)"
+		ctext "Y" 10 85 3
+		ctext "X" 15 5 3
+		ctext "width" 85   5 3
+		ctext "height" 10 15 3
+		ctext "(width/2, height/2)" 50 52 2 "mono"
+		ctext "(width,height)"      85 17 2 "mono"
+		ctext "(0,0)" 15 87 2
+		circle 50 50 dotsize "maroon"
+		circle 15 85 dotsize "maroon"
+		circle 85 15 dotsize "maroon"
+		arrow 10 80 10 25 0.3 4 2
+		arrow 20 7.5 80 7.5 0.3
 	eslide
 
 	// X-Ray version of hello, world
 	slide
-		rect   50 50 60 60 "black"
-		arc    50 20 60 55 0 180 0.5 "white"
-		circle 50 20 1 "maroon"
-		circle 50 50 1 "maroon"
-		ctext  "(width/2, height)" 50 22 2 "mono" "white"
+		rect   50 50 70 70 "black"
+		arc    50 10 70 60 0 180 0.5 "white"
+		circle 50 15 dotsize "maroon"
+		circle 50 50 dotsize "maroon"
+		ctext  "(width/2, height)"   50 20 2 "mono" "white"
 		ctext  "(width/2, height/2)" 50 44 2 "mono" "white"
-		ctext  "hello, world" 50 50 5 "serif" "white"
-		ctext  "Rect(0,0,width,height)" 50 75 2 "mono" "white"
+		ctext  "hello, world"        50 50 5 "serif" "white"
+		ctext  "Rect(0,0,width,height)" 50 80 2 "mono" "white"
 	eslide
 
 	slide "white" "black"
