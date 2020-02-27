@@ -5,6 +5,7 @@ deck
 	subsize=7
 	canvas 1920 1080
 
+	// title page
 	slide
 		image	"images/svgopher.png" 30 50 1088 645 70
 		etext	"Workshop" 85 50 7
@@ -16,6 +17,8 @@ deck
 	capy=20
 	subsize=6
 	capsize=subsize/2
+
+	// Outline
 	slide "rgb(127,127,127)" "white"
 		ctext "You will learn:" cx subtop subsize 
 		image "images/api.png"	    17 cy 1920 1080 30
@@ -26,6 +29,7 @@ deck
 		ctext "SVGo with other APIs"	82 capy capsize
 	eslide
 
+	// Requirements
 	slide "rgb(127,127,127)" "white"
 		ctext "You will need:" cx subtop subsize 
 		image "images/go-terminal.png" 30 cy 1634 864 60
@@ -37,6 +41,7 @@ deck
 		ctext "Modern Browser"                   77 capy capsize
 	eslide
 
+	// Setup instructions
 	slide
 		rect	50 52 100 40 "gray" 85
 		text	"$ go get github.com/ajstarks/svgo/..."                 5 60 2.8 "mono" "white"
@@ -45,6 +50,7 @@ deck
 		image	"images/svgdef.png" 50 50 1597 1198 90
 	eslide
 
+	// Intro
 	slide
 		image "images/svgopher.png" 18 50 1088 645 45
 		arrow 33 50 67 50 0.5 3 4
@@ -52,6 +58,7 @@ deck
 		text "io.Writer" 70 48 5 "mono"
 	eslide
 
+	// Clients in the repo
 	slide
 		ctext	"SVGo Clients in the Repo" 50 90 4
 		list	5 80 1.5 "mono" "" 100 1.6
@@ -136,83 +143,90 @@ deck
 		elist
 	eslide
 
+	// Section: clients
 	slide "rgb(127,127,127)" "white"
 		text "SVGo Clients" 10 50 subsize "sans" "white"
 	eslide
 
+	// benchviz
 	slide
 		image	"images/benchviz.png" cx cy 2018 1610 67
 	eslide
 
+	// structlayout
 	slide
 		ctext	"structlayout -json bytes Reader | structlayout-svg -t bytes.Reader > reader.svg" 50 5 2
 		image	"images/bytesreader.png" cx cy 827 828
 	eslide
 
+	// timeline
 	slide
 		image	"images/go-rel.png" cx cy 3334 1432 60
 	eslide
 
+	// bulletgraph
 	slide
 		image	"images/bulletgraph.png" cx cy 2716 1596 67
 	eslide
 
+	// quadrants
 	slide
 		image	"images/quad.png" cx cy 2106 1544 67
 	eslide
 
+	// tech roadmap
 	slide
 		image	"images/pv.png" cx cy 2142 1608 67
 	eslide
 
+	// tech roadmap (radial)
 	slide
 		image	"images/rr0.png" cx cy 1550 1496 72
 	eslide
 
+	// stockchart
 	slide
 		image	"images/apple-stockchart.png" cx cy 1600 900
 	eslide
 
+	// tweetfreq
 	slide
 		image	"images/tweetfreq.png" cx cy 2138 1596 67
 	eslide
 
+	// planets
 	slide "black"
 		image	"images/planets.png" cx cy 1900 600
 	eslide
 
+	// Layer Tennis
 	slide "black"
 		image	"images/lt-04-jones-montiel.png" 20 50 1150 2072 45
 		image	"images/lt-04-dkng-ddl.png" cx cy 1150 2072 45
 		image	"images/lt-04-anderson-dkng.png" 80 50 1150 2072 45
 	eslide
 
+	// Layer Tennis season
 	slide "black"
 		image	"images/ar.jpg" cx cy 1425 1000
 	eslide
 
-	
-
-	// slide
-	// 	image	"images/201933.png" cx cy 900 846
-	// eslide
-
-	// slide
-	// 	image	"images/201935.png" cx cy 900 846
-	// eslide
-
+	// NBA shotchart
 	slide
 		image	"images/201939.png" cx cy 900 846
 	eslide
 
+	// The Shining
 	slide
 		image	"images/danny.jpg" cx cy 1920 1080
 	eslide
 
+	// The Shining code
 	slide
 		image	"images/shining.png" cx cy 1920 1080 100 "https://www.youtube.com/watch?v=5N3ME6vQOnQ"
 	eslide
 
+	// The Shining code+pic
 	slide
 		textfile "code/defunit.go" 45 92 1.8 "mono"
 		textfile "code/defrunit.go" 45 65 1.8 "mono"
@@ -222,22 +236,27 @@ deck
 		image	"images/unit+runit2.png" 20 22 1054 700 50
 	eslide
 
+	// decksh
 	slide
 		image	"images/decksh.png" cx cy 1920 1080
  	eslide
 
+	// dchart
 	slide
 		image	"images/dchart.png" cx cy 1920 1080
 	eslide
 
+	// API section
 	slide "rgb(127,127,127)" "white"
 		text "SVGo API Design" 10 50 subsize "sans" "white"
 	eslide
 
+	// bugdroid
 	slide
 		image "images/android.png" cx cy 877 877 80 "https://nyti.ms/2k84rr5"
 	eslide
 
+	// bugdroid annotated
 	slide
 		etext		"Scale" 28 70 4.5
 		etext		"Roundrect" 42.5 50 4.5
@@ -250,6 +269,7 @@ deck
 		image		"images/android.png" cx cy 877 877 80
 	eslide
 
+	// API (1)
 	slide
 		ctext	"Element" 30 90 2.5 "sans" "gray"
 		ctext	"Arguments" 50 90 2.5 "sans" "gray"
@@ -264,6 +284,7 @@ deck
 		line	50 89 50 85
 	eslide
 
+	// API (2)
 	slide
 		ctext	"Element" 30 90 2.5 "sans" "gray"
 		ctext	"Arguments" 50 90 2.5 "sans" "gray"
@@ -283,6 +304,7 @@ deck
 		line	67 89 67 80
 	eslide
 
+	// API (3)
 	slide
 		ctext	"Element" 30 90 2.5 "sans" "gray"
 		ctext	"Arguments" 50 90 2.5 "sans" "gray"
@@ -332,11 +354,13 @@ deck
 		ctext  "Rect(0,0,width,height)" 50 80 2 "mono" "white"
 	eslide
 
+	// SVGo hello, world
 	slide "white" "black"
 		textfile	"code/hwsvg.go" 4 90 2 "mono" "black"
 		image		"images/hw.png" 70 75 960 540 90
 	eslide
 
+	// SVGo in the browser
 	slide "white" "black"
 		textfile	"code/swebsvg.go" 5 90 2 "mono" "black"
 		image		"images/websvg-red.png" 85 75 1006 958 40
@@ -345,6 +369,7 @@ deck
 		text        "/circle/green" 75 45 2 "mono" "rgb(50,50,50)"
 	eslide
 
+	// SVGo website
 	slide
 		ctext  "https://ajstarks.org:1958/" 50 95 2.5 "sans" "black" 100 "https://ajstarks.org:1958/"
 		cimage "images/clock.png"		"clock" 12.5 80 256 256 90
@@ -361,6 +386,7 @@ deck
 		cimage "images/concentric.png"	"concentric" 87.5 20 256 256 90
 	eslide
 
+	// Pacman online
 	slide "white" "black"
 		text	"/pacman/?angle=20" 5 85 5 "sans" "black"
 		text	"/pacman/?angle=40" 5 50 5 "sans" "black"
@@ -370,10 +396,12 @@ deck
 		image	"images/pacman70.png" 70 15 256 256
 	eslide
 
+	// API reference section
 	slide "rgb(127,127,127)" "white"
 		text "API Reference" 10 50 subsize "sans" "white"
 	eslide
 
+	// Method categories
 	slide
 		text	"SVGo Method Categories" 10 90 4
 		blist	10 75 3 "sans" "slategray"
@@ -397,6 +425,7 @@ deck
 		elist
 	eslide
 
+	// Shapes
 	slide
 		ctext	"Shapes" 50 90 4
 		cimage "images/rect.png" "Rect(x, y, w, h int, s string...)"					17 80 460 260 50
@@ -410,6 +439,7 @@ deck
 		cimage "images/polyline.png" "Polyline(x, y []int, s string...)"				50 20 461 268 50
 	eslide
 
+	// Curves and Paths
 	slide
 		ctext	"Curves and Paths" 50 90 4
 		cimage "images/bezier.png" "Bezier(sx, sy, cx, cy, ex, ey int, s string...)" 25 80 489 224 70
@@ -418,6 +448,7 @@ deck
 		cimage "images/path.png" "Path(d string, s string...)" 50 20 289 222 70
 	eslide
 
+	// Text and Images
 	slide
 		ctext	"Text and Images" 50 90 4
 		cimage "images/text.png" "Text(x, y int, s string, s ...string)" 20 76 583 118 60
@@ -426,6 +457,7 @@ deck
 		cimage "images/image.png" "Image(x, y,  w, h int, link string, s ...string)" 50 20 255 259 60
 	eslide
 
+	// Gradients and Colors
 	slide
 		ctext  "Gradients and Colors" 50 90 4
 		cimage "images/lineargradient.png" "LinearGradient(id string, x1, y1, x2, y2 uint8, sc []Offcolor)" 30 75 547 271 80
@@ -434,6 +466,7 @@ deck
 		cimage "images/rgba.png" "RGBA(r, g, b int, a float64)" 80 32 403 196 80
 	eslide
 
+	// Transforms
 	slide
 		ctext  "Transforms" 50 90 4
 		cimage "images/scale.png" "Scale(n float64)" 20 80 418 260 60
@@ -445,6 +478,7 @@ deck
 		cimage "images/rotate.png" "Rotate(a float64)" 50 20 796 654 35
 	eslide
 
+	// Animation
 	slide
 		tl=15
 		ctext  "Animation" 50 90 4
@@ -460,48 +494,56 @@ deck
 		text "AnimateSkewY(link string, from, to, duration float64, repeat int, s ...string)"						tl 6 2
 	eslide
 
+	// Filter Effects
 	slide
 		ctext	"Filter Effects" 50 90 4
 		image	"images/fet.png" 50 50 1580 482
 	eslide
 
+	// Section: Sketching with code
 	slide "rgb(127,127,127)" "white"
 		text "Sketching with code" 10 50 subsize "sans" "white"
 	eslide
 
+	// sketching: hello, world
 	slide
 		image "images/sp1.png" cx cy 1920 1080
 	eslide
 
+	// sketching: hello, Mars
 	slide
 		image "images/sp2.png" cx cy 1920 1080
 	eslide
 
+	// brower and shell
 	slide
 		image "images/svgplay-browser-shell.png" 50 50 1920 1080
 	eslide
 
-
+	// svgplay samples
     slide
         etext   "code/svgplay-samples" 95 5 3 "serif" "black" 100 "https://github.com/ajstarks/deck/blob/master/cmd/codepicdeck/codepicdeck.go"
         image   "images/svgplay-title.png" cx cy 1800 1200 90 "https://speakerdeck.com/ajstarks/svgo-code-plus-picture-examples"
     eslide
 
+	// svgplay example (1)
 	slide "rgb(220,220,220)" 
 		image "images/svgplay-ex9.png" 25 50 1375 1042 65 
 		image "images/svgplay-ex4.png" 75 50 1375 1042 65 
 	eslide
 
-
+	// svgplay example (2)
 	slide "rgb(220,220,220)" 
 		image "images/svgplay-ex12.png" 25 50 1375 1042 65 
 		image "images/svgplay-ex3.png"  75 50 1375 1042 65 
 	eslide
 
+	// Section: Read/Parse/Draw Pattern
 	slide "rgb(127,127,127)" "white"
 		text "Read/Parse/Draw Pattern" 10 50 subsize "sans" "white"
 	eslide
 
+	// Read/Parse/Draw Pattern diagram
 	slide
 		rpy=60
 		spy=rpy-10
@@ -517,6 +559,7 @@ deck
 		arrow 30 27 70 27
 	eslide
 
+	// Read/Parse/Draw Pattern: NYT
 	slide
 		mline=35
 		text        "Read"       5  90 4
@@ -541,64 +584,75 @@ deck
 	codew=97
 	cty=93
 
+	// nytsvg code: imports
 	slide
 		rect rx ry rw rh "black"
 		text "Imports" ctx cty lsize "sans" "white"
 		textcode "code/nyt-imports.go" codex codey codew codesize "mono"
 	eslide
 
+	// nytsvg code: constants
 	slide
 		rect rx ry rw rh "black"
 		text "Constants" ctx cty lsize "sans" "white"
 		textcode "code/nyt-const.go" codex codey codew codesize "mono"
 	eslide
 
+	// nytsvg code: data structures
 	slide
 		rect rx ry rw rh "black"
 		text "Data Structures" ctx cty lsize "sans" "white"
 		textcode "code/nyt-struct.go" codex codey codew codesize "mono"
 	eslide
 
+	// nytsvg code: nain
 	slide
 		rect rx ry rw rh "black"
 		text "Main" ctx cty lsize "sans" "white"
 		textcode "code/nyt-main.go" codex codey codew codesize "mono"
 	eslide
 
+	// nytsvg code: network
 	slide
 		rect rx ry rw rh "black"
 		text "Network" ctx cty lsize "sans" "white"
 		textcode "code/nyt-network.go" codex codey codew codesize "mono"
 	eslide
 
+	// nytsvg code: read/decode
 	slide
 		rect rx ry rw rh "black"
 		text "Read and Decode" ctx cty lsize "sans" "white"
 		textcode "code/nyt-stories.go" codex codey codew codesize "mono"
 	eslide
 
+	// nytsvg code: drawing setup
 	slide
 		rect rx ry rw rh "black"
 		text "Drawing (setup)" ctx cty lsize "sans" "white"
 		textcode "code/nyt-drawtop.go" codex codey codew codesize "mono"
 	eslide
 
+	// nytsvg code: draw
 	slide
 		rect rx ry rw rh "black"
 		text "Drawing" ctx cty lsize "sans" "white"
 		textcode "code/nyt-draw.go" codex codey codew codesize "mono"
 	eslide
 
+	// nytsvg code: helpers
 	slide
 		rect rx ry rw rh "black"
 		text "Helpers" ctx cty lsize "sans" "white"
 		textcode "code/nyt-support.go" codex codey codew codesize "mono"
 	eslide
 
+	// nytsvg; running
 	slide
 		image "images/nytsvg-run.png" 50 50 1920 1080
 	eslide
 
+	// thanks
 	slide
 		image	"images/svgopher.png" 30 50 1088 645 70
 		etext	"Thank You" 85 50 7
