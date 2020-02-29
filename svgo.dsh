@@ -53,7 +53,7 @@ deck
 	// Intro
 	slide
 		image "images/svgopher.png" 18 50 1088 645 45
-		arrow 33 50 67 50 0.5 3 4
+		arrow 33 50 70 50 1 5 7
 		ctext "Scalable Vector Graphics" 50 55 2.5
 		text "io.Writer" 70 48 5 "mono"
 	eslide
@@ -327,13 +327,13 @@ deck
 	// SVG coordinate system
 	slide
 		dotsize=1.5
-		rect 50 50 70 70 "rgb(200,200,200)"
+		rect 50 50 70 70 "rgb(0,0,0)"
 		ctext "Y" 10 85 3
 		ctext "X" 15 5 3
 		ctext "width" 85   5 3
 		ctext "height" 10 15 3
-		ctext "(width/2, height/2)" 50 52 2 "mono"
-		ctext "(width,height)"      85 17 2 "mono"
+		ctext "(width/2, height/2)" 50 52 2 "mono" "white"
+		ctext "(width,height)"      85 12 2 "mono"
 		ctext "(0,0)" 15 87 2
 		circle 50 50 dotsize "maroon"
 		circle 15 85 dotsize "maroon"
@@ -344,7 +344,7 @@ deck
 
 	// X-Ray version of hello, world
 	slide
-		rect   50 50 70 70 "black"
+		rect   50 50 70 70 "rgb(0,0,0)" //  "black"
 		arc    50 10 70 60 0 180 0.5 "white"
 		circle 50 15 dotsize "maroon"
 		circle 50 50 dotsize "maroon"
@@ -515,15 +515,22 @@ deck
 		image "images/sp2.png" cx cy 1920 1080
 	eslide
 
-	// brower and shell
+	// Running SVGo
 	slide
-		image "images/svgplay-browser-shell.png" 50 50 1920 1080
+		ctext  "Running SVGo" 50 90 4
+		list 2 80 2 "mono" "" 100 1.5
+			li "$ git clone https://github.com/ajstarks/svgo-workshop" "" "gray"
+			li "$ cd svgo-workshop/code/svgplay-samples"
+			li "$ svglay"
+			li "svgplay 2020/02/28 17:58:43 ☠ ☠ ☠ Warning: this server allows a client connecting to 127.0.0.1:1999 to execute code on this computer ☠ ☠ ☠"
+		elist
+		image "images/svgplay-browser2.png" 50 5 1967 1363 75
 	eslide
 
 	// svgplay samples
     slide
-        etext   "code/svgplay-samples" 95 5 3 "serif" "black" 100 "https://github.com/ajstarks/deck/blob/master/cmd/codepicdeck/codepicdeck.go"
-        image   "images/svgplay-title.png" cx cy 1800 1200 90 "https://speakerdeck.com/ajstarks/svgo-code-plus-picture-examples"
+        etext   "code/svgplay-samples" 97 5 2 "mono" "black" 100 "https://github.com/ajstarks/deck/blob/master/cmd/codepicdeck/codepicdeck.go"
+        image   "images/svgplay1.png" cx cy 1600 1200 90 "https://speakerdeck.com/ajstarks/svgo-code-plus-picture-examples"
     eslide
 
 	// svgplay example (1)
@@ -647,9 +654,15 @@ deck
 		textcode "code/nyt-support.go" codex codey codew codesize "mono"
 	eslide
 
-	// nytsvg; running
+	// setup to run nytsvg
 	slide
-		image "images/nytsvg-run.png" 50 50 1920 1080
+		ctext  "Running nytsvg" 50 90 4
+		list 2 80 2 "mono" "" 100 1.5
+			li "$ git clone https://github.com/ajstarks/svgo-workshop" "mono" "gray"
+			li "$ cd svgo-workshop/code"
+			li "$ go run nytsvg.go -s food"
+		elist
+		image "images/run-nytsvg.png" 50 20 1274 507
 	eslide
 
 	// thanks
