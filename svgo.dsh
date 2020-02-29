@@ -517,7 +517,7 @@ deck
 
 	// Running SVGo
 	slide
-		ctext  "Running SVGo" 50 90 4
+		ctext  "Running svgplay" 50 90 4
 		list 2 80 2 "mono" "" 100 1.5
 			li "$ git clone https://github.com/ajstarks/svgo-workshop" "" "gray"
 			li "$ cd svgo-workshop/code/svgplay-samples"
