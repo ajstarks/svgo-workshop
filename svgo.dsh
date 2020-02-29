@@ -662,7 +662,7 @@ deck
 			li "$ cd svgo-workshop/code"
 			li "$ go run nytsvg.go -s food"
 		elist
-		image "images/run-nytsvg.png" 50 20 1274 507
+		image "images/run-nytsvg.png" 50 10 1790 1407 80
 	eslide
 
 	// thanks
