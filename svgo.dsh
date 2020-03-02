@@ -524,7 +524,10 @@ deck
 			li "$ svglay"
 			li "svgplay 2020/02/28 17:58:43 ☠ ☠ ☠ Warning: this server allows a client connecting to 127.0.0.1:1999 to execute code on this computer ☠ ☠ ☠"
 		elist
-		image "images/svgplay-browser2.png" 50 5 1967 1363 75
+		ctext "http://127.0.0.1:1999/hello.go" 20 54 2 "sans" "maroon"
+		line 20 53 20 46 0.2 "maroon"
+		circle 20 46 1 "maroon"
+		image "images/svgplay-browser2.png" 50 2 1967 1363 75
 	eslide
 
 	// svgplay samples
@@ -660,7 +663,8 @@ deck
 		list 2 80 2 "mono" "" 100 1.5
 			li "$ git clone https://github.com/ajstarks/svgo-workshop" "mono" "gray"
 			li "$ cd svgo-workshop/code"
-			li "$ go run nytsvg.go -s food"
+			li "$ go run nytsvg.go -s food > f.svg"
+			li "Open f.svg " "mono" "maroon"
 		elist
 		image "images/run-nytsvg.png" 50 10 1790 1407 80
 	eslide
