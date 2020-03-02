@@ -53,7 +53,7 @@ deck
 	// Intro
 	slide
 		image "images/svgopher.png" 18 50 1088 645 45
-		arrow 33 50 70 50 1 5 7
+		arrow 33 50 70 50 0.6 4 6
 		ctext "Scalable Vector Graphics" 50 55 2.5
 		text "io.Writer" 70 48 5 "mono"
 	eslide
@@ -518,15 +518,14 @@ deck
 	// Running SVGo
 	slide
 		ctext  "Running svgplay" 50 90 4
-		list 2 80 2 "mono" "" 100 1.5
+		list 5 80 2 "mono" "" 100 1.6
 			li "$ git clone https://github.com/ajstarks/svgo-workshop" "" "gray"
 			li "$ cd svgo-workshop/code/svgplay-samples"
 			li "$ svglay"
-			li "svgplay 2020/02/28 17:58:43 ☠ ☠ ☠ Warning: this server allows a client connecting to 127.0.0.1:1999 to execute code on this computer ☠ ☠ ☠"
+			li "svgplay 2020/02/28 17:58:43 ☠ ☠ ☠ Warning: ..." // this server allows a client connecting to 127.0.0.1:1999 to execute code on this computer ☠ ☠ ☠"
+			li "http://127.0.0.1:1999/hello.go" "" "maroon"
 		elist
-		ctext "http://127.0.0.1:1999/hello.go" 20 54 2 "sans" "maroon"
-		line 20 53 20 46 0.2 "maroon"
-		circle 20 46 1 "maroon"
+		line 20 55 20 46 0.2 "maroon"
 		image "images/svgplay-browser2.png" 50 2 1967 1363 75
 	eslide
 
@@ -660,13 +659,14 @@ deck
 	// setup to run nytsvg
 	slide
 		ctext  "Running nytsvg" 50 90 4
-		list 2 80 2 "mono" "" 100 1.5
+		list 5 80 2 "mono" "" 100 1.6
 			li "$ git clone https://github.com/ajstarks/svgo-workshop" "mono" "gray"
 			li "$ cd svgo-workshop/code"
 			li "$ go run nytsvg.go -s food > f.svg"
-			li "Open f.svg " "mono" "maroon"
+			li "Open f.svg in your browser" "mono" "maroon"
 		elist
-		image "images/run-nytsvg.png" 50 10 1790 1407 80
+		line 25 62 25 52 0.2 "maroon"
+		image "images/run-nytsvg.png" 50 5 1790 1407 80
 	eslide
 
 	// thanks
