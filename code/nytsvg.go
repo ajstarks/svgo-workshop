@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	svg "github.com/ajstarks/svgo"
+	"github.com/ajstarks/svgo"
 )
 
 // API Info and formats
@@ -18,7 +18,7 @@ const (
 	NYTfmt    = "https://api.nytimes.com/svc/topstories/v2/%s.json?api-key=%s"
 	style     = "font-size:9pt;font-family:sans-serif;text-anchor:middle;fill:white"
 	errfmt    = "unable to get network data for %s (%s)"
-	headfmt   = "New York Times Top stores for %s"
+	headfmt   = "New York Times %s stories: %s"
 	datefmt   = "Monday Jan 2, 2006"
 	usage     = `section choices:
 arts, automobiles, books, business, fashion, 
@@ -88,22 +88,22 @@ func nytStories(canvas *svg.SVG, width int, section string, n int) {
 		fmt.Fprintf(os.Stderr, "decode: %v\n", err)
 		return
 	}
-	drawStories(canvas, width, data, n)
+	drawStories(canvas, section, width, data, n)
 }
 
 // drawStories walks the result structure,
 // displaying title and thumbnail in a grid
-func drawStories(canvas *svg.SVG, width int, data NYTStories, n int) {
+func drawStories(canvas *svg.SVG, section string, width int, data NYTStories, n int) {
 	top, left := 100, 150
 	titley := top - 50
 	x, y := left, top
-	ts := fmt.Sprintf(headfmt, time.Now().Format(datefmt))
+	ts := fmt.Sprintf(headfmt, section, time.Now().Format(datefmt))
 	if n > data.StoryCount {
 		n = data.StoryCount
 	}
 
 	canvas.Gstyle(style)
-	canvas.Text(width/2, titley, ts, "font-size:300%")
+	canvas.Text(width/2, titley, ts, "font-size:250%")
 	for i := 0; i < n; i++ {
 		d := data.Results[i]
 		tw, th, imagelink := imageinfo(d)

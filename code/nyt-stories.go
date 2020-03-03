@@ -12,5 +12,5 @@ func nytStories(canvas *svg.SVG, width int, section string, n int) {
 		fmt.Fprintf(os.Stderr, "decode: %v\n", err)
 		return
 	}
-	drawStories(canvas, width, data, n)
+	drawStories(canvas, stories,  width, data, n)
 }

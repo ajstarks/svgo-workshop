@@ -1,5 +1,5 @@
 	canvas.Gstyle(style)
-	canvas.Text(width/2, titley, ts, "font-size:300%")
+	canvas.Text(width/2, titley, ts, "font-size:250%")
 	for i := 0; i < n; i++ {
 		d := data.Results[i]
 		tw, th, imagelink := imageinfo(d)

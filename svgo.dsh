@@ -332,7 +332,7 @@ deck
 		ctext "X" 15 5 3
 		ctext "width" 85   5 3
 		ctext "height" 10 15 3
-		ctext "(width/2, height/2)" 50 52 2 "mono" "white"
+		ctext "(width/2, height/2)" 50 45 2 "mono" "white"
 		ctext "(width,height)"      85 12 2 "mono"
 		ctext "(0,0)" 15 87 2
 		circle 50 50 dotsize "maroon"
@@ -349,14 +349,14 @@ deck
 		circle 50 15 dotsize "maroon"
 		circle 50 50 dotsize "maroon"
 		ctext  "(width/2, height)"   50 20 2 "mono" "white"
-		ctext  "(width/2, height/2)" 50 44 2 "mono" "white"
+		ctext  "(width/2, height/2)" 50 45 2 "mono" "white"
 		ctext  "hello, world"        50 50 5 "serif" "white"
 		ctext  "Rect(0,0,width,height)" 50 80 2 "mono" "white"
 	eslide
 
 	// SVGo hello, world
 	slide "white" "black"
-		textfile	"code/hwsvg.go" 4 90 2 "mono" "black"
+		textfile	"code/hwsvg.go" 4 90 2 "mono" "black" 100 1.35
 		image		"images/hw.png" 70 75 960 540 90
 	eslide
 
@@ -666,7 +666,7 @@ deck
 			li "Open f.svg in your browser" "mono" "maroon"
 		elist
 		line 25 62 25 52 0.2 "maroon"
-		image "images/run-nytsvg.png" 50 5 1790 1407 80
+		image "images/nytsvg-screenshot.png" 50 5 1745 1400 80
 	eslide
 
 	// thanks
