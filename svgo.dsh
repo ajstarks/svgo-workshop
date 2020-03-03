@@ -521,7 +521,7 @@ deck
 		list 5 80 2 "mono" "" 100 1.6
 			li "$ git clone https://github.com/ajstarks/svgo-workshop" "" "gray"
 			li "$ cd svgo-workshop/code/svgplay-samples"
-			li "$ svglay"
+			li "$ svgplay"
 			li "svgplay 2020/02/28 17:58:43 ☠ ☠ ☠ Warning: ..." // this server allows a client connecting to 127.0.0.1:1999 to execute code on this computer ☠ ☠ ☠"
 			li "http://127.0.0.1:1999/hello.go" "" "maroon"
 		elist
