@@ -3,14 +3,15 @@ deck
 	cx=50
 	cy=50
 	subsize=7
+	subcolor="rgb(50,50,50)"
 	canvas 1920 1080
 
 	// title page
 	slide
 		image	"images/svgopher.png" 30 50 1088 645 70
 		etext	"Workshop" 85 50 7
-		etext	"Anthony Starks" 85 10 2 "sans" "gray"
-		etext   "@ajstarks"      85 5  2 "sans" "gray"
+		etext	"Anthony Starks" 85 10 2 "sans" subcolor
+		etext   "@ajstarks"      85 5  2 "sans" subcolor
 	eslide
 
 	// Intro
@@ -677,10 +678,11 @@ deck
 
 	// thanks
 	slide
-		image	"images/svgopher.png" 30 50 1088 645 70
-		etext	"Thank You" 85 50 7
-		ctext    "https://github.com/ajstarks/svgo-workshop" 50 20 3 "mono" "black" 100 "https://github.com/ajstarks/svgo-workshop"
-		etext	"Anthony Starks" 85 10 2 "sans" "gray"
-		etext   "@ajstarks"      85 5  2 "sans" "gray"
+		image	"images/svgopher.png" 30 60 1088 645 70
+		etext	"Thank You" 85 60 7
+		ctext    "https://github.com/ajstarks/svgo-workshop" 50 25 3 "mono" "black" 100 "https://github.com/ajstarks/svgo-workshop"
+		text	"Anthony Starks"          15 15 2 "sans" "rgb(70,70,70)"
+		ctext   "@ajstarks"               50 15 2 "sans" "rgb(70,70,70)" 100 "https://twitter.com/ajstarks"
+		text    "ajstarks@gmail.com"      70 15 2 "sans" subcolor 100 "mailto:ajstarks@gmail.com"
 	eslide
 edeck
