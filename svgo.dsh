@@ -13,6 +13,14 @@ deck
 		etext   "@ajstarks"      85 5  2 "sans" "gray"
 	eslide
 
+	// Intro
+	slide
+		image "images/svgopher.png" 18 50 1088 645 45
+		arrow 33 50 70 50 0.6 4 6
+		ctext "Scalable Vector Graphics" 50 55 2.5
+		text "io.Writer" 70 48 5 "mono"
+	eslide
+
 	subtop=85
 	capy=20
 	subsize=6
@@ -43,20 +51,16 @@ deck
 
 	// Setup instructions
 	slide
-		rect	50 52 100 40 "gray" 85
-		text	"$ go get github.com/ajstarks/svgo/..."                 5 60 2.8 "mono" "white"
-		text    "$ git clone https://github.com/ajstarks/svgo-workshop" 5 50 2.8 "mono" "white"
-		text    "$ cd svgo-workshop/code/svgplay-samples"               5 40 2.8 "mono" "white"
+		rect 50 52 100 30 "rgb(240,240,240)" 90
+		list 5 60 2.8 "mono" // "" 100 1.4
+			li	"$ go get github.com/ajstarks/svgo/..."
+			li  "$ git clone https://github.com/ajstarks/svgo-workshop"
+			li  "$ cd svgo-workshop/code/svgplay-samples"
+		elist
 		image	"images/svgdef.png" 50 50 1597 1198 90
 	eslide
 
-	// Intro
-	slide
-		image "images/svgopher.png" 18 50 1088 645 45
-		arrow 33 50 70 50 0.6 4 6
-		ctext "Scalable Vector Graphics" 50 55 2.5
-		text "io.Writer" 70 48 5 "mono"
-	eslide
+	
 
 	// Clients in the repo
 	slide
